@@ -40,7 +40,11 @@ test('Source-File 1–15 descriptions switch, preserve names and numbers, and re
 test('documentation popup has its own scope, hover reader works, and cleanup retains input and event handlers',async({page})=>{
  await page.evaluate(()=>window.documentationFixture.route('Stats'));await page.addScriptTag({content:script});await expect(page.locator('#outside-doc')).toHaveText('Source-Files are a type of persistent upgrade that is more powerful than');
  await page.getByRole('button',{name:'Help',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('源文件是一种永久升级');
- await page.locator(host).getByText('显示：直接',{exact:true}).click();await expect(page.getByRole('dialog')).toContainText('Source-Files are a type');await page.getByRole('dialog').locator('p').first().hover();await expect(page.locator(host).locator('section')).toContainText('源文件');
+ await page.locator(host).getByText('显示：直接',{exact:true}).click();await expect(page.getByRole('dialog')).toContainText('Source-Files are a type');
+ const paragraph=page.getByRole('dialog').locator('p').first();
+ await paragraph.getByRole('button',{name:'BitNode',exact:true}).hover();await expect(page.locator(host).locator('section')).toContainText('比特节点');
+ // The paragraph's center can hit a nested link after font-dependent wrapping.
+ await paragraph.hover({position:{x:5,y:5}});await expect(page.locator(host).locator('section')).toContainText('源文件');
  await page.locator(host).getByText('阅读',{exact:true}).click();await expect(page.locator(host).locator('section[role="region"]')).toBeVisible();await page.keyboard.press('Escape');
  await page.evaluate(()=>window.documentationFixture.popup(false));await page.evaluate(()=>window.documentationFixture.route('Documentation'));await go(page,'basic/terminal.md');await page.getByPlaceholder('Search NS API').fill('ns.hack');await page.evaluate(()=>window.removeChinese());
  await expect(page.locator(host)).toHaveCount(0);await expect(page.locator('[data-bitburner-zh-fit]')).toHaveCount(0);await expect(page.getByPlaceholder('Search NS API')).toHaveValue('ns.hack');await expect(page.locator('article h2')).toHaveText('Terminal');await page.getByRole('button',{name:'Home',exact:true}).click();await expect(page.locator('article h2')).toHaveText('Documentation');
