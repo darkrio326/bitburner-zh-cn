@@ -1,0 +1,33 @@
+name: Check userscript
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Check syntax, committed build, metadata and unit tests
+        run: npm run check
+      - run: npx playwright install --with-deps chromium
+      - name: React and DOM regression tests
+        run: npm run test:browser
+        env:
+          PW_CHANNEL: chromium
+      - uses: actions/upload-artifact@v7
+        if: failure()
+        with:
+          name: browser-failure-evidence
+          path: |
+            test-results/
+            output/playwright/results.json
+          retention-days: 7

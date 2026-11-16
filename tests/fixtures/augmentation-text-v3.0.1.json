@@ -1,0 +1,1961 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "entries": [
+    {
+      "name": "ADR-V1 Pheromone Gene",
+      "field": "info",
+      "text": "The body is genetically re-engineered so that it produces the ADR-V1 pheromone, an artificial pheromone discovered by scientists. The ADR-V1 pheromone, when excreted, triggers feelings of admiration and approval in other people.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 17,
+        "targetExcerpt": "\"The body is genetically re-engineered so that it produces the ADR-V1 pheromone, \" +\n        \"an artificial pheromone discovered by scientists. The ADR-V1 pheromone, when excreted, \" +\n        \"triggers feelings of admiration and approval in other people.\""
+      }
+    },
+    {
+      "name": "ADR-V2 Pheromone Gene",
+      "field": "info",
+      "text": "The body is genetically re-engineered so that it produces the ADR-V2 pheromone, which is similar to but more potent than ADR-V1. This pheromone, when excreted, triggers feelings of admiration, approval, and respect in others.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "\"The body is genetically re-engineered so that it produces the ADR-V2 pheromone, \" +\n        \"which is similar to but more potent than ADR-V1. This pheromone, when excreted, \" +\n        \"triggers feelings of admiration, approval, and respect in others.\""
+      }
+    },
+    {
+      "name": "Artificial Bio-neural Network Implant",
+      "field": "info",
+      "text": "A network consisting of millions of nanoprocessors is embedded into the brain. The network is meant to mimic the way a biological brain solves a problem, with each nanoprocessor acting similar to the way a neuron would in a neural network. However, these nanoprocessors are programmed to perform computations much faster than organic neurons, allowing the user to solve much more complex problems at a much faster rate.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 52,
+        "targetExcerpt": "\"A network consisting of millions of nanoprocessors is embedded into the brain. \" +\n        \"The network is meant to mimic the way a biological brain solves a problem, with each \" +\n        \"nanoprocessor acting similar to the way a neuron would in a neural network. However, these \" +\n        \"nanoprocessors are programmed to perform computations much faster than organic neurons, \" +\n        \"allowing the user to solve much more complex problems at a much faster rate.\""
+      }
+    },
+    {
+      "name": "Artificial Synaptic Potentiation",
+      "field": "info",
+      "text": "The body is injected with a chemical that artificially induces synaptic potentiation, otherwise known as the strengthening of synapses. This results in enhanced cognitive abilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "\"The body is injected with a chemical that artificially induces synaptic potentiation, \" +\n        \"otherwise known as the strengthening of synapses. This results in enhanced cognitive abilities.\""
+      }
+    },
+    {
+      "name": "SoA - Beauty of Aphrodite",
+      "field": "info",
+      "text": "Pheromone extruder injected in the thoracodorsal nerve. Emits a pleasing scent guaranteed to make conversational partners more agreeable.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 78,
+        "targetExcerpt": "\"Pheromone extruder injected in the thoracodorsal nerve. Emits a pleasing scent guaranteed to \" +\n        \"make conversational partners more agreeable.\""
+      }
+    },
+    {
+      "name": "SoA - Beauty of Aphrodite",
+      "field": "stats",
+      "text": "This augmentation makes the Bribe minigame easier by indicating the incorrect paths.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 80,
+        "targetExcerpt": "\"This augmentation makes the Bribe minigame easier by indicating the incorrect paths.\""
+      }
+    },
+    {
+      "name": "BigD's Big ... Brain",
+      "field": "info",
+      "text": "A chip containing the psyche of the greatest BitRunner to ever exist. Installing this relic significantly increases ALL of your stats. However, it may have unintended consequences on the user's mental well-being.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 91,
+        "targetExcerpt": "\"A chip containing the psyche of the greatest BitRunner to ever exist. \" +\n        \"Installing this relic significantly increases ALL of your stats. \" +\n        \"However, it may have unintended consequences on the user's mental well-being.\""
+      }
+    },
+    {
+      "name": "BigD's Big ... Brain",
+      "field": "stats",
+      "text": "Grants access to unimaginable power.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 94,
+        "targetExcerpt": "\"Grants access to unimaginable power.\""
+      }
+    },
+    {
+      "name": "Bionic Arms",
+      "field": "info",
+      "text": "Cybernetic arms created from plasteel and carbon fibers that completely replace the user's organic arms.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 143,
+        "targetExcerpt": "\"Cybernetic arms created from plasteel and carbon fibers that completely replace the user's organic arms.\""
+      }
+    },
+    {
+      "name": "Bionic Legs",
+      "field": "info",
+      "text": "Cybernetic legs, created from plasteel and carbon fibers, enhance running speed.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 151,
+        "targetExcerpt": "\"Cybernetic legs, created from plasteel and carbon fibers, enhance running speed.\""
+      }
+    },
+    {
+      "name": "Bionic Spine",
+      "field": "info",
+      "text": "The spine is reconstructed using plasteel and carbon fibers. It is now capable of stimulating and regulating neural signals passing through the spinal cord, improving senses and reaction speed. The 'Bionic Spine' also interfaces with all other 'Bionic' implants.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 165,
+        "targetExcerpt": "\"The spine is reconstructed using plasteel and carbon fibers. \" +\n        \"It is now capable of stimulating and regulating neural signals \" +\n        \"passing through the spinal cord, improving senses and reaction speed. \" +\n        \"The 'Bionic Spine' also interfaces with all other 'Bionic' implants.\""
+      }
+    },
+    {
+      "name": "BitWire",
+      "field": "info",
+      "text": "A small brain implant embedded in the cerebrum. This regulates and improves the brain's computing capabilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 185,
+        "targetExcerpt": "\"A small brain implant embedded in the cerebrum. This regulates and improves the brain's computing \" +\n        \"capabilities.\""
+      }
+    },
+    {
+      "name": "BLADE-51b Tesla Armor",
+      "field": "info",
+      "text": "A powered exoskeleton suit designed as armor for Bladeburners units. This exoskeleton is incredibly adaptable and can protect the wearer from blunt, piercing, concussive, thermal, chemical, and electric trauma. It also enhances the user's physical abilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 194,
+        "targetExcerpt": "`A powered exoskeleton suit designed as armor for ${FactionName.Bladeburners} units. This ` +\n        \"exoskeleton is incredibly adaptable and can protect the wearer from blunt, piercing, \" +\n        \"concussive, thermal, chemical, and electric trauma. It also enhances the user's \" +\n        \"physical abilities.\""
+      }
+    },
+    {
+      "name": "BLADE-51b Tesla Armor: Energy Shielding Upgrade",
+      "field": "info",
+      "text": "Upgrades the BLADE-51b Tesla Armor with a plasma energy propulsion system that is capable of projecting an energy shielding force field.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 211,
+        "targetExcerpt": "\"Upgrades the BLADE-51b Tesla Armor with a plasma energy propulsion system \" +\n        \"that is capable of projecting an energy shielding force field.\""
+      }
+    },
+    {
+      "name": "BLADE-51b Tesla Armor: IPU Upgrade",
+      "field": "info",
+      "text": "Upgrades the BLADE-51b Tesla Armor with an AI Information Processing Unit that was specially designed to analyze Synthoid related data and information.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 223,
+        "targetExcerpt": "\"Upgrades the BLADE-51b Tesla Armor with an AI Information Processing \" +\n        \"Unit that was specially designed to analyze Synthoid related data and \" +\n        \"information.\""
+      }
+    },
+    {
+      "name": "BLADE-51b Tesla Armor: Omnibeam Upgrade",
+      "field": "info",
+      "text": "Upgrades the BLADE-51b Tesla Armor Unibeam augmentation to use a multiple-fiber system. This upgraded weapon uses multiple fiber laser modules that combine together to form a single, more powerful beam of up to 2000MW.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 236,
+        "targetExcerpt": "\"Upgrades the BLADE-51b Tesla Armor Unibeam augmentation to use a \" +\n        \"multiple-fiber system. This upgraded weapon uses multiple fiber laser \" +\n        \"modules that combine together to form a single, more powerful beam of up to \" +\n        \"2000MW.\""
+      }
+    },
+    {
+      "name": "BLADE-51b Tesla Armor: Power Cells Upgrade",
+      "field": "info",
+      "text": "Upgrades the BLADE-51b Tesla Armor with Ion Power Cells, which are capable of more efficiently storing and using power.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 249,
+        "targetExcerpt": "\"Upgrades the BLADE-51b Tesla Armor with Ion Power Cells, which are capable of \" +\n        \"more efficiently storing and using power.\""
+      }
+    },
+    {
+      "name": "BLADE-51b Tesla Armor: Unibeam Upgrade",
+      "field": "info",
+      "text": "Upgrades the BLADE-51b Tesla Armor with a concentrated deuterium-fluoride laser weapon. Its precision and accuracy makes it useful for quickly neutralizing threats while keeping casualties to a minimum.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 262,
+        "targetExcerpt": "\"Upgrades the BLADE-51b Tesla Armor with a concentrated deuterium-fluoride laser \" +\n        \"weapon. Its precision and accuracy makes it useful for quickly neutralizing \" +\n        \"threats while keeping casualties to a minimum.\""
+      }
+    },
+    {
+      "name": "Blade's Runners",
+      "field": "info",
+      "text": "A cybernetic foot augmentation that was specifically created for Bladeburners during the Synthoid Uprising. The organic musculature of the human foot is enhanced with flexible carbon nanotube matrices that are controlled by intelligent servomotors.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 274,
+        "targetExcerpt": "`A cybernetic foot augmentation that was specifically created for ${FactionName.Bladeburners} ` +\n        \"during the Synthoid Uprising. The organic musculature of the human foot \" +\n        \"is enhanced with flexible carbon nanotube matrices that are controlled by \" +\n        \"intelligent servomotors.\""
+      }
+    },
+    {
+      "name": "The Blade's Simulacrum",
+      "field": "info",
+      "text": "A highly advanced matter phase-shifter module that is embedded in the brainstem and cerebellum. This augmentation allows the user to project and control a holographic simulacrum within an extremely large radius. These specially modified holograms were specifically weaponized by Bladeburner units to be used against Synthoids.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 288,
+        "targetExcerpt": "\"A highly advanced matter phase-shifter module that is embedded \" +\n        \"in the brainstem and cerebellum. This augmentation allows \" +\n        \"the user to project and control a holographic simulacrum within an \" +\n        \"extremely large radius. These specially modified holograms were specifically \" +\n        \"weaponized by Bladeburner units to be used against Synthoids.\""
+      }
+    },
+    {
+      "name": "The Blade's Simulacrum",
+      "field": "stats",
+      "text": "This augmentation allows you to perform Bladeburner actions and other actions (such as working, committing crimes, etc.) at the same time.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 294,
+        "targetExcerpt": "\"This augmentation allows you to perform Bladeburner actions and other actions (such as working, committing crimes, etc.) at the same time.\""
+      }
+    },
+    {
+      "name": "BrachiBlades",
+      "field": "info",
+      "text": "A set of retractable plasteel blades that are implanted in the arm, underneath the skin.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 301,
+        "targetExcerpt": "\"A set of retractable plasteel blades that are implanted in the arm, underneath the skin.\""
+      }
+    },
+    {
+      "name": "CRTX42-AA Gene Modification",
+      "field": "info",
+      "text": "The CRTX42-AA gene is injected into the genome. The CRTX42-AA is an artificially-synthesized gene that targets the visual and prefrontal cortex and improves cognitive abilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 313,
+        "targetExcerpt": "\"The CRTX42-AA gene is injected into the genome. \" +\n        \"The CRTX42-AA is an artificially-synthesized gene that targets the visual and prefrontal \" +\n        \"cortex and improves cognitive abilities.\""
+      }
+    },
+    {
+      "name": "CashRoot Starter Kit",
+      "field": "info",
+      "text": "A collection of digital assets saved on a small chip. The chip is implanted into your wrist. A small jack in the chip allows you to connect it to a computer and upload the assets.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 323,
+        "targetExcerpt": "\"A collection of digital assets saved on a small chip. The chip is implanted into your wrist. A small jack in the chip allows you to connect it to a computer and upload the assets.\""
+      }
+    },
+    {
+      "name": "SoA - Chaos of Dionysus",
+      "field": "info",
+      "text": "Opto-occipito implant to process visual signals before brain interpretation.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 331,
+        "targetExcerpt": "\"Opto-occipito implant to process visual signals before brain interpretation.\""
+      }
+    },
+    {
+      "name": "SoA - Chaos of Dionysus",
+      "field": "stats",
+      "text": "This augmentation makes the Backwards minigame easier by flipping the words.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 332,
+        "targetExcerpt": "\"This augmentation makes the Backwards minigame easier by flipping the words.\""
+      }
+    },
+    {
+      "name": "Combat Rib I",
+      "field": "info",
+      "text": "The rib cage is augmented to continuously release boosters into the bloodstream which increase the oxygen-carrying capacity of blood.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 340,
+        "targetExcerpt": "\"The rib cage is augmented to continuously release boosters into the bloodstream \" +\n        \"which increase the oxygen-carrying capacity of blood.\""
+      }
+    },
+    {
+      "name": "Combat Rib II",
+      "field": "info",
+      "text": "An upgraded version of the 'Combat Rib' augmentation that adds potent stimulants which improve focus and endurance while decreasing reaction time and fatigue.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 359,
+        "targetExcerpt": "\"An upgraded version of the 'Combat Rib' augmentation that adds potent stimulants which \" +\n        \"improve focus and endurance while decreasing reaction time and fatigue.\""
+      }
+    },
+    {
+      "name": "Combat Rib III",
+      "field": "info",
+      "text": "The latest version of the 'Combat Rib' augmentation releases advanced anabolic steroids that improve muscle mass and physical performance while being safe and free of side effects.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 377,
+        "targetExcerpt": "\"The latest version of the 'Combat Rib' augmentation releases advanced anabolic steroids that \" +\n        \"improve muscle mass and physical performance while being safe and free of side effects.\""
+      }
+    },
+    {
+      "name": "violet Congruity Implant",
+      "field": "info",
+      "text": "Developed by a pioneer in Grafting research, this implant generates pulses of stability which seem to have a nullifying effect against the Entropy virus.\n\nNote: For unknown reasons, the lowercase 'v' appears to be an integral component to its functionality.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 395,
+        "targetExcerpt": "\"Developed by a pioneer in Grafting research, this implant generates pulses of stability which seem to have a nullifying effect against the Entropy virus.\\n\\n\" +\n        \"Note: For unknown reasons, the lowercase 'v' appears to be an integral component to its functionality.\""
+      }
+    },
+    {
+      "name": "violet Congruity Implant",
+      "field": "stats",
+      "text": "This Augmentation removes the Entropy virus, and prevents it from affecting you again.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 397,
+        "targetExcerpt": "\"This Augmentation removes the Entropy virus, and prevents it from affecting you again.\""
+      }
+    },
+    {
+      "name": "CordiARC Fusion Reactor",
+      "field": "info",
+      "text": "The thoracic cavity is equipped with a small chamber designed to hold and sustain hydrogen plasma. The plasma is used to generate power through nuclear fusion, providing limitless amounts of clean energy for the body.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 404,
+        "targetExcerpt": "\"The thoracic cavity is equipped with a small chamber designed \" +\n        \"to hold and sustain hydrogen plasma. The plasma is used to generate \" +\n        \"power through nuclear fusion, providing limitless amounts of clean \" +\n        \"energy for the body.\""
+      }
+    },
+    {
+      "name": "Cranial Signal Processors - Gen I",
+      "field": "info",
+      "text": "The first generation of Cranial Signal Processors. Cranial Signal Processors are a set of specialized microprocessors that are attached to neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations so that the brain doesn't have to.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 422,
+        "targetExcerpt": "\"The first generation of Cranial Signal Processors. Cranial Signal Processors \" +\n        \"are a set of specialized microprocessors that are attached to \" +\n        \"neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations \" +\n        \"so that the brain doesn't have to.\""
+      }
+    },
+    {
+      "name": "Cranial Signal Processors - Gen II",
+      "field": "info",
+      "text": "The second generation of Cranial Signal Processors. Cranial Signal Processors are a set of specialized microprocessors that are attached to neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations so that the brain doesn't have to.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 434,
+        "targetExcerpt": "\"The second generation of Cranial Signal Processors. Cranial Signal Processors \" +\n        \"are a set of specialized microprocessors that are attached to \" +\n        \"neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations \" +\n        \"so that the brain doesn't have to.\""
+      }
+    },
+    {
+      "name": "Cranial Signal Processors - Gen III",
+      "field": "info",
+      "text": "The third generation of Cranial Signal Processors. Cranial Signal Processors are a set of specialized microprocessors that are attached to neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations so that the brain doesn't have to.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 448,
+        "targetExcerpt": "\"The third generation of Cranial Signal Processors. Cranial Signal Processors \" +\n        \"are a set of specialized microprocessors that are attached to \" +\n        \"neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations \" +\n        \"so that the brain doesn't have to.\""
+      }
+    },
+    {
+      "name": "Cranial Signal Processors - Gen IV",
+      "field": "info",
+      "text": "The fourth generation of Cranial Signal Processors. Cranial Signal Processors are a set of specialized microprocessors that are attached to neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations so that the brain doesn't have to.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 462,
+        "targetExcerpt": "\"The fourth generation of Cranial Signal Processors. Cranial Signal Processors \" +\n        \"are a set of specialized microprocessors that are attached to \" +\n        \"neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations \" +\n        \"so that the brain doesn't have to.\""
+      }
+    },
+    {
+      "name": "Cranial Signal Processors - Gen V",
+      "field": "info",
+      "text": "The fifth generation of Cranial Signal Processors. Cranial Signal Processors are a set of specialized microprocessors that are attached to neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations so that the brain doesn't have to.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 480,
+        "targetExcerpt": "\"The fifth generation of Cranial Signal Processors. Cranial Signal Processors \" +\n        \"are a set of specialized microprocessors that are attached to \" +\n        \"neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations \" +\n        \"so that the brain doesn't have to.\""
+      }
+    },
+    {
+      "name": "DataJack",
+      "field": "info",
+      "text": "A brain implant that provides an interface for direct, wireless communication between a computer's main memory and the mind. This implant allows the user to not only access a computer's memory, but also alter and delete it.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 500,
+        "targetExcerpt": "\"A brain implant that provides an interface for direct, wireless communication between a computer's main \" +\n        \"memory and the mind. This implant allows the user to not only access a computer's memory, but also alter \" +\n        \"and delete it.\""
+      }
+    },
+    {
+      "name": "DermaForce Particle Barrier",
+      "field": "info",
+      "text": "Synthetic skin that is grafted onto the body. This skin consists of millions of nanobots capable of projecting high-density muon beams, creating an energy barrier around the user.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 516,
+        "targetExcerpt": "\"Synthetic skin that is grafted onto the body. This skin consists of \" +\n        \"millions of nanobots capable of projecting high-density muon beams, \" +\n        \"creating an energy barrier around the user.\""
+      }
+    },
+    {
+      "name": "Eloquence Module",
+      "field": "info",
+      "text": "A neural implant that enhances the user's ability to resonate with others. It is capable of analyzing and interpreting the emotions of those nearby, allowing the user to better understand and influence them.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 528,
+        "targetExcerpt": "\"A neural implant that enhances the user's ability to resonate with others. \" +\n        \"It is capable of analyzing and interpreting the emotions of those nearby, allowing \" +\n        \"the user to better understand and influence them.\""
+      }
+    },
+    {
+      "name": "EMS-4 Recombination",
+      "field": "info",
+      "text": "A DNA recombination of the EMS-4 Gene. This genetic engineering technique was originally used on Bladeburners during the Synthoid uprising to induce wakefulness and concentration, suppress fear, reduce empathy, improve reflexes, and improve memory, among other things.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 540,
+        "targetExcerpt": "\"A DNA recombination of the EMS-4 Gene. This genetic engineering \" +\n        \"technique was originally used on Bladeburners during the Synthoid uprising \" +\n        \"to induce wakefulness and concentration, suppress fear, reduce empathy, \" +\n        \"improve reflexes, and improve memory, among other things.\""
+      }
+    },
+    {
+      "name": "Embedded Netburner Module",
+      "field": "info",
+      "text": "A thin device embedded inside the arm containing a wireless module capable of connecting to nearby networks. Once connected, the Netburner Module is capable of capturing and processing all of the traffic on that network. By itself, the Embedded Netburner Module does not do much, but a variety of very powerful upgrades can be installed that allow you to fully control the traffic on a network.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 554,
+        "targetExcerpt": "\"A thin device embedded inside the arm containing a wireless module capable of connecting \" +\n        \"to nearby networks. Once connected, the Netburner Module is capable of capturing and \" +\n        \"processing all of the traffic on that network. By itself, the Embedded Netburner Module does \" +\n        \"not do much, but a variety of very powerful upgrades can be installed that allow you to fully \" +\n        \"control the traffic on a network.\""
+      }
+    },
+    {
+      "name": "Embedded Netburner Module Analyze Engine",
+      "field": "info",
+      "text": "Installs the Analyze Engine for the Embedded Netburner Module, which is a CPU cluster that vastly outperforms the Netburner Module's native single-core processor.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 575,
+        "targetExcerpt": "\"Installs the Analyze Engine for the Embedded Netburner Module, which is a CPU cluster \" +\n        \"that vastly outperforms the Netburner Module's native single-core processor.\""
+      }
+    },
+    {
+      "name": "Embedded Netburner Module Core Implant",
+      "field": "info",
+      "text": "The Core library is an implant that upgrades the firmware of the Embedded Netburner Module. This upgrade allows the Embedded Netburner Module to generate its own data on a network.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 593,
+        "targetExcerpt": "\"The Core library is an implant that upgrades the firmware of the Embedded Netburner Module. \" +\n        \"This upgrade allows the Embedded Netburner Module to generate its own data on a network.\""
+      }
+    },
+    {
+      "name": "Embedded Netburner Module Core V2 Upgrade",
+      "field": "info",
+      "text": "The Core V2 library is an implant that upgrades the firmware of the Embedded Netburner Module. This upgraded firmware allows the Embedded Netburner Module to control information on a network by re-routing traffic, spoofing IP addresses, and altering the data inside network packets.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 615,
+        "targetExcerpt": "\"The Core V2 library is an implant that upgrades the firmware of the Embedded Netburner Module. \" +\n        \"This upgraded firmware allows the Embedded Netburner Module to control information on \" +\n        \"a network by re-routing traffic, spoofing IP addresses, and altering the data inside network \" +\n        \"packets.\""
+      }
+    },
+    {
+      "name": "Embedded Netburner Module Core V3 Upgrade",
+      "field": "info",
+      "text": "The Core V3 library is an implant that upgrades the firmware of the Embedded Netburner Module. This upgraded firmware allows the Embedded Netburner Module to seamlessly inject code into any device on a network.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 640,
+        "targetExcerpt": "\"The Core V3 library is an implant that upgrades the firmware of the Embedded Netburner Module. \" +\n        \"This upgraded firmware allows the Embedded Netburner Module to seamlessly inject code into \" +\n        \"any device on a network.\""
+      }
+    },
+    {
+      "name": "Embedded Netburner Module Direct Memory Access Upgrade",
+      "field": "info",
+      "text": "This implant installs a Direct Memory Access (DMA) controller into the Embedded Netburner Module. This allows the Module to send and receive data directly to and from the main memory of devices on a network.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 663,
+        "targetExcerpt": "\"This implant installs a Direct Memory Access (DMA) controller into the \" +\n        \"Embedded Netburner Module. This allows the Module to send and receive data \" +\n        \"directly to and from the main memory of devices on a network.\""
+      }
+    },
+    {
+      "name": "Enhanced Myelin Sheathing",
+      "field": "info",
+      "text": "Electrical signals are used to induce a new, artificial form of myelinogenesis in the human body. This process results in the proliferation of new, synthetic myelin sheaths in the nervous system. These myelin sheaths can propagate neuro-signals much faster than their organic counterparts, leading to greater processing speeds and better brain function.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 683,
+        "targetExcerpt": "\"Electrical signals are used to induce a new, artificial form of myelinogenesis in the human body. \" +\n        \"This process results in the proliferation of new, synthetic myelin sheaths in the nervous \" +\n        \"system. These myelin sheaths can propagate neuro-signals much faster than their organic \" +\n        \"counterparts, leading to greater processing speeds and better brain function.\""
+      }
+    },
+    {
+      "name": "Enhanced Social Interaction Implant",
+      "field": "info",
+      "text": "A cranial implant that greatly assists in the user's ability to analyze social situations and interactions. The system uses a wide variety of factors such as facial expression, body language, voice tone, and inflection to determine the best course of action during social situations. The implant also uses deep learning software to continuously learn new behavior patterns and how to best respond.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 696,
+        "targetExcerpt": "\"A cranial implant that greatly assists in the user's ability to analyze social situations \" +\n        \"and interactions. The system uses a wide variety of factors such as facial expression, body \" +\n        \"language, voice tone, and inflection to determine the best course of action during social \" +\n        \"situations. The implant also uses deep learning software to continuously learn new behavior \" +\n        \"patterns and how to best respond.\""
+      }
+    },
+    {
+      "name": "EsperTech Bladeburner Eyewear",
+      "field": "info",
+      "text": "Ballistic-grade protective and retractable eyewear that was designed specifically for Bladeburner units. This is implanted by installing a mechanical frame in the skull's orbit. This frame interfaces with the brain and allows the user to automatically extrude and extract the eyewear. The eyewear protects against debris, shrapnel, lasers, blinding flashes, and gas. It is also embedded with a data processing chip that can be programmed to display an AR HUD to assist the user in field missions.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 715,
+        "targetExcerpt": "\"Ballistic-grade protective and retractable eyewear that was designed specifically \" +\n        \"for Bladeburner units. This \" +\n        \"is implanted by installing a mechanical frame in the skull's orbit. \" +\n        \"This frame interfaces with the brain and allows the user to \" +\n        \"automatically extrude and extract the eyewear. The eyewear protects \" +\n        \"against debris, shrapnel, lasers, blinding flashes, and gas. It is also \" +\n        \"embedded with a data processing chip that can be programmed to display an \" +\n        \"AR HUD to assist the user in field missions.\""
+      }
+    },
+    {
+      "name": "SoA - Flood of Poseidon",
+      "field": "info",
+      "text": "Transtinatium VVD reticulator used in optico-sterbing recognition.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 732,
+        "targetExcerpt": "\"Transtinatium VVD reticulator used in optico-sterbing recognition.\""
+      }
+    },
+    {
+      "name": "SoA - Flood of Poseidon",
+      "field": "stats",
+      "text": "This augmentation makes the Symbol matching minigame easier by indicating the correct choice.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 733,
+        "targetExcerpt": "\"This augmentation makes the Symbol matching minigame easier by indicating the correct choice.\""
+      }
+    },
+    {
+      "name": "FocusWire",
+      "field": "info",
+      "text": "A cranial implant that stops procrastination by blocking specific neural pathways in the brain.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 740,
+        "targetExcerpt": "\"A cranial implant that stops procrastination by blocking specific neural pathways in the brain.\""
+      }
+    },
+    {
+      "name": "Glibness Enhancement",
+      "field": "info",
+      "text": "An implant that, when activated, makes the speaker sound unbelievably reasonable and plausible to listeners for the next hour. It requires no concentration from the user, and only a verbal activation component. It even affects most electronic detection methods.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 761,
+        "targetExcerpt": "\"An implant that, when activated, makes the speaker sound unbelievably reasonable and plausible to listeners \" +\n        \"for the next hour. It requires no concentration from the user, and only a verbal activation component. It even affects \" +\n        \"most electronic detection methods.\""
+      }
+    },
+    {
+      "name": "Golden Tongue Module",
+      "field": "info",
+      "text": "An aural implant that enhances the user's ability to communicate and persuade others. The implant uses a predictive model that lets the user say precisely what their audience wants to hear. This implant is commonly used by many high-level executives and government officials.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 772,
+        "targetExcerpt": "\"An aural implant that enhances the user's ability to communicate and persuade others. \" +\n        \"The implant uses a predictive model that lets the user say precisely what their audience \" +\n        \"wants to hear. This implant is commonly used by many high-level executives and government officials.\""
+      }
+    },
+    {
+      "name": "GOLEM Serum",
+      "field": "info",
+      "text": "A serum that permanently enhances many aspects of human capabilities, including strength, speed, immune system enhancements, and mitochondrial efficiency. The serum was originally developed by the Chinese military in an attempt to create super soldiers.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 783,
+        "targetExcerpt": "\"A serum that permanently enhances many aspects of human capabilities, \" +\n        \"including strength, speed, immune system enhancements, and mitochondrial efficiency. The \" +\n        \"serum was originally developed by the Chinese military in an attempt to \" +\n        \"create super soldiers.\""
+      }
+    },
+    {
+      "name": "Graphene Bionic Arms Upgrade",
+      "field": "info",
+      "text": "An upgrade to the 'Bionic Arms' augmentation. It infuses the prosthetic arms with an advanced graphene material to make them stronger and lighter.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 799,
+        "targetExcerpt": "\"An upgrade to the 'Bionic Arms' augmentation. It infuses the \" +\n        \"prosthetic arms with an advanced graphene material \" +\n        \"to make them stronger and lighter.\""
+      }
+    },
+    {
+      "name": "Graphene Bionic Legs Upgrade",
+      "field": "info",
+      "text": "An upgrade to the 'Bionic Legs' augmentation. The legs are fused with graphene, greatly enhancing jumping ability.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 811,
+        "targetExcerpt": "\"An upgrade to the 'Bionic Legs' augmentation. The legs are fused \" +\n        \"with graphene, greatly enhancing jumping ability.\""
+      }
+    },
+    {
+      "name": "Graphene Bionic Spine Upgrade",
+      "field": "info",
+      "text": "An upgrade to the 'Bionic Spine' augmentation. The spine is fused with graphene which enhances durability and supercharges all body functions.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 821,
+        "targetExcerpt": "\"An upgrade to the 'Bionic Spine' augmentation. The spine is fused with graphene \" +\n        \"which enhances durability and supercharges all body functions.\""
+      }
+    },
+    {
+      "name": "Graphene Bone Lacings",
+      "field": "info",
+      "text": "Graphene is grafted and fused into the skeletal structure, enhancing bone density and tensile strength.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 833,
+        "targetExcerpt": "\"Graphene is grafted and fused into the skeletal structure, enhancing bone density and tensile strength.\""
+      }
+    },
+    {
+      "name": "Graphene BrachiBlades Upgrade",
+      "field": "info",
+      "text": "An upgrade to the BrachiBlades augmentation. It infuses the retractable blades with an advanced graphene material, making them stronger and lighter.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 842,
+        "targetExcerpt": "\"An upgrade to the BrachiBlades augmentation. It infuses \" +\n        \"the retractable blades with an advanced graphene material, \" +\n        \"making them stronger and lighter.\""
+      }
+    },
+    {
+      "name": "Hacknet Node CPU Architecture Neural-Upload",
+      "field": "info",
+      "text": "Uploads the architecture and design details of a Hacknet Node's CPU into the brain. This allows the user to engineer custom hardware and software for the Hacknet Node that provides better performance.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 857,
+        "targetExcerpt": "\"Uploads the architecture and design details of a Hacknet Node's CPU into \" +\n        \"the brain. This allows the user to engineer custom hardware and software \" +\n        \"for the Hacknet Node that provides better performance.\""
+      }
+    },
+    {
+      "name": "Hacknet Node Cache Architecture Neural-Upload",
+      "field": "info",
+      "text": "Uploads the architecture and design details of a Hacknet Node's main-memory cache into the brain. This allows the user to engineer custom cache hardware for the Hacknet Node that offers better performance.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 868,
+        "targetExcerpt": "\"Uploads the architecture and design details of a Hacknet Node's main-memory cache \" +\n        \"into the brain. This allows the user to engineer custom cache hardware for the \" +\n        \"Hacknet Node that offers better performance.\""
+      }
+    },
+    {
+      "name": "Hacknet Node Core Direct-Neural Interface",
+      "field": "info",
+      "text": "Installs a Direct-Neural Interface jack into the arm that is capable of connecting to a Hacknet Node. This lets the user access and manipulate the Node's processing logic using electrochemical signals.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 879,
+        "targetExcerpt": "\"Installs a Direct-Neural Interface jack into the arm that is capable of connecting \" +\n        \"to a Hacknet Node. This lets the user access and manipulate the Node's processing logic using \" +\n        \"electrochemical signals.\""
+      }
+    },
+    {
+      "name": "Hacknet Node Kernel Direct-Neural Interface",
+      "field": "info",
+      "text": "Installs a Direct-Neural Interface jack into the arm that is capable of connecting to a Hacknet Node. This lets the user access and manipulate the Node's kernel using electrochemical signals.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 889,
+        "targetExcerpt": "\"Installs a Direct-Neural Interface jack into the arm that is capable of connecting to a \" +\n        \"Hacknet Node. This lets the user access and manipulate the Node's kernel using \" +\n        \"electrochemical signals.\""
+      }
+    },
+    {
+      "name": "Hacknet Node NIC Architecture Neural-Upload",
+      "field": "info",
+      "text": "Uploads the architecture and design details of a Hacknet Node's Network Interface Card (NIC) into the brain. This allows the user to engineer a custom NIC for the Hacknet Node that offers better performance.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 899,
+        "targetExcerpt": "\"Uploads the architecture and design details of a Hacknet Node's Network Interface Card (NIC) \" +\n        \"into the brain. This allows the user to engineer a custom NIC for the Hacknet Node that \" +\n        \"offers better performance.\""
+      }
+    },
+    {
+      "name": "HemoRecirculator",
+      "field": "info",
+      "text": "A heart implant that greatly increases the body's ability to effectively use and pump blood.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 909,
+        "targetExcerpt": "\"A heart implant that greatly increases the body's ability to effectively use and pump blood.\""
+      }
+    },
+    {
+      "name": "ECorp HVMind Implant",
+      "field": "info",
+      "text": "A brain implant developed by ECorp. They do not reveal what exactly the implant does, but they promise that it will greatly enhance your abilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 921,
+        "targetExcerpt": "`A brain implant developed by ${FactionName.ECorp}. They do not reveal what ` +\n        \"exactly the implant does, but they promise that it will greatly \" +\n        \"enhance your abilities.\""
+      }
+    },
+    {
+      "name": "ECorp HVMind Implant",
+      "field": "stats",
+      "text": "Many hackers say that they can spoof money much better than normal after installing this augmentation. A leaked document from ECorp contains this weird message: \"vnmehidi's gorw oprwe si ebesaccisl aiv sliguntayir\".",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 926,
+        "targetExcerpt": "`Many hackers say that they can spoof money much better than normal after installing this augmentation. ` +\n        `A leaked document from ${FactionName.ECorp} contains this weird message: \"vnmehidi's gorw oprwe si ebesaccisl aiv sliguntayir\".`"
+      }
+    },
+    {
+      "name": "SoA - Hunt of Artemis",
+      "field": "info",
+      "text": "Magneto-turboencabulator based on technology by Micha Eike Siemon, increases the user's electro-magnetic sensitivity.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 933,
+        "targetExcerpt": "\"Magneto-turboencabulator based on technology by Micha Eike Siemon, increases the user's electro-magnetic sensitivity.\""
+      }
+    },
+    {
+      "name": "SoA - Hunt of Artemis",
+      "field": "stats",
+      "text": "This augmentation makes the Minesweeper minigame easier by showing the location of all mines and keeping their position.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 935,
+        "targetExcerpt": "\"This augmentation makes the Minesweeper minigame easier by showing the location of all mines and keeping their position.\""
+      }
+    },
+    {
+      "name": "Hydroflame Left Arm",
+      "field": "info",
+      "text": "The left arm of a legendary BitRunner who ascended beyond this world. It projects a light blue energy shield that protects the exposed inner parts. Even though it contains no weapons, the advanced tungsten titanium alloy increases the user's strength to unbelievable levels.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 943,
+        "targetExcerpt": "\"The left arm of a legendary BitRunner who ascended beyond this world. \" +\n        \"It projects a light blue energy shield that protects the exposed inner parts. \" +\n        \"Even though it contains no weapons, the advanced tungsten titanium \" +\n        \"alloy increases the user's strength to unbelievable levels.\""
+      }
+    },
+    {
+      "name": "Hyperion Plasma Cannon V1",
+      "field": "info",
+      "text": "A pair of mini plasma cannons embedded into the hands. The Hyperion is capable of rapidly firing bolts of high-density plasma. The weapon is meant to be used against augmented enemies as the ionized nature of the plasma disrupts the electrical systems of Augmentations. However, it can also be effective against non-augmented enemies due to its high temperature and concussive force.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 954,
+        "targetExcerpt": "\"A pair of mini plasma cannons embedded into the hands. The Hyperion is capable \" +\n        \"of rapidly firing bolts of high-density plasma. The weapon is meant to \" +\n        \"be used against augmented enemies as the ionized \" +\n        \"nature of the plasma disrupts the electrical systems of Augmentations. However, \" +\n        \"it can also be effective against non-augmented enemies due to its high temperature \" +\n        \"and concussive force.\""
+      }
+    },
+    {
+      "name": "Hyperion Plasma Cannon V2",
+      "field": "info",
+      "text": "A pair of mini plasma cannons embedded into the hands. This augmentation is more advanced and powerful than the original V1 model. This V2 model is more power-efficient, more accurate, and can fire plasma bolts at a much higher velocity than the V1 model.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 968,
+        "targetExcerpt": "\"A pair of mini plasma cannons embedded into the hands. This augmentation \" +\n        \"is more advanced and powerful than the original V1 model. This V2 model is \" +\n        \"more power-efficient, more accurate, and can fire plasma bolts at a much \" +\n        \"higher velocity than the V1 model.\""
+      }
+    },
+    {
+      "name": "HyperSight Corneal Implant",
+      "field": "info",
+      "text": "A bionic eye implant that enhances the user's sight far beyond that of a natural human. Embedded circuitry within the implant provides the ability to detect heat and movement through solid objects such as walls, thus providing 'x-ray vision'-like capabilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 981,
+        "targetExcerpt": "\"A bionic eye implant that enhances the user's sight far beyond that of a natural human. \" +\n        \"Embedded circuitry within the implant provides the ability to detect heat and movement \" +\n        \"through solid objects such as walls, thus providing 'x-ray vision'-like capabilities.\""
+      }
+    },
+    {
+      "name": "INFRARET Enhancement",
+      "field": "info",
+      "text": "A tiny chip that sits behind the retina. This implant lets the user visually detect infrared radiation.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 994,
+        "targetExcerpt": "\"A tiny chip that sits behind the retina. This implant lets the user visually detect infrared radiation.\""
+      }
+    },
+    {
+      "name": "I.N.T.E.R.L.I.N.K.E.D",
+      "field": "info",
+      "text": "A drug which incites a DNA modification to the body's extracellular matrix (ECM). This improves the ECM's ability to structurally support the body, granting heightened strength and durability.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1004,
+        "targetExcerpt": "\"A drug which incites a DNA modification to the body's extracellular \" +\n        \"matrix (ECM). This improves the ECM's ability to structurally \" +\n        \"support the body, granting heightened strength and \" +\n        \"durability.\""
+      }
+    },
+    {
+      "name": "SoA - Knowledge of Apollo",
+      "field": "info",
+      "text": "Neodynic retention fjengeln spoofer using -φ karmions, net positive effect on implantee's delta wave.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1021,
+        "targetExcerpt": "\"Neodynic retention fjengeln spoofer using -φ karmions, net positive effect on implantee's delta wave.\""
+      }
+    },
+    {
+      "name": "SoA - Knowledge of Apollo",
+      "field": "stats",
+      "text": "This augmentation makes the Wire Cutting minigame easier by indicating the incorrect wires.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1022,
+        "targetExcerpt": "\"This augmentation makes the Wire Cutting minigame easier by indicating the incorrect wires.\""
+      }
+    },
+    {
+      "name": "LuminCloaking-V1 Skin Implant",
+      "field": "info",
+      "text": "A skin implant that reinforces the skin with highly advanced synthetic cells. These cells, when powered, have a negative refractive index. As a result, they bend light around the skin, making the user much harder to see with the naked eye.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1031,
+        "targetExcerpt": "\"A skin implant that reinforces the skin with highly advanced synthetic cells. These \" +\n        \"cells, when powered, have a negative refractive index. As a result, they bend light \" +\n        \"around the skin, making the user much harder to see with the naked eye.\""
+      }
+    },
+    {
+      "name": "LuminCloaking-V2 Skin Implant",
+      "field": "info",
+      "text": "This is a more advanced version of the LuminCloaking-V1 augmentation. This skin implant reinforces the skin with highly advanced synthetic cells. These cells, when powered, are capable of not only bending light but also of bending heat, making the user more resilient as well as stealthy.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1043,
+        "targetExcerpt": "\"This is a more advanced version of the LuminCloaking-V1 augmentation. This skin implant \" +\n        \"reinforces the skin with highly advanced synthetic cells. These \" +\n        \"cells, when powered, are capable of not only bending light but also of bending heat, \" +\n        \"making the user more resilient as well as stealthy.\""
+      }
+    },
+    {
+      "name": "Magnetism Amplifier",
+      "field": "info",
+      "text": "A cranial implant that increases the attractive force of the wearer. (Even its inventor isn't quite sure how it works).",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1058,
+        "targetExcerpt": "\"A cranial implant that increases the attractive force of the wearer. (Even its inventor isn't quite sure how it works).\""
+      }
+    },
+    {
+      "name": "SoA - Might of Ares",
+      "field": "info",
+      "text": "Extra-ocular neurons taken from old martial arts master. Injecting them gives the user the ability to predict the enemy's movement.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1067,
+        "targetExcerpt": "\"Extra-ocular neurons taken from old martial arts master. Injecting them gives the user the ability to \" +\n        \"predict the enemy's movement.\""
+      }
+    },
+    {
+      "name": "SoA - Might of Ares",
+      "field": "stats",
+      "text": "This augmentation makes the Slash minigame easier by showing you via an indicator when the sentinel is distracted.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1070,
+        "targetExcerpt": "\"This augmentation makes the Slash minigame easier by showing you via an indicator when the sentinel is distracted.\""
+      }
+    },
+    {
+      "name": "Nanofiber Weave",
+      "field": "info",
+      "text": "Synthetic nanofibers are woven into the skin's extracellular matrix using electrospinning, which improves its regenerative and extracellular homeostasis abilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1079,
+        "targetExcerpt": "\"Synthetic nanofibers are woven into the skin's extracellular matrix using electrospinning, \" +\n        \"which improves its regenerative and extracellular homeostasis abilities.\""
+      }
+    },
+    {
+      "name": "Neotra",
+      "field": "info",
+      "text": "A highly advanced techno-organic drug that is injected into the skeletal and integumentary system. The drug permanently modifies the DNA of the body's skin and bone cells, granting them the ability to repair and restructure themselves.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1098,
+        "targetExcerpt": "\"A highly advanced techno-organic drug that is injected into the skeletal \" +\n        \"and integumentary system. The drug permanently modifies the DNA of the \" +\n        \"body's skin and bone cells, granting them the ability to repair \" +\n        \"and restructure themselves.\""
+      }
+    },
+    {
+      "name": "Neural Accelerator",
+      "field": "info",
+      "text": "A microprocessor that accelerates the processing speed of biological neural networks. This is a cranial implant that is embedded inside the brain.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1111,
+        "targetExcerpt": "\"A microprocessor that accelerates the processing \" +\n        \"speed of biological neural networks. This is a cranial implant that is embedded inside the brain.\""
+      }
+    },
+    {
+      "name": "Neural-Retention Enhancement",
+      "field": "info",
+      "text": "Chemical injections are used to permanently alter and strengthen the brain's neuronal circuits, strengthening the ability to retain information.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1122,
+        "targetExcerpt": "\"Chemical injections are used to permanently alter and strengthen the brain's neuronal \" +\n        \"circuits, strengthening the ability to retain information.\""
+      }
+    },
+    {
+      "name": "Neuralstimulator",
+      "field": "info",
+      "text": "A cranial implant that intelligently stimulates certain areas of the brain in order to improve cognitive functions.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1131,
+        "targetExcerpt": "\"A cranial implant that intelligently stimulates certain areas of the brain \" +\n        \"in order to improve cognitive functions.\""
+      }
+    },
+    {
+      "name": "Neuregen Gene Modification",
+      "field": "info",
+      "text": "A drug that genetically modifies the neurons in the brain, resulting in neurons that continuously regenerate and strengthen themselves.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1153,
+        "targetExcerpt": "\"A drug that genetically modifies the neurons in the brain, \" +\n        \"resulting in neurons that continuously \" +\n        \"regenerate and strengthen themselves.\""
+      }
+    },
+    {
+      "name": "NeuroFlux Governor",
+      "field": "info",
+      "text": "Undetectable adamantium nanobots injected in the user's bloodstream. The NeuroFlux Governor monitors and regulates all aspects of the human body, essentially 'governing' the body. By doing so, it improves the user's performance for most actions.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1163,
+        "targetExcerpt": "\"Undetectable adamantium nanobots injected in the user's bloodstream. The NeuroFlux Governor \" +\n        \"monitors and regulates all aspects of the human body, essentially 'governing' the body. \" +\n        \"By doing so, it improves the user's performance for most actions.\""
+      }
+    },
+    {
+      "name": "NeuroFlux Governor",
+      "field": "stats",
+      "text": null,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1166,
+        "targetExcerpt": "`This special augmentation can be leveled up infinitely. Each level of this augmentation increases MOST multipliers by 1% (+${(\n        donationBonus * 100\n      ).toFixed(6)}%), stacking multiplicatively.`"
+      }
+    },
+    {
+      "name": "BitRunners Neurolink",
+      "field": "info",
+      "text": "A brain implant that provides a high-bandwidth, direct neural link between your mind and the BitRunners' data servers, which reportedly contain the largest database of hacking tools and information in the world.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1207,
+        "targetExcerpt": "\"A brain implant that provides a high-bandwidth, direct neural link between your \" +\n        `mind and the ${FactionName.BitRunners}' data servers, which reportedly contain ` +\n        \"the largest database of hacking tools and information in the world.\""
+      }
+    },
+    {
+      "name": "Neuronal Densification",
+      "field": "info",
+      "text": "The brain is surgically re-engineered to have increased neuronal density by decreasing the neuron gap junction. Then, the body is genetically modified to enhance the production and capabilities of its neural stem cells.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1221,
+        "targetExcerpt": "\"The brain is surgically re-engineered to have increased neuronal density \" +\n        \"by decreasing the neuron gap junction. Then, the body is genetically modified \" +\n        \"to enhance the production and capabilities of its neural stem cells.\""
+      }
+    },
+    {
+      "name": "Neuroreceptor Management Implant",
+      "field": "info",
+      "text": "A brain implant carefully assembled around the synapses, which micromanages the activity and levels of various neuroreceptor chemicals and modulates electrical activity to optimize concentration, allowing the user to multitask much more effectively.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1233,
+        "targetExcerpt": "\"A brain implant carefully assembled around the synapses, which \" +\n        \"micromanages the activity and levels of various neuroreceptor \" +\n        \"chemicals and modulates electrical activity to optimize concentration, \" +\n        \"allowing the user to multitask much more effectively.\""
+      }
+    },
+    {
+      "name": "Neuroreceptor Management Implant",
+      "field": "stats",
+      "text": "This augmentation removes the penalty for not focusing on actions such as working in a job or working for a faction.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1238,
+        "targetExcerpt": "\"This augmentation removes the penalty for not focusing on actions such as working in a job or working for a faction.\""
+      }
+    },
+    {
+      "name": "Neurotrainer I",
+      "field": "info",
+      "text": "A decentralized cranial implant that improves the brain's ability to learn. It is installed by releasing millions of nanobots into the human brain, each of which attaches to a different neural pathway to enhance the brain's ability to retain and retrieve information.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1245,
+        "targetExcerpt": "\"A decentralized cranial implant that improves the brain's ability to learn. It is \" +\n        \"installed by releasing millions of nanobots into the human brain, each of which \" +\n        \"attaches to a different neural pathway to enhance the brain's ability to retain \" +\n        \"and retrieve information.\""
+      }
+    },
+    {
+      "name": "Neurotrainer II",
+      "field": "info",
+      "text": "A decentralized cranial implant that improves the brain's ability to learn. This is a more powerful version of the Neurotrainer I augmentation, but it does not require Neurotrainer I to be installed as a prerequisite.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1261,
+        "targetExcerpt": "\"A decentralized cranial implant that improves the brain's ability to learn. This \" +\n        \"is a more powerful version of the Neurotrainer I augmentation, but it does not \" +\n        \"require Neurotrainer I to be installed as a prerequisite.\""
+      }
+    },
+    {
+      "name": "Neurotrainer III",
+      "field": "info",
+      "text": "A decentralized cranial implant that improves the brain's ability to learn. This is a more powerful version of the Neurotrainer I and Neurotrainer II augmentation, but it does not require either of them to be installed as a prerequisite.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1276,
+        "targetExcerpt": "\"A decentralized cranial implant that improves the brain's ability to learn. This \" +\n        \"is a more powerful version of the Neurotrainer I and Neurotrainer II augmentation, \" +\n        \"but it does not require either of them to be installed as a prerequisite.\""
+      }
+    },
+    {
+      "name": "Nuoptimal Nootropic Injector Implant",
+      "field": "info",
+      "text": "This torso implant automatically injects nootropic supplements into the bloodstream to improve memory, increase focus, and provide other cognitive enhancements.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1291,
+        "targetExcerpt": "\"This torso implant automatically injects nootropic supplements into \" +\n        \"the bloodstream to improve memory, increase focus, and provide other \" +\n        \"cognitive enhancements.\""
+      }
+    },
+    {
+      "name": "NutriGen Implant",
+      "field": "info",
+      "text": "A thermal-powered artificial nutrition generator. Endogenously synthesizes glucose, amino acids, and vitamins, and redistributes them across the body. The device is powered by the body's naturally wasted energy in the form of heat.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1310,
+        "targetExcerpt": "\"A thermal-powered artificial nutrition generator. Endogenously \" +\n        \"synthesizes glucose, amino acids, and vitamins, and redistributes them \" +\n        \"across the body. The device is powered by the body's naturally wasted \" +\n        \"energy in the form of heat.\""
+      }
+    },
+    {
+      "name": "nextSENS Gene Modification",
+      "field": "info",
+      "text": "The body is genetically re-engineered to maintain a state of negligible senescence, preventing the body from deteriorating with age.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1324,
+        "targetExcerpt": "\"The body is genetically re-engineered to maintain a state \" +\n        \"of negligible senescence, preventing the body from \" +\n        \"deteriorating with age.\""
+      }
+    },
+    {
+      "name": "OmniTek InfoLoad",
+      "field": "info",
+      "text": "OmniTek's data and information repository is uploaded into your brain, enhancing your programming and hacking abilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1340,
+        "targetExcerpt": "\"OmniTek's data and information repository is uploaded \" +\n        \"into your brain, enhancing your programming and \" +\n        \"hacking abilities.\""
+      }
+    },
+    {
+      "name": "ORION-MKIV Shoulder",
+      "field": "info",
+      "text": "A bionic shoulder augmentation for the right shoulder. Using cybernetics, the ORION-MKIV shoulder enhances the strength and dexterity of the user's right arm. It also provides protection due to its crystallized graphene plating.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1351,
+        "targetExcerpt": "\"A bionic shoulder augmentation for the right shoulder. Using cybernetics, \" +\n        \"the ORION-MKIV shoulder enhances the strength and dexterity \" +\n        \"of the user's right arm. It also provides protection due to its \" +\n        \"crystallized graphene plating.\""
+      }
+    },
+    {
+      "name": "PC Direct-Neural Interface",
+      "field": "info",
+      "text": "Installs a Direct-Neural Interface jack into your arm that is compatible with most computers. Connecting to a computer through this jack allows you to interface with it using the brain's electrochemical signals.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1367,
+        "targetExcerpt": "\"Installs a Direct-Neural Interface jack into your arm that is compatible with most \" +\n        \"computers. Connecting to a computer through this jack allows you to interface with \" +\n        \"it using the brain's electrochemical signals.\""
+      }
+    },
+    {
+      "name": "PC Direct-Neural Interface NeuroNet Injector",
+      "field": "info",
+      "text": "This is an additional installation that upgrades the functionality of the PC Direct-Neural Interface augmentation. When connected to a computer, the Neural Network upgrade allows the user to use their own brain's processing power to aid the computer in computational tasks.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1383,
+        "targetExcerpt": "\"This is an additional installation that upgrades the functionality of the \" +\n        \"PC Direct-Neural Interface augmentation. When connected to a computer, \" +\n        \"the Neural Network upgrade allows the user to use their own brain's \" +\n        \"processing power to aid the computer in computational tasks.\""
+      }
+    },
+    {
+      "name": "PC Direct-Neural Interface Optimization Submodule",
+      "field": "info",
+      "text": "This is a submodule upgrade to the PC Direct-Neural Interface augmentation. It improves the performance of the interface and gives the user more control options to a connected computer.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1397,
+        "targetExcerpt": "\"This is a submodule upgrade to the PC Direct-Neural Interface augmentation. It \" +\n        \"improves the performance of the interface and gives the user more control options \" +\n        \"to a connected computer.\""
+      }
+    },
+    {
+      "name": "PCMatrix",
+      "field": "info",
+      "text": "A 'Probability Computation Matrix' is installed in the frontal cortex. This implant uses advanced mathematical algorithms to rapidly identify and compute statistical outcomes of nearly every situation.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1409,
+        "targetExcerpt": "\"A 'Probability Computation Matrix' is installed in the frontal cortex. This implant \" +\n        \"uses advanced mathematical algorithms to rapidly identify and compute statistical \" +\n        \"outcomes of nearly every situation.\""
+      }
+    },
+    {
+      "name": "Photosynthetic Cells",
+      "field": "info",
+      "text": "Chloroplasts are added to epidermal stem cells and are applied to the body using a skin graft. The result is photosynthetic skin cells, allowing users to generate their own energy and nutrition using solar power.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1426,
+        "targetExcerpt": "\"Chloroplasts are added to epidermal stem cells and are applied \" +\n        \"to the body using a skin graft. The result is photosynthetic \" +\n        \"skin cells, allowing users to generate their own energy \" +\n        \"and nutrition using solar power.\""
+      }
+    },
+    {
+      "name": "Power Recirculation Core",
+      "field": "info",
+      "text": "The body's nerves are attached with polypyrrole nanocircuits that are capable of capturing wasted energy, in the form of heat, and converting it back into usable power.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1440,
+        "targetExcerpt": "\"The body's nerves are attached with polypyrrole nanocircuits that \" +\n        \"are capable of capturing wasted energy, in the form of heat, \" +\n        \"and converting it back into usable power.\""
+      }
+    },
+    {
+      "name": "The Illustrated Primer",
+      "field": "info",
+      "text": "A cutting-edge knowledgebase entirely built off of nanotech rod-logic, training the user on social engineering. Thought to be stolen technology, its existence has been a secret until recently.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1461,
+        "targetExcerpt": "\"A cutting-edge knowledgebase entirely built off of nanotech rod-logic, training the user on social engineering. \" +\n        \"Thought to be stolen technology, its existence has been a secret until recently.\""
+      }
+    },
+    {
+      "name": "QLink",
+      "field": "info",
+      "text": "A brain implant that wirelessly connects you to the Illuminati's quantum supercomputer, allowing you to access and use its incredible computing power.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1472,
+        "targetExcerpt": "`A brain implant that wirelessly connects you to the ${FactionName.Illuminati}'s ` +\n        \"quantum supercomputer, allowing you to access and use its incredible \" +\n        \"computing power.\""
+      }
+    },
+    {
+      "name": "Social Negotiation Assistant (S.N.A)",
+      "field": "info",
+      "text": "A cranial implant that affects the user's personality, making them better at negotiation in social situations.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1487,
+        "targetExcerpt": "\"A cranial implant that affects the user's personality, making them better \" +\n        \"at negotiation in social situations.\""
+      }
+    },
+    {
+      "name": "Social Dynamics Processor",
+      "field": "info",
+      "text": "Makes the wearer a better leader and mentor by greatly increasing their awareness of social dynamics. Not actually a standard implant, but rather a series of training courses and seminars, led by a famous speaker named Denis.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1499,
+        "targetExcerpt": "\"Makes the wearer a better leader and mentor by greatly increasing their awareness of social dynamics. \" +\n        \"Not actually a standard implant, but rather a series of training courses and seminars, led by a famous speaker named Denis.\""
+      }
+    },
+    {
+      "name": "SPTN-97 Gene Modification",
+      "field": "info",
+      "text": "The SPTN-97 gene is injected into the genome. The SPTN-97 gene is an artificially synthesized gene that was developed by DARPA to create super-soldiers through genetic modification. The gene was outlawed in 2056.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1509,
+        "targetExcerpt": "\"The SPTN-97 gene is injected into the genome. The SPTN-97 gene is an \" +\n        \"artificially synthesized gene that was developed by DARPA to create \" +\n        \"super-soldiers through genetic modification. The gene was outlawed in \" +\n        \"2056.\""
+      }
+    },
+    {
+      "name": "The Shadow's Simulacrum",
+      "field": "info",
+      "text": "A crude but functional matter phase-shifter module that is embedded in the brainstem and cerebellum. This augmentation was developed by criminal organizations and allows the user to project and control holographic simulacrums within a large radius. These simulacrums are commonly used for espionage and surveillance work.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1524,
+        "targetExcerpt": "\"A crude but functional matter phase-shifter module that is embedded \" +\n        \"in the brainstem and cerebellum. This augmentation was developed by \" +\n        \"criminal organizations and allows the user to project and control holographic \" +\n        \"simulacrums within a large radius. These simulacrums are commonly used for \" +\n        \"espionage and surveillance work.\""
+      }
+    },
+    {
+      "name": "SmartJaw",
+      "field": "info",
+      "text": "A bionic jaw that contains advanced hardware and software capable of psychoanalyzing and profiling the personality of others using optical imaging software.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1537,
+        "targetExcerpt": "\"A bionic jaw that contains advanced hardware and software \" +\n        \"capable of psychoanalyzing and profiling the personality of \" +\n        \"others using optical imaging software.\""
+      }
+    },
+    {
+      "name": "SmartSonar Implant",
+      "field": "info",
+      "text": "A cochlear implant that helps the player detect and locate enemies using sound propagation.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1549,
+        "targetExcerpt": "\"A cochlear implant that helps the player detect and locate enemies using sound propagation.\""
+      }
+    },
+    {
+      "name": "Speech Enhancement",
+      "field": "info",
+      "text": "An advanced neural implant that improves your speaking abilities, making you more convincing and likable in conversations and overall improving your social interactions.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1559,
+        "targetExcerpt": "\"An advanced neural implant that improves your speaking abilities, making \" +\n        \"you more convincing and likable in conversations and overall improving your \" +\n        \"social interactions.\""
+      }
+    },
+    {
+      "name": "Speech Processor Implant",
+      "field": "info",
+      "text": "A cochlear implant with an embedded computer that analyzes incoming speech. The embedded computer processes characteristics of incoming speech, such as tone and inflection, to pick up on subtle cues and aid in social interactions.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1577,
+        "targetExcerpt": "\"A cochlear implant with an embedded computer that analyzes incoming speech. \" +\n        \"The embedded computer processes characteristics of incoming speech, such as tone \" +\n        \"and inflection, to pick up on subtle cues and aid in social interactions.\""
+      }
+    },
+    {
+      "name": "Stanek's Gift - Genesis",
+      "field": "info",
+      "text": "Allison \"Mother\" Stanek imparts you with her gift. An experimental Augmentation implanted at the base of the neck. It allows you to overclock your entire system by carefully changing the configuration.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1596,
+        "targetExcerpt": "'Allison \"Mother\" Stanek imparts you with her gift. An ' +\n        \"experimental Augmentation implanted at the base of the neck. \" +\n        \"It allows you to overclock your entire system by carefully \" +\n        \"changing the configuration.\""
+      }
+    },
+    {
+      "name": "Stanek's Gift - Genesis",
+      "field": "stats",
+      "text": "Its unstable nature decreases all your stats by 10%.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1627,
+        "targetExcerpt": "\"Its unstable nature decreases all your stats by 10%.\""
+      }
+    },
+    {
+      "name": "Stanek's Gift - Awakening",
+      "field": "info",
+      "text": "The next evolution is near, a union of man and machine. A synthesis greater than the birth of the human organism. Time spent with the gift has allowed for acclimatization of the invasive augment and the toll it takes upon your frame, granting a 5% reduced penalty to all stats.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1634,
+        "targetExcerpt": "\"The next evolution is near, a union of man and machine. A synthesis greater than the birth of the human \" +\n        \"organism. Time spent with the gift has allowed for acclimatization of the invasive augment and the toll it takes upon \" +\n        \"your frame, granting a 5% reduced penalty to all stats.\""
+      }
+    },
+    {
+      "name": "Stanek's Gift - Awakening",
+      "field": "stats",
+      "text": "The penalty for the gift is reduced to 5%.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1665,
+        "targetExcerpt": "\"The penalty for the gift is reduced to 5%.\""
+      }
+    },
+    {
+      "name": "Stanek's Gift - Serenity",
+      "field": "info",
+      "text": "The synthesis of human and machine is nothing to fear. It is our destiny. You will become greater than the sum of our parts. As One. Embrace your gift fully and wholly free of its accursed toll. Serenity brings tranquility in the form of no longer suffering a stat penalty. ",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1672,
+        "targetExcerpt": "\"The synthesis of human and machine is nothing to fear. It is our destiny. \" +\n        \"You will become greater than the sum of our parts. As One. Embrace your gift \" +\n        \"fully and wholly free of its accursed toll. Serenity brings tranquility in the form \" +\n        \"of no longer suffering a stat penalty. \""
+      }
+    },
+    {
+      "name": "Stanek's Gift - Serenity",
+      "field": "stats",
+      "text": "Stanek's Gift has no penalty.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1704,
+        "targetExcerpt": "\"Stanek's Gift has no penalty.\""
+      }
+    },
+    {
+      "name": "NEMEAN Subdermal Weave",
+      "field": "info",
+      "text": "The NEMEAN Subdermal Weave is a thin, lightweight, graphene plating that houses a dilatant fluid. The material is implanted underneath the skin, and is the most advanced form of defensive enhancement that has ever been created. The dilatant fluid, despite being thin and light, is extremely effective at stopping piercing blows and reducing blunt trauma. The properties of graphene allow the plating to mitigate damage from any fire or electrical traumas.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1711,
+        "targetExcerpt": "\"The NEMEAN Subdermal Weave is a thin, lightweight, graphene plating that houses a dilatant fluid. \" +\n        \"The material is implanted underneath the skin, and is the most advanced form of defensive enhancement \" +\n        \"that has ever been created. The dilatant fluid, despite being thin and light, is extremely effective \" +\n        \"at stopping piercing blows and reducing blunt trauma. The properties of graphene allow the plating to \" +\n        \"mitigate damage from any fire or electrical traumas.\""
+      }
+    },
+    {
+      "name": "Synaptic Enhancement Implant",
+      "field": "info",
+      "text": "A small cranial implant that continuously uses weak electrical signals to stimulate the brain and induce stronger synaptic activity. This improves the user's cognitive abilities.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1729,
+        "targetExcerpt": "\"A small cranial implant that continuously uses weak electrical signals to stimulate the brain and \" +\n        \"induce stronger synaptic activity. This improves the user's cognitive abilities.\""
+      }
+    },
+    {
+      "name": "Synfibril Muscle",
+      "field": "info",
+      "text": "The myofibrils in human muscles are injected with special chemicals that react with the proteins inside the myofibrils, altering their underlying structure. The end result is muscles that are stronger and more elastic. Scientists have named these artificially enhanced units 'synfibrils'.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1738,
+        "targetExcerpt": "\"The myofibrils in human muscles are injected with special chemicals that react with the proteins inside \" +\n        \"the myofibrils, altering their underlying structure. The end result is muscles that are stronger and more elastic. \" +\n        \"Scientists have named these artificially enhanced units 'synfibrils'.\""
+      }
+    },
+    {
+      "name": "Synthetic Heart",
+      "field": "info",
+      "text": "This advanced artificial heart, created from plasteel and graphene, is capable of pumping blood more efficiently than an organic heart.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1758,
+        "targetExcerpt": "\"This advanced artificial heart, created from plasteel and graphene, is capable of pumping blood \" +\n        \"more efficiently than an organic heart.\""
+      }
+    },
+    {
+      "name": "TITN-41 Gene-Modification Injection",
+      "field": "info",
+      "text": "TITN is a series of viruses that targets and alters the sequences of human DNA in genes that control personality. The TITN-41 strain alters these genes so that the subject becomes more outgoing and sociable.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1778,
+        "targetExcerpt": "\"TITN is a series of viruses that targets and alters the sequences of human DNA in genes that \" +\n        \"control personality. The TITN-41 strain alters these genes so that the subject becomes more \" +\n        \"outgoing and sociable.\""
+      }
+    },
+    {
+      "name": "Augmented Targeting I",
+      "field": "info",
+      "text": "A cranial implant that is embedded within the inner ear structures and optic nerves. It regulates and enhances balance and hand-eye coordination.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1789,
+        "targetExcerpt": "\"A cranial implant that is embedded within the inner ear structures and optic nerves. It regulates \" +\n        \"and enhances balance and hand-eye coordination.\""
+      }
+    },
+    {
+      "name": "Augmented Targeting II",
+      "field": "info",
+      "text": "This upgraded version of the 'Augmented Targeting' implant is capable of augmenting reality by digitally displaying weaknesses and vital signs of threats.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1807,
+        "targetExcerpt": "\"This upgraded version of the 'Augmented Targeting' implant is capable of augmenting \" +\n        \"reality by digitally displaying weaknesses and vital signs of threats.\""
+      }
+    },
+    {
+      "name": "Augmented Targeting III",
+      "field": "info",
+      "text": "The latest version of the 'Augmented Targeting' implant adds the ability to lock-on and track threats.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1823,
+        "targetExcerpt": "\"The latest version of the 'Augmented Targeting' implant adds the ability to lock-on and track threats.\""
+      }
+    },
+    {
+      "name": "The Black Hand",
+      "field": "info",
+      "text": "A highly advanced bionic hand. This prosthetic not only enhances the user's strength and dexterity, but is also embedded with hardware and firmware that lets them connect to, access, and hack devices and machines by just touching them.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1839,
+        "targetExcerpt": "\"A highly advanced bionic hand. This prosthetic not only \" +\n        \"enhances the user's strength and dexterity, but is also embedded \" +\n        \"with hardware and firmware that lets them connect to, access, and hack \" +\n        \"devices and machines by just touching them.\""
+      }
+    },
+    {
+      "name": "The W1ngs of Icarus",
+      "field": "info",
+      "text": "An experimental augmentation that lets the user make incredible leaps of insight and flights of fancy. Created by a mysterious figure known only as 'The Sculptor', this augmentation appears as a set of silvery metallic patterns on the user's upper back and shoulders. Awarded to those who discover the secrets of the labyrinth.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1854,
+        "targetExcerpt": "\"An experimental augmentation that lets the user make incredible leaps of insight and flights of fancy. \" +\n        \"Created by a mysterious figure known only as 'The Sculptor', this augmentation appears as a set of silvery \" +\n        \"metallic patterns on the user's upper back and shoulders. \" +\n        \"Awarded to those who discover the secrets of the labyrinth.\""
+      }
+    },
+    {
+      "name": "The W1ngs of Icarus",
+      "field": "stats",
+      "text": "This augmentation increases the stasis link limit by one, and raises charisma by 5% and agility by 10%, and darknet money by 30%.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1859,
+        "targetExcerpt": "\"This augmentation increases the stasis link limit by one, and raises charisma by 5% and agility by 10%, and darknet money by 30%.\""
+      }
+    },
+    {
+      "name": "The B00ts of Perseus",
+      "field": "info",
+      "text": "Modeled after the winged boots of mythology, this implant somehow provides tireless social energy to the user. Its creator, the enigmatic Sculptor, refuses to reveal the details of how it works, and only mutters about 'liveware APIs'. Awarded to those who discover the secrets of the labyrinth.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1870,
+        "targetExcerpt": "\"Modeled after the winged boots of mythology, this implant somehow provides tireless social energy to the user. \" +\n        \"Its creator, the enigmatic Sculptor, refuses to reveal the details of how it works, and only mutters about 'liveware APIs'. \" +\n        \"Awarded to those who discover the secrets of the labyrinth.\""
+      }
+    },
+    {
+      "name": "The B00ts of Perseus",
+      "field": "stats",
+      "text": "This augmentation increases the speed of authentication and heartbleed by 20%, and raises charisma and dexterity by 6%.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1874,
+        "targetExcerpt": "\"This augmentation increases the speed of authentication and heartbleed by 20%, and raises charisma and dexterity by 6%.\""
+      }
+    },
+    {
+      "name": "The H4mmer of Daedalus",
+      "field": "info",
+      "text": "This unique augmentation allows the user to strike straight to the heart of the matter and sweep aside obstacles in the way of their goals. Appearing as a simple insignia on the user's forearm, its true function is unknown. It is said to be one of the tools of The Sculptor. Awarded to those who discover the secrets of the labyrinth.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1885,
+        "targetExcerpt": "\"This unique augmentation allows the user to strike straight to the heart of the matter and sweep aside obstacles in the way of their goals. \" +\n        \"Appearing as a simple insignia on the user's forearm, its true function is unknown. It is said to be one of the tools of The Sculptor. \" +\n        \"Awarded to those who discover the secrets of the labyrinth.\""
+      }
+    },
+    {
+      "name": "The H4mmer of Daedalus",
+      "field": "stats",
+      "text": "This augmentation increases the stasis link limit by one, and raises charisma by 7%, strength by 10%, and darknet money by 10%.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1889,
+        "targetExcerpt": "\"This augmentation increases the stasis link limit by one, and raises charisma by 7%, strength by 10%, and darknet money by 10%.\""
+      }
+    },
+    {
+      "name": "The St4ff of Asclepius",
+      "field": "info",
+      "text": "This skeletal augmentation greatly enhances the user's durability and health. Inspired by the original Staff of Medicine that is said to have been given to Daedalus as a reward for the completion of the Labyrinth, which all modern augments are a descendant of. ",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1901,
+        "targetExcerpt": "\"This skeletal augmentation greatly enhances the user's durability and health. Inspired by the original Staff of Medicine that is said to \" +\n        \"have been given to Daedalus as a reward for the completion of the Labyrinth, which all modern augments are a descendant of. \""
+      }
+    },
+    {
+      "name": "The St4ff of Asclepius",
+      "field": "stats",
+      "text": "This augmentation increases the stasis link limit by one, and raises charisma xp, defense, and darknet money by 10%.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1904,
+        "targetExcerpt": "\"This augmentation increases the stasis link limit by one, and raises charisma xp, defense, and darknet money by 10%.\""
+      }
+    },
+    {
+      "name": "The L4w of Bayes",
+      "field": "info",
+      "text": "An advanced neural implant that integrates Bayesian inference algorithms into the brain's decision-making processes. This augmentation enhances the user's ability to assess probabilities, predict outcomes, and adapt strategies in real-time, making them exceptionally persuasive and confident in negotiations and social interactions. Awarded to those who discover the secrets of the labyrinth.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1916,
+        "targetExcerpt": "\"An advanced neural implant that integrates Bayesian inference algorithms into the brain's decision-making processes. \" +\n        \"This augmentation enhances the user's ability to assess probabilities, predict outcomes, and adapt strategies in real-time, \" +\n        \"making them exceptionally persuasive and confident in negotiations and social interactions. \" +\n        \"Awarded to those who discover the secrets of the labyrinth.\""
+      }
+    },
+    {
+      "name": "The L4w of Bayes",
+      "field": "stats",
+      "text": "This augmentation raises charisma by 9%, company rep by 5%, and darknet money by 15%.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1920,
+        "targetExcerpt": "\"This augmentation raises charisma by 9%, company rep by 5%, and darknet money by 15%.\""
+      }
+    },
+    {
+      "name": "The B1ade of Solomonoff",
+      "field": "info",
+      "text": "A cutting-edge neural implant that leverages Solomonoff induction to analyze and predict patterns with unparalleled precision. This augmentation enhances the user's ability to deduce optimal strategies and make compelling arguments, turning every interaction into a calculated success. The technique is sometimes referred to as Solomonoff's Lightsaber, as it is a more powerful version of Occam's razor. The final augment awarded to those who discover the secrets of the labyrinth.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1932,
+        "targetExcerpt": "\"A cutting-edge neural implant that leverages Solomonoff induction to analyze and predict patterns with unparalleled precision. \" +\n        \"This augmentation enhances the user's ability to deduce optimal strategies and make compelling arguments, \" +\n        \"turning every interaction into a calculated success. The technique is sometimes referred to as Solomonoff's Lightsaber, as it is a \" +\n        \"more powerful version of Occam's razor. \" +\n        \"The final augment awarded to those who discover the secrets of the labyrinth.\""
+      }
+    },
+    {
+      "name": "The B1ade of Solomonoff",
+      "field": "stats",
+      "text": "This augmentation raises charisma, hacking, darknet money, and company rep by 10%.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1937,
+        "targetExcerpt": "\"This augmentation raises charisma, hacking, darknet money, and company rep by 10%.\""
+      }
+    },
+    {
+      "name": "The Red Pill",
+      "field": "info",
+      "text": "It's time to leave the cave.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1949,
+        "targetExcerpt": "\"It's time to leave the cave.\""
+      }
+    },
+    {
+      "name": "The Red Pill",
+      "field": "stats",
+      "text": "",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1950,
+        "targetExcerpt": "\"\""
+      }
+    },
+    {
+      "name": "SoA - Trickery of Hermes",
+      "field": "info",
+      "text": "Penta-dynamo-neurovascular-valve inserted in the carpal ligament, enhances dexterity.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1957,
+        "targetExcerpt": "\"Penta-dynamo-neurovascular-valve inserted in the carpal ligament, enhances dexterity.\""
+      }
+    },
+    {
+      "name": "SoA - Trickery of Hermes",
+      "field": "stats",
+      "text": "This augmentation makes the Cheat Code minigame easier by showing what character will come next.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1958,
+        "targetExcerpt": "\"This augmentation makes the Cheat Code minigame easier by showing what character will come next.\""
+      }
+    },
+    {
+      "name": "Vangelis Virus",
+      "field": "info",
+      "text": "A synthetic symbiotic virus that is injected into human brain tissue. The Vangelis virus heightens the senses and focus of its host while also enhancing their intuition.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1969,
+        "targetExcerpt": "\"A synthetic symbiotic virus that is injected into human brain tissue. The Vangelis virus \" +\n        \"heightens the senses and focus of its host while also enhancing their intuition.\""
+      }
+    },
+    {
+      "name": "Vangelis Virus 3.0",
+      "field": "info",
+      "text": "An improved version of Vangelis, a synthetic symbiotic virus that is injected into human brain tissue. On top of the benefits of the original virus, this also grants accelerated healing and enhanced reflexes.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 1982,
+        "targetExcerpt": "\"An improved version of Vangelis, a synthetic symbiotic virus that is \" +\n        \"injected into human brain tissue. On top of the benefits of the original \" +\n        \"virus, this also grants accelerated healing and enhanced \" +\n        \"reflexes.\""
+      }
+    },
+    {
+      "name": "SoA - phyzical WKS harmonizer",
+      "field": "info",
+      "text": "A copy of the WKS harmonizer from the MIA leader of the Shadows of Anarchy injects *Γ-based cells that provide general enhancement to the body.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2000,
+        "targetExcerpt": "`A copy of the WKS harmonizer from the MIA leader of the ${FactionName.ShadowsOfAnarchy} ` +\n        \"injects *Γ-based cells that provide general enhancement to the body.\""
+      }
+    },
+    {
+      "name": "SoA - phyzical WKS harmonizer",
+      "field": "stats",
+      "text": "This augmentation makes many aspects of infiltration easier and more productive via increased timer and rewards, reduced damage taken, etc.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2003,
+        "targetExcerpt": "\"This augmentation makes many aspects of infiltration easier and more productive via increased timer and rewards, reduced damage taken, etc.\""
+      }
+    },
+    {
+      "name": "Wired Reflexes",
+      "field": "info",
+      "text": "Synthetic nerve-enhancements are injected into all major parts of the somatic nervous system, supercharging the spread of neural signals and increasing reflex speed.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2011,
+        "targetExcerpt": "\"Synthetic nerve-enhancements are injected into all major parts of the somatic nervous system, \" +\n        \"supercharging the spread of neural signals and increasing reflex speed.\""
+      }
+    },
+    {
+      "name": "SoA - Wisdom of Athena",
+      "field": "info",
+      "text": "A connective brain implant to SASHA that focuses on pattern recognition and predictive templating.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2030,
+        "targetExcerpt": "\"A connective brain implant to SASHA that focuses on pattern recognition and predictive templating.\""
+      }
+    },
+    {
+      "name": "SoA - Wisdom of Athena",
+      "field": "stats",
+      "text": "This augmentation makes the Bracket minigame easier by removing all '[' ']'.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2031,
+        "targetExcerpt": "\"This augmentation makes the Bracket minigame easier by removing all '[' ']'.\""
+      }
+    },
+    {
+      "name": "Neural Wit Amplifier",
+      "field": "info",
+      "text": "A connective brain implant that greatly increases the user's speech reaction time. This allows the user to think faster and respond quicker in negotiations, and always have the last word.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2039,
+        "targetExcerpt": "\"A connective brain implant that greatly increases the user's speech reaction time. \" +\n        \"This allows the user to think faster and respond quicker in negotiations, and always have the last word.\""
+      }
+    },
+    {
+      "name": "Xanipher",
+      "field": "info",
+      "text": "A concoction of advanced nanobots that is orally ingested into the body. These nanobots induce physiological changes and significantly improve the body's functioning in all aspects.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2051,
+        "targetExcerpt": "\"A concoction of advanced nanobots that is orally ingested into the \" +\n        \"body. These nanobots induce physiological changes and significantly \" +\n        \"improve the body's functioning in all aspects.\""
+      }
+    },
+    {
+      "name": "Z.O.Ë.",
+      "field": "info",
+      "text": "Zoë's Omnicerebrum Ënhancer for sleeves inserts an omnicerebrum into your sleeve. An omnicerebrum is a near perfect simulation of the human brain, allowing it to take advantage of a larger variety of augments. But you should know about this, BitRunner, since you have one of these yourself!",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2075,
+        "targetExcerpt": "\"Zoë's Omnicerebrum Ënhancer for sleeves inserts an omnicerebrum into your sleeve. \" +\n        \"An omnicerebrum is a near perfect simulation of the human brain, allowing it to take advantage of a larger variety of augments. \" +\n        \"But you should know about this, BitRunner, since you have one of these yourself!\""
+      }
+    },
+    {
+      "name": "Z.O.Ë.",
+      "field": "stats",
+      "text": "Allows sleeves to benefit from Stanek's Gift, but is less powerful if several are installed.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/Augmentations.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 2078,
+        "targetExcerpt": "\"Allows sleeves to benefit from Stanek's Gift, but is less powerful if several are installed.\""
+      }
+    },
+    {
+      "name": "Unstable Circadian Modulator",
+      "field": "info",
+      "text": "An experimental nanobot injection. Its unstable nature leads to unpredictable results based on your circadian rhythm.",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/CircadianModulator.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 17,
+        "targetExcerpt": "\"An experimental nanobot injection. Its unstable nature leads to \" +\n      \"unpredictable results based on your circadian rhythm.\""
+      }
+    }
+  ]
+}

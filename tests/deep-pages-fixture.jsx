@@ -1,0 +1,17 @@
+import React,{useState}from'react';import{createRoot}from'react-dom/client';
+function App(){
+ const [page,setPage]=useState('company'),[value,setValue]=useState(3),[dialog,setDialog]=useState(false),[companyName,setCompanyName]=useState('MegaCorp');
+ window.deepFixture={setPage,setValue,setDialog,setCompanyName};
+ const clicked=e=>{window.deepClicked=e.currentTarget.id};
+ return <><div id="test-controls"><button id="switch" onClick={()=>setPage('darknet')}>Fixture navigation</button></div><main>
+ {page==='company'&&<><button>Return to World</button><h4>{companyName}</h4><div id="company-box" style={{display:'grid',width:'fit-content',minWidth:'25em'}}>
+ <button id="apply" onClick={clicked}>Apply for Software Engineering Intern Job</button><button disabled>Apply for Chief Technology Officer Job</button>
+ <p>Wages: <span>$1.234k</span></p><p>{`Hacking level ${value*250}`}</p><p><u>Software Engineering Intern</u></p></div></>}
+ {page==='faction'&&<><h4>MegaCorp</h4><p>Hacking Contracts</p><p>Apply for Software Engineering Intern Job</p></>}
+ {page==='grafting'&&<><button>Back</button><h4>Grafting Laboratory</h4><p>You find yourself in a secret laboratory, owned by a mysterious researcher.</p><h5>Graft Augmentations</h5><div style={{display:'grid',gridTemplateColumns:'1fr 1fr'}}><button>Sort by Cost</button><button>Sort by Default Order</button></div><h6>NeuroFlux Governor</h6><button id="graft" onClick={()=>setDialog(true)}>Graft Augmentation (<span>$1.000b</span>)</button><p><b>Time to Graft:</b> 1 hour 2 minutes 3 seconds</p><p><b>Entropy strength:</b> {value}</p>{dialog&&<div role="dialog"><p>Cancelling grafting will <b>not</b> save grafting progress, and the money you spend will <b>not</b> be returned.</p><button id="cancel" onClick={()=>setDialog(false)}>Cancel</button></div>}</>}
+ {page==='darknet'&&<><h5>Dark Net</h5><p>Instability: {value}%</p><label>Password<input id="password" defaultValue="ns.hack('n00dles'); Model:"/></label><button id="submit" onClick={clicked}>Submit Password</button><div role="dialog"><h5>n00dles</h5><p>Required charisma: {value}</p><p>RAM in use: 2.5+1.2/8 GB</p><pre id="hints"><span className="css-demo-serverDetailsText">Hint:</span>{' Model: ns.dnet.authenticate()'}<br/><span className="css-demo-serverDetailsText">Data:</span>{' Password Dark Net 0123 home'}<br/><span className="css-demo-serverDetailsText">Model:</span>{' Model:'}</pre><pre id="log">{'{ "message": "Submit Password", "data": "Dark Net", "code": 408 }'}</pre><p>Current Surroundings:</p><pre id="maze">{'## @ X\n# A Z#'}</pre><p>Script/perspective to follow:</p><p>You are following the progress of pid 1234 instead of the manual mode.</p></div></>}
+ {page==='work'&&<><h6>You are currently <b>studying Computer Science</b></h6><p>{`${value} seconds`} elapsed</p><button id="stop" onClick={()=>{setPage('company');setDialog(true)}}>Stop taking course</button><button>Do something else simultaneously</button></>}
+ {page==='company'&&dialog&&<div role="dialog"><span className="MuiTypography-root">After {"studying Computer Science"} for {`${value} seconds`}, <br/>you spent a total of <span>$0.000</span>. <br/>You earned a total of: <br/>{'1.00'} hacking exp</span><button onClick={()=>setDialog(false)}>Close</button></div>}
+ </main><pre id="generic-pre"><span className="css-demo-serverDetailsText">Hint:</span>Dark Net</pre><div id="terminal">Submit Password</div><div className="monaco-editor">Apply for Software Engineering Intern Job</div></>;
+}
+createRoot(document.getElementById('root')).render(<App/>);

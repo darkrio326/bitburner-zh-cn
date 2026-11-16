@@ -1,0 +1,13 @@
+import{readFileSync,writeFileSync}from'node:fs';
+import{augmentationCorpus,TARGET}from'./source-corpus.mjs';
+import{createMatcher}from'../src/matcher.js';
+const dictionary=JSON.parse(readFileSync('translations/zh-CN.json'));
+const match=createMatcher(dictionary.entries,dictionary.slotValues);
+const actual=augmentationCorpus();
+const fixture=JSON.parse(readFileSync('tests/fixtures/augmentation-text-v3.0.1.json'));
+if(JSON.stringify(actual)!==JSON.stringify(fixture.entries))throw Error('Pinned source fixture differs; review it before updating.');
+const infos=actual.filter(e=>e.field==='info'),custom=actual.filter(e=>e.field==='stats'&&e.text);
+const missing=actual.filter(e=>e.text&&!match(e.text,'augmentations')).map(e=>({name:e.name,field:e.field}));
+const report={target:TARGET,version:JSON.parse(readFileSync('package.json')).version,entries:dictionary.entries.length,templates:dictionary.entries.filter(e=>e.match==='template').length,augmentationInfo:{total:infos.length,matched:infos.filter(e=>match(e.text,'augmentations')).length},staticCustomEffects:{total:custom.length,matched:custom.filter(e=>match(e.text,'augmentations')).length},missing,limits:['Source text matching only, not live unlocked-game acceptance.','Dynamic NeuroFlux effects are covered separately by template tests.','Source-File effects are audited separately in documentation-coverage.json; other advanced game pages are not exhaustively covered.']};
+writeFileSync('docs/primary-coverage.json',JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report,null,2));if(missing.length)process.exitCode=1;

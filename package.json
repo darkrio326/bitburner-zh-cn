@@ -1,0 +1,46 @@
+{
+  "name": "bitburner-zh-cn-userscript",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sources": "node scripts/fetch-sources.mjs",
+    "extract": "node scripts/extract.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs && playwright test",
+    "test:unit": "node --test tests/*.test.mjs",
+    "test:browser": "playwright test",
+    "test:live": "LIVE=1 playwright test tests/live.spec.mjs --project=chromium",
+    "check:syntax": "node scripts/check-syntax.mjs",
+    "check:release": "node scripts/check-release.mjs",
+    "check": "npm run check:syntax && node scripts/build.mjs --check && npm run check:release && npm run test:unit",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/material": "5.18.0",
+    "@playwright/test": "1.56.1",
+    "esbuild": "0.25.12",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-markdown": "8.0.7",
+    "remark-gfm": "3.0.1",
+    "remark-parse": "10.0.2",
+    "typescript": "5.9.3",
+    "unified": "10.1.2"
+  },
+  "description": "Unofficial Simplified Chinese userscript for Bitburner v3.0.1",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkrio326/bitburner-zh-cn.git"
+  },
+  "homepage": "https://github.com/darkrio326/bitburner-zh-cn",
+  "bugs": {
+    "url": "https://github.com/darkrio326/bitburner-zh-cn/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

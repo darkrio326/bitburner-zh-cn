@@ -1,0 +1,33 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "reviewedNewEntries": 794,
+  "byScope": {
+    "gang": {
+      "entries": 133,
+      "uiFragments": 83,
+      "descriptionFields": 24
+    },
+    "bladeburner": {
+      "entries": 148,
+      "uiFragments": 78,
+      "descriptionFields": 63
+    },
+    "corporation": {
+      "entries": 513,
+      "uiFragments": 330,
+      "descriptionFields": 59
+    }
+  },
+  "retainedSyntaxAndIdentifiers": [
+    "=> x",
+    "(x",
+    ">",
+    "AdVert.Inc",
+    "-",
+    "/s)",
+    "Market-TA.I",
+    "Market-TA.II"
+  ],
+  "supplementSourceExcerptsVerified": true,
+  "meaning": "Fixed-source match coverage only; not live unlock or gameplay acceptance."
+}

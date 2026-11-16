@@ -1,0 +1,47 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "version": "0.7.0",
+  "entries": 4377,
+  "templates": 150,
+  "achievements": {
+    "total": 108,
+    "descriptionsMatched": 108,
+    "preservedNames": [
+      "CyberSec",
+      "avmnite-02h",
+      "I.I.I.I",
+      "run4theh111z",
+      "fl1ght.exe",
+      "The Covenant",
+      "Illuminati",
+      "BruteSSH.exe",
+      "FTPCrack.exe",
+      "relaySMTP.exe",
+      "HTTPWorm.exe",
+      "SQLInject.exe",
+      "Formulas.exe",
+      "while(true);",
+      "4S",
+      "UNACHIEVABLE"
+    ]
+  },
+  "locations": {
+    "total": 57,
+    "matched": 57
+  },
+  "cities": {
+    "total": 6,
+    "matched": 6
+  },
+  "limits": [
+    "Source text coverage is not all-branch gameplay acceptance.",
+    "City ASCII symbols and protected achievement names stay original.",
+    "Secret achievement IDs remain hidden/corrupted according to the game."
+  ],
+  "mapLabels": {
+    "cities": 6,
+    "unique": 56,
+    "total": 76,
+    "matched": 76
+  }
+}

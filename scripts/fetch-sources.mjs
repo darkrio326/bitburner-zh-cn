@@ -1,0 +1,13 @@
+import { execFileSync } from 'node:child_process';
+import { existsSync, mkdirSync } from 'node:fs';
+const repository = 'https://github.com/bitburner-official/bitburner-src.git';
+const cache = '.cache/upstream';
+const run = args => execFileSync('git', args, { stdio: 'inherit' });
+mkdirSync('.cache', { recursive: true });
+if (!existsSync(`${cache}/.git`)) run(['clone', '--depth=1', '--filter=blob:none', '--no-checkout', repository, cache]);
+run(['-C', cache, 'fetch', '--prune', 'origin']);
+run(['-C', cache, 'remote', 'set-head', 'origin', '-a']);
+run(['-C', cache, 'symbolic-ref', 'refs/remotes/origin/HEAD']);
+run(['-C', cache, 'rev-parse', 'origin/HEAD']);
+run(['-C', cache, 'fetch', '--depth=2', 'origin', 'b68cee85d4c507f8902ff5d0701641dc1edf59c7']);
+run(['-C', cache, 'fetch', '--depth=1', 'origin', '3162fd2590e221eadd0c0fbd46151913f7c4c41c']);

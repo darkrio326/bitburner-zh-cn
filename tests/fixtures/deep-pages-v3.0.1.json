@@ -1,0 +1,254 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "sources": [
+    "src/Company/data/CompanyPositionsMetadata.ts",
+    "src/Crime/Crimes.ts",
+    "src/Company/CompanyPosition.ts",
+    "src/Work/Enums.ts",
+    "src/Crime/Enums.ts"
+  ],
+  "jobs": [
+    {
+      "name": "Software Engineering Intern",
+      "apply": "Apply for Software Engineering Intern Job",
+      "hired": "Congratulations, you are now employed as a Software Engineering Intern"
+    },
+    {
+      "name": "Junior Software Engineer",
+      "apply": "Apply for Junior Software Engineer Job",
+      "hired": "Congratulations, you are now employed as a Junior Software Engineer"
+    },
+    {
+      "name": "Senior Software Engineer",
+      "apply": "Apply for Senior Software Engineer Job",
+      "hired": "Congratulations, you are now employed as a Senior Software Engineer"
+    },
+    {
+      "name": "Lead Software Developer",
+      "apply": "Apply for Lead Software Developer Job",
+      "hired": "Congratulations, you are now employed as a Lead Software Developer"
+    },
+    {
+      "name": "Head of Software",
+      "apply": "Apply for Head of Software Job",
+      "hired": "Congratulations, you are now Head of Software"
+    },
+    {
+      "name": "Head of Engineering",
+      "apply": "Apply for Head of Engineering Job",
+      "hired": "Congratulations, you are now Head of Engineering"
+    },
+    {
+      "name": "Vice President of Technology",
+      "apply": "Apply for Vice President of Technology Job",
+      "hired": "Congratulations, you are now Vice President of Technology"
+    },
+    {
+      "name": "Chief Technology Officer",
+      "apply": "Apply for Chief Technology Officer Job",
+      "hired": "Congratulations, you are now Chief Technology Officer"
+    },
+    {
+      "name": "IT Intern",
+      "apply": "Apply for IT Intern Job",
+      "hired": "Congratulations, you are now employed as a IT Intern"
+    },
+    {
+      "name": "IT Analyst",
+      "apply": "Apply for IT Analyst Job",
+      "hired": "Congratulations, you are now employed as a IT Analyst"
+    },
+    {
+      "name": "IT Manager",
+      "apply": "Apply for IT Manager Job",
+      "hired": "Congratulations, you are now employed as a IT Manager"
+    },
+    {
+      "name": "Systems Administrator",
+      "apply": "Apply for Systems Administrator Job",
+      "hired": "Congratulations, you are now employed as a Systems Administrator"
+    },
+    {
+      "name": "Security Engineer",
+      "apply": "Apply for Security Engineer Job",
+      "hired": "Congratulations, you are now employed as a Security Engineer"
+    },
+    {
+      "name": "Network Engineer",
+      "apply": "Apply for Network Engineer Job",
+      "hired": "Congratulations, you are now employed as a Network Engineer"
+    },
+    {
+      "name": "Network Administrator",
+      "apply": "Apply for Network Administrator Job",
+      "hired": "Congratulations, you are now employed as a Network Administrator"
+    },
+    {
+      "name": "Business Intern",
+      "apply": "Apply for Business Intern Job",
+      "hired": "Congratulations, you are now employed as a Business Intern"
+    },
+    {
+      "name": "Business Analyst",
+      "apply": "Apply for Business Analyst Job",
+      "hired": "Congratulations, you are now employed as a Business Analyst"
+    },
+    {
+      "name": "Business Manager",
+      "apply": "Apply for Business Manager Job",
+      "hired": "Congratulations, you are now employed as a Business Manager"
+    },
+    {
+      "name": "Operations Manager",
+      "apply": "Apply for Operations Manager Job",
+      "hired": "Congratulations, you are now employed as a Operations Manager"
+    },
+    {
+      "name": "Chief Financial Officer",
+      "apply": "Apply for Chief Financial Officer Job",
+      "hired": "Congratulations, you are now Chief Financial Officer"
+    },
+    {
+      "name": "Chief Executive Officer",
+      "apply": "Apply for Chief Executive Officer Job",
+      "hired": "Congratulations, you are now Chief Executive Officer"
+    },
+    {
+      "name": "Security Guard",
+      "apply": "Apply for Security Guard Job",
+      "hired": "Congratulations, you are now employed as a Security Guard"
+    },
+    {
+      "name": "Security Officer",
+      "apply": "Apply for Security Officer Job",
+      "hired": "Congratulations, you are now employed as a Security Officer"
+    },
+    {
+      "name": "Security Supervisor",
+      "apply": "Apply for Security Supervisor Job",
+      "hired": "Congratulations, you are now employed as a Security Supervisor"
+    },
+    {
+      "name": "Head of Security",
+      "apply": "Apply for Head of Security Job",
+      "hired": "Congratulations, you are now employed as a Head of Security"
+    },
+    {
+      "name": "Field Agent",
+      "apply": "Apply for Field Agent Job",
+      "hired": "Congratulations, you are now employed as a Field Agent"
+    },
+    {
+      "name": "Secret Agent",
+      "apply": "Apply for Secret Agent Job",
+      "hired": "Congratulations, you are now employed as a Secret Agent"
+    },
+    {
+      "name": "Special Operative",
+      "apply": "Apply for Special Operative Job",
+      "hired": "Congratulations, you are now employed as a Special Operative"
+    },
+    {
+      "name": "Waiter",
+      "apply": "Apply to be a Waiter",
+      "hired": "Congratulations, you are now employed as a Waiter"
+    },
+    {
+      "name": "Employee",
+      "apply": "Apply to be an Employee",
+      "hired": "Congratulations, you are now employed"
+    },
+    {
+      "name": "Software Consultant",
+      "apply": "Pitch a Software Consulting contract",
+      "hired": "Congratulations, you got a contract as a Software Consultant"
+    },
+    {
+      "name": "Senior Software Consultant",
+      "apply": "Pitch a Software Consulting contract",
+      "hired": "Congratulations, you got a contract as a Senior Software Consultant"
+    },
+    {
+      "name": "Business Consultant",
+      "apply": "Pitch a Business Consulting contract",
+      "hired": "Congratulations, you got a contract as a Business Consultant"
+    },
+    {
+      "name": "Senior Business Consultant",
+      "apply": "Pitch a Business Consulting contract",
+      "hired": "Congratulations, you got a contract as a Senior Business Consultant"
+    },
+    {
+      "name": "Part-time Waiter",
+      "apply": "Apply to be a Part-time Waiter",
+      "hired": "Congratulations, you are now employed as a Part-time Waiter"
+    },
+    {
+      "name": "Part-time Employee",
+      "apply": "Apply to be a Part-time Employee",
+      "hired": "Congratulations, you are now employed part-time"
+    }
+  ],
+  "crimes": [
+    {
+      "name": "Shoplift",
+      "work": "to shoplift",
+      "tooltip": "Attempt to shoplift from a low-end retailer"
+    },
+    {
+      "name": "Rob Store",
+      "work": "to rob a store",
+      "tooltip": "Attempt to commit armed robbery on a high-end store"
+    },
+    {
+      "name": "Mug",
+      "work": "to mug",
+      "tooltip": "Attempt to mug a random person on the street"
+    },
+    {
+      "name": "Larceny",
+      "work": "larceny",
+      "tooltip": "Attempt to rob property from someone's house"
+    },
+    {
+      "name": "Deal Drugs",
+      "work": "to deal drugs",
+      "tooltip": "Attempt to deal drugs"
+    },
+    {
+      "name": "Bond Forgery",
+      "work": "to forge bonds",
+      "tooltip": "Attempt to forge corporate bonds"
+    },
+    {
+      "name": "Traffick Arms",
+      "work": "to traffic arms",
+      "tooltip": "Attempt to smuggle illegal arms into the city"
+    },
+    {
+      "name": "Homicide",
+      "work": "homicide",
+      "tooltip": "Attempt to murder a random person on the street"
+    },
+    {
+      "name": "Grand Theft Auto",
+      "work": "grand theft auto",
+      "tooltip": "Attempt to commit grand theft auto"
+    },
+    {
+      "name": "Kidnap",
+      "work": "to kidnap",
+      "tooltip": "Attempt to kidnap and ransom a high-profile-target"
+    },
+    {
+      "name": "Assassination",
+      "work": "to assassinate",
+      "tooltip": "Attempt to assassinate a high-profile target"
+    },
+    {
+      "name": "Heist",
+      "work": "a heist",
+      "tooltip": "Attempt to pull off the ultimate heist"
+    }
+  ]
+}

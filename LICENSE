@@ -1,0 +1,26 @@
+Bitburner Simplified Chinese Userscript — licensing overview
+
+This repository contains material under different licenses.
+
+1. Independently written userscript implementation and tooling
+   Files under src/, scripts/ and tests/ (except copied upstream fixtures and
+   excerpts) are licensed under the MIT License in licenses/MIT.txt.
+
+2. Bitburner material and derivative translations
+   English excerpts, reference fixtures, map labels, translated game text and
+   translations/candidates.json derive from Bitburner by Daniel Y Xie and
+   contributors, including the Chinese contributions in PR #3068 by FRzhuizhu.
+   They retain Apache License 2.0 WITH the Commons Clause License Condition
+   v1.0, reproduced in full in licenses/Bitburner.txt. No right to remove the
+   Commons Clause is granted by this repository's MIT-licensed code.
+
+3. The standalone bitburner-zh-cn.user.js bundles both categories.
+   Redistribution must preserve both notices and the upstream license,
+   including the Commons Clause. The combined distribution is source-available;
+   it must not be described as an unrestricted MIT, plain Apache-2.0, or
+   OSI-approved open-source distribution.
+
+See THIRD_PARTY_NOTICES.md for pinned provenance and modification details.
+Third-party development dependencies retain their own package licenses and are
+not bundled into the userscript. This project is unofficial and is not endorsed
+by the Bitburner maintainers or the author of the reference translation.

@@ -1,0 +1,26 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "reviewedNewEntries": 373,
+  "reviewedNewEntriesByScope": {
+    "locations": 181,
+    "work": 89,
+    "training-result": 29,
+    "grafting": 25,
+    "darknet": 44,
+    "hacknet": 11,
+    "stocks": 4,
+    "infiltration": 28
+  },
+  "jobs": {
+    "sourceCount": 36,
+    "applyAndHiredMatched": true,
+    "namesRetained": true
+  },
+  "crimes": {
+    "sourceCount": 12,
+    "buttonsTooltipsAndWorkTitlesMatched": true,
+    "namesRetained": true
+  },
+  "supplementSourceExcerptsVerified": true,
+  "meaning": "Pinned-source text and matching audit. Does not establish live unlock, installation, layout or gameplay acceptance."
+}
