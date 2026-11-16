@@ -1,8 +1,8 @@
 # v0.7.0 验证记录
 
-日期：2026-11-16（Asia/Shanghai）。目标：Bitburner v3.0.1，提交 `3162fd2590e221eadd0c0fbd46151913f7c4c41c`。本机环境：macOS arm64、Node.js 25.9.0、Playwright 1.56.1、Chrome 157。CI 配置目标为 Ubuntu + Node.js 22 + Playwright Chromium；**尚未在 GitHub 执行**。
+日期：2026-11-16（Asia/Shanghai）。目标：Bitburner v3.0.1，提交 `3162fd2590e221eadd0c0fbd46151913f7c4c41c`。本机环境：macOS arm64、Node.js 25.9.0、Playwright 1.56.1、Chrome 157。GitHub Actions 已在 Ubuntu 24.04 + Node.js 22 + Playwright Chromium 上通过；精确提交与运行链接见下方。
 
-本轮扩展 Source-File 和文档词库，并整理公开发布所需的项目文件。保留既有匹配器、Text.data 替换、悬停阅读、地图覆盖和恢复机制，仅扩展文档识别、行内代码排除与文档布局。
+本轮扩展 Source-File 和文档词库，并完成公开仓库与安装/更新地址验证。保留既有匹配器、Text.data 替换、悬停阅读、地图覆盖和恢复机制，仅扩展文档识别、行内代码排除与文档布局。
 
 ## 实际检查
 
@@ -16,6 +16,14 @@
 | 许可来源 | 本地保存的上游许可与固定 v3.0.1、中文 PR head 的 `license.txt` 字节一致；两个固定版本根目录均无 NOTICE 文件。 |
 
 执行命令：`npm ci`、`npm run check`、`npm test`、`npm run test:live`，以及五项 `audit-*.mjs` 来源审计。默认浏览器运行中的官网项为显式跳过，由 `test:live` 单独执行。汇总见 [verification-v0.7.0.json](verification-v0.7.0.json)。
+
+## GitHub 托管与下载验证
+
+- 公开仓库：[darkrio326/bitburner-zh-cn](https://github.com/darkrio326/bitburner-zh-cn)，默认分支 `main`。
+- [GitHub Actions 通过记录](https://github.com/darkrio326/bitburner-zh-cn/actions/runs/43829562032)，测试提交 `4dafdb219855fd534a4b517d165a119d0b61eaf3`：20 项单测、42 项浏览器回归通过，4 项官网测试按配置跳过；官网测试仍以上方本机独立执行结果为准。
+- 首次托管发现 Ubuntu 26.04 与 Playwright 1.56.1 不兼容，已固定 runner 为 Ubuntu 24.04。文档悬停用例显式分别定位链接和正文，避免不同字体换行使鼠标中心落在嵌套链接上；本机该用例连续执行 3 次通过。
+- 匿名访问 [main Raw 安装/更新文件](https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js) 返回 HTTP 200，版本 `0.7.0`，SHA-256 为 `dc24bd5709693fc1b7495445d5e1315555643de7745929f54ace789458c2f859`，与本地构建一致。`@updateURL`、`@downloadURL` 与安装链接均指向该文件。
+- 本记录指向已经完成的测试提交；最终发布提交、CI 和附件校验值见 [GitHub Releases](https://github.com/darkrio326/bitburner-zh-cn/releases)。地址可用不等于真实 Tampermonkey 自动更新验收。
 
 ## 操作范围
 
@@ -34,7 +42,6 @@
 
 ## 明确未验收
 
-- GitHub 仓库创建、push、托管 CI 和 Raw URL 可达性：当前交付为发布准备。
 - 真实 Tampermonkey 安装、GM API、自动更新版本检查与下载。
 - Firefox、Safari、Steam、移动设备、长时间高负载和其他游戏版本。
 - 官网真实解锁存档中的 Source-File、经营模块、强化购买/安装与股票交易。

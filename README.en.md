@@ -6,7 +6,7 @@ An unofficial Tampermonkey userscript for the [official Bitburner web game](http
 
 **[Install userscript](https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js)**
 
-> Publication status: prepared locally. This URL and automatic updates become available after the public repository `darkrio326/bitburner-zh-cn` receives these files on `main`. A local build is not a public release. Until then, install the included `bitburner-zh-cn.user.js` manually.
+> The [GitHub repository](https://github.com/darkrio326/bitburner-zh-cn) is public, and the install/update endpoint has been verified. [Releases](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml). Real Tampermonkey installation and automatic update downloads remain untested.
 
 ## Installation and updates
 
@@ -16,7 +16,7 @@ An unofficial Tampermonkey userscript for the [official Bitburner web game](http
 
 When upgrading a previous manual installation, **replace the existing script's entire contents** once to acquire the update metadata. Avoid enabling two copies. The original `@name` and `@namespace` remain stable.
 
-After publication, Tampermonkey checks the GitHub `main` Raw file and downloads newer versions according to the extension's update settings. Both `@updateURL` and `@downloadURL` point to the same standalone file. You may also trigger a manual update check. See the [Tampermonkey metadata documentation](https://www.tampermonkey.net/documentation.php). Real extension installation and update downloads have **not** been tested in this round.
+Tampermonkey checks the GitHub `main` Raw file and downloads newer versions according to the extension's update settings. Both `@updateURL` and `@downloadURL` point to the same standalone file. You may also trigger a manual update check. See the [Tampermonkey metadata documentation](https://www.tampermonkey.net/documentation.php). Real extension installation and update downloads have **not** been tested in this round.
 
 ## Controls
 

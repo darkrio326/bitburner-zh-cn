@@ -6,7 +6,7 @@
 
 **[一键安装 / Install](https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js)**
 
-> 发布准备状态：本地文件已整理好；该链接及自动更新需在仓库 `darkrio326/bitburner-zh-cn` 公开并推送到 `main` 后才可用。请勿把本地构建视为已公开发布。现在也可直接安装本目录的 `bitburner-zh-cn.user.js`。
+> [GitHub 仓库](https://github.com/darkrio326/bitburner-zh-cn)已公开，安装与更新地址已验证可用。[版本下载](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml)。真实 Tampermonkey 安装和自动更新下载仍未实测。
 
 ## 安装与升级
 
@@ -16,7 +16,7 @@
 
 旧版手动安装用户：**编辑原有脚本，替换全部内容后保存**，以获得更新元数据。不要同时启用两份汉化脚本。保留了原来的 `@name` 与 `@namespace`，以维持脚本身份。
 
-发布后，Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更新检查频率和启用状态由扩展设置控制，也可手动检查。`@updateURL` 与 `@downloadURL` 都指向同一个独立 `.user.js` 文件。参见 [Tampermonkey 元数据文档](https://www.tampermonkey.net/documentation.php)。**本轮未实测真实扩展安装或自动更新下载。**
+Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更新检查频率和启用状态由扩展设置控制，也可手动检查。`@updateURL` 与 `@downloadURL` 都指向同一个独立 `.user.js` 文件。参见 [Tampermonkey 元数据文档](https://www.tampermonkey.net/documentation.php)。**本轮未实测真实扩展安装或自动更新下载。**
 
 ## 使用
 

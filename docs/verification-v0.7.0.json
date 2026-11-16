@@ -32,8 +32,23 @@
   "build": "byte-for-byte reproducible",
   "metadata": "version, GitHub main Raw URLs and embedded licenses checked",
   "userscriptSha256": "dc24bd5709693fc1b7495445d5e1315555643de7745929f54ace789458c2f859",
-  "publication": "LOCAL_PREPARED_ONLY",
-  "githubActions": "CONFIGURED_NOT_RUN",
+  "publication": "PUBLIC_MAIN_AND_RAW_VERIFIED",
+  "githubActions": {
+    "conclusion": "success",
+    "commit": "4dafdb219855fd534a4b517d165a119d0b61eaf3",
+    "runUrl": "https://github.com/darkrio326/bitburner-zh-cn/actions/runs/43829562032",
+    "environment": "Ubuntu 24.04; Node.js 22; Playwright 1.56.1; Chromium",
+    "unitPassed": 20,
+    "browserPassed": 42,
+    "officialBrowserSkipped": 4
+  },
   "tampermonkeyInstallAndUpdate": "NOT_TESTED",
-  "realUnlockedSourceFileSave": "NOT_TESTED"
+  "realUnlockedSourceFileSave": "NOT_TESTED",
+  "rawEndpoint": {
+    "url": "https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js",
+    "status": 200,
+    "version": "0.7.0",
+    "sha256": "dc24bd5709693fc1b7495445d5e1315555643de7745929f54ace789458c2f859",
+    "matchesLocalBuild": true
+  }
 }
