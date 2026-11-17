@@ -1,4 +1,4 @@
-# Bitburner 简体中文汉化 · v0.7.0
+# Bitburner 简体中文汉化 · v0.7.1
 
 [English](README.en.md) · [更新记录](CHANGELOG.md) · [验证范围](docs/verification.md) · [维护与发布](docs/maintenance.md)
 
@@ -6,7 +6,7 @@
 
 **[一键安装 / Install](https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js)**
 
-> [GitHub 仓库](https://github.com/darkrio326/bitburner-zh-cn)已公开，安装与更新地址已验证可用。[版本下载](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml)。真实 Tampermonkey 安装和自动更新下载仍未实测。
+> [GitHub 仓库](https://github.com/darkrio326/bitburner-zh-cn)已公开，安装与更新地址已验证可用。[版本下载](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml)。用户已确认 v0.7.0 安装正常；v0.7.1 的真实扩展安装与自动更新仍待验证。
 
 ## 安装与升级
 
@@ -16,7 +16,7 @@
 
 旧版手动安装用户：**编辑原有脚本，替换全部内容后保存**，以获得更新元数据。不要同时启用两份汉化脚本。保留了原来的 `@name` 与 `@namespace`，以维持脚本身份。
 
-Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更新检查频率和启用状态由扩展设置控制，也可手动检查。`@updateURL` 与 `@downloadURL` 都指向同一个独立 `.user.js` 文件。参见 [Tampermonkey 元数据文档](https://www.tampermonkey.net/documentation.php)。**本轮未实测真实扩展安装或自动更新下载。**
+Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更新检查频率和启用状态由扩展设置控制，也可手动检查。`@updateURL` 与 `@downloadURL` 都指向同一个独立 `.user.js` 文件。参见 [Tampermonkey 元数据文档](https://www.tampermonkey.net/documentation.php)。**已有 v0.7.0 的用户安装通过反馈；v0.7.1 的真实扩展安装与自动更新下载尚未验收。**
 
 ## 使用
 
@@ -29,7 +29,7 @@ Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更�
 
 ## 覆盖
 
-当前有 **4377 条已审校词条**，含 **150 条固定句式模板**；其中 1683 条来自中文 PR 差异，2694 条为标明来源的补译。另有 56 种 ASCII 地图地点标签，覆盖六城的 76 处显示。
+当前有 **4406 条已审校词条**，含 **151 条固定句式模板**；其中 1683 条来自中文 PR 差异，2723 条为标明来源的补译。另有 56 种 ASCII 地图地点标签，覆盖六城的 76 处显示。
 
 | 区域 | 已收录内容 |
 | --- | --- |
@@ -38,8 +38,11 @@ Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更�
 | 城市与工作 | 城市/地点、地图、36 类职位、12 类犯罪、课程训练与结算 |
 | 其他玩法 | Hacknet、股票、移植、暗网界面、成就、离线提示、赌场主要控件和潜入说明 |
 | 经营模块 | 帮派、Bladeburner、公司经营的主要页面、任务、说明和弹窗 |
+| **v0.7.1 补译** | **强化购买成功提示、商店声望/人脉与筛选提示、11 种哈希兑换的说明与累计效果、股票订单类型** |
 | **v0.7 Source-File** | **Source-File 1–15 全部效果说明**，保留名称标识符、函数和数值 |
 | **v0.7 文档** | **33 篇指南的正文文本**：首页、完整新手指南、18 篇基础机制、10 篇进阶介绍，以及编程入门、离线机制、冻结排查；含独立帮助弹窗识别 |
+
+v0.7.1 新增 **29 条**译文，修正 **4 条**已有词条的作用域或占位提示支持，并修复工作计时文字刷新时的英文闪现。详见 [本次补译范围](docs/supplement-v0.7.1-coverage.json)。
 
 v0.7 新增 **1737 条**译文。精确文档清单见 [覆盖记录](docs/documentation-coverage.json)。公司经营本轮覆盖总览文档及目录，目录链接下的专题长文尚未全部补译。文档和列表中的程序、命令、代码、公式、API/数据标识符保留英文；未解锁的剧透入口仍由游戏控制。
 
@@ -47,21 +50,21 @@ v0.7 新增 **1737 条**译文。精确文档清单见 [覆盖记录](docs/docum
 
 ## 实现与兼容边界
 
-保留原有翻译实现：直接模式只写入现存节点的 `Text.data`，不替换、包裹或删除 React 节点，不写游戏元素的 `textContent` / `innerHTML`，不修改 React 状态、游戏源代码、构建文件或存档。游戏更新文字后重新匹配；恢复时只撤销脚本仍拥有的译文，不覆盖游戏的新内容。
+保留原有翻译实现：正文直接模式只写入现存节点的 `Text.data`，不替换、包裹或删除 React 节点，不写游戏元素的 `textContent` / `innerHTML`，不修改 React 状态、游戏源代码、构建文件或存档。游戏更新文字后重新匹配；恢复时只撤销脚本仍拥有的译文，不覆盖游戏的新内容。
 
 - 独立 Shadow DOM 承载工具栏、悬停阅读和地图标签。地图原始 ASCII、空格、连线及点击字母不变，覆盖层穿透鼠标。
-- 输入框、编辑器、终端、日志、代码块、文档行内代码和公式不翻译。公司/部门/产品/帮派成员等用户名称按源码 DOM 位置保护。
+- 输入内容、编辑器、终端、日志、代码块、文档行内代码和公式不翻译。已审校的强化筛选提示仅改 `placeholder` 属性，不改输入值；切换或关闭汉化时恢复。公司/部门/产品/帮派成员等用户名称按源码 DOM 位置保护。
 - 只匹配审校过的完整文本或明确分段；动态模板使用限定类型的变量，不使用模糊匹配、任意文本通配或在线翻译。
-- 监听采用事件委托；动态更新合并处理，每批最多 400 个节点、6ms 软时间预算，无周期性全页扫描。
+- 监听采用事件委托；动态更新合并处理，每批最多 400 个节点、6ms 软时间预算，无周期性全页扫描。已识别的工作“已用时／剩余时间”节点收到更新后即时翻译，仍由游戏提供计时数值。
 - 长按钮可换行；地点标题与文档正文避让右上角概览。停用时清理脚本添加的样式标记。
 
 未来游戏版本、其他 DOM 插件或依赖英文显示文字的脚本可能发生冲突。遇到问题可切换悬停或关闭汉化。
 
 ## 验证与限制
 
-本轮在 macOS Chrome 中检查了原有功能、33 篇文档的动态渲染与恢复、全部 Source-File 效果、链接与搜索，以及 900/1280 像素布局。官网测试使用**全新隔离上下文注入**，不使用用户存档。实际结果和证据见 [验证记录](docs/verification.md)。
+本轮在 macOS Chrome 中回归原有功能，并加入计时逐帧采样、强化回执与筛选、哈希兑换和订单控件检查，覆盖动态恢复及 900/1280 像素布局。官网测试使用**全新隔离上下文注入**，不使用用户存档。实际结果和证据见 [验证记录](docs/verification.md)。
 
-尚未完成：全部 NS API 参考正文、所有进阶专题/更新日志/迁移文档、任意动态错误、全部小游戏内容。未验证真实 Tampermonkey/GM API、自动更新下载、Firefox、Safari、Steam、移动端，以及官网真实解锁存档中的 Source-File、经营模块、强化购买/安装和股票交易。代码与命令有意保留原文。
+尚未完成：全部 NS API 参考正文、所有进阶专题/更新日志/迁移文档、任意动态错误、全部小游戏内容。v0.7.0 已有用户安装通过反馈；v0.7.1 未验证真实 Tampermonkey/GM API、自动更新下载、Firefox、Safari、Steam、移动端，以及官网真实解锁存档中的 Source-File、经营模块、强化购买/安装和股票交易。代码与命令有意保留原文。
 
 ## 开发
 

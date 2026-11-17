@@ -124,6 +124,7 @@ export function dataNode(node, scope, original = n => n.data) {
 export function createInlineTranslator(doc, match, getScope, mapLabels) {
   const win = doc.defaultView;
   const owned = new Map();
+  const placeholders = new Map();
   const pending = new Set();
   const fitted = new Map();
   const headings = new Set();
@@ -183,15 +184,33 @@ export function createInlineTranslator(doc, match, getScope, mapLabels) {
       if (node.data === entry.translated) node.data = entry.original;
     }
     owned.clear();
+    for (const [input, entry] of placeholders) {
+      if (input.getAttribute('placeholder') === entry.translated) input.setAttribute('placeholder', entry.original);
+    }
+    placeholders.clear();
     for (const button of fitted.values()) button.removeAttribute('data-bitburner-zh-fit');
     fitted.clear();
     for (const h of headings) clearHeading(h);
     clearDocumentPanel();
   }
-  function translate(node) {
+  function translatePlaceholder(input) {
+    // Approved placeholder labels only; input values and editor/terminal fields stay untouched.
+    if (!input.matches('input[placeholder]') || excluded(input.parentElement)) return;
+    const prior = placeholders.get(input), current = input.getAttribute('placeholder');
+    const text = prior && current === prior.translated ? prior.original : current;
+    const item = match(text, getScope().scope(input, page));
+    if (item?.attribute !== 'placeholder') {
+      if (prior && current === prior.translated) input.setAttribute('placeholder', prior.original);
+      placeholders.delete(input);
+      return;
+    }
+    if (current !== item.zh) input.setAttribute('placeholder', item.zh);
+    placeholders.set(input, { original: text, translated: item.zh });
+  }
+  function translate(node, currentPage = page) {
     if (!node.isConnected || excluded(node.parentElement)) return;
     const text = original(node);
-    const scope = getScope().scope(node.parentElement, page);
+    const scope = getScope().scope(node.parentElement, currentPage);
     // DocumentationRoot.tsx places the Markdown content immediately after its
     // search/navigation bar. Keep this one prose column clear of the overview.
     if (scope === 'documentation' && !documentPanel && !node.parentElement.closest('.MuiModal-root,[role="dialog"]')) {
@@ -217,7 +236,12 @@ export function createInlineTranslator(doc, match, getScope, mapLabels) {
     }
     const translated = text.replace(/\S(?:[\s\S]*\S)?/u, () => item.zh);
     if (node.data !== translated) node.data = translated;
-    owned.set(node, { original: text, translated });
+    // WorkInProgressRoot renders a duration Text followed by a static suffix.
+    // Only these already-recognized work timers need repaint-free updates.
+    const suffix = node.nextSibling;
+    const workTimer = scope === 'work' && node.parentElement.matches('p') && suffix?.nodeType === 3 &&
+      /^(elapsed|remaining)$/.test(normalize(original(suffix)));
+    owned.set(node, { original: text, translated, workTimer });
     const button = node.parentElement.closest('button');
     if (scope === 'factions' && /^(Join|Join!)$/.test(normalize(text)) && button) {
       button.setAttribute('data-bitburner-zh-fit', 'join'); fitted.set(node, button);
@@ -245,6 +269,7 @@ export function createInlineTranslator(doc, match, getScope, mapLabels) {
       mapLabels?.prune();
       for (const h of headings) if (!h.isConnected) clearHeading(h);
       for (const node of owned.keys()) if (!node.isConnected) owned.delete(node);
+      for (const input of placeholders.keys()) if (!input.isConnected) placeholders.delete(input);
       for (const [node, button] of fitted) if (!node.isConnected) {
         button.removeAttribute('data-bitburner-zh-fit'); fitted.delete(node);
       }
@@ -260,9 +285,17 @@ export function createInlineTranslator(doc, match, getScope, mapLabels) {
         pending.delete(root);
         if (!root.isConnected) continue;
         if (root.nodeType === 3) { translate(root); count++; continue; }
-        if (root.nodeType !== 1 || traversalExcluded(root)) continue;
+        if (root.nodeType !== 1) continue;
+        translatePlaceholder(root);
+        if (traversalExcluded(root)) continue;
         walker = doc.createTreeWalker(root, win.NodeFilter.SHOW_ELEMENT | win.NodeFilter.SHOW_TEXT, {
-          acceptNode: node => node.nodeType === 1 && traversalExcluded(node) ? win.NodeFilter.FILTER_REJECT : win.NodeFilter.FILTER_ACCEPT,
+          acceptNode: node => {
+            if (node.nodeType === 1) {
+              translatePlaceholder(node);
+              if (traversalExcluded(node)) return win.NodeFilter.FILTER_REJECT;
+            }
+            return win.NodeFilter.FILTER_ACCEPT;
+          },
         });
       }
       const node = walker.nextNode();
@@ -273,11 +306,26 @@ export function createInlineTranslator(doc, match, getScope, mapLabels) {
     if (walker || pending.size) schedule();
   }
   const observer = new win.MutationObserver(records => {
+    let currentPage;
     for (const record of records) {
-      if (record.type === 'characterData') {
+      if (record.type === 'attributes') {
+        const item = placeholders.get(record.target);
+        if (!item || record.target.getAttribute('placeholder') !== item.translated) pending.add(record.target);
+      } else if (record.type === 'characterData') {
         const item = owned.get(record.target);
         if (item && record.target.data === item.translated) continue;
-        if (!excluded(record.target.parentElement)) pending.add(record.target);
+        if (excluded(record.target.parentElement)) continue;
+        if (item?.workTimer) {
+          // Keep the game's current value, but translate it before the next paint.
+          // Resolve the route afresh so a reused node cannot retain the work scope.
+          currentPage ??= getScope().page();
+          if (currentPage === 'work') {
+            translate(record.target, currentPage);
+            pending.delete(record.target);
+            continue;
+          }
+        }
+        pending.add(record.target);
       } else if (!excluded(record.target.nodeType === 1 ? record.target : record.target.parentElement)) {
         for (const node of record.addedNodes) pending.add(node);
         if (record.removedNodes.length) prune = true;
@@ -296,7 +344,7 @@ export function createInlineTranslator(doc, match, getScope, mapLabels) {
     doc.head.append(fitStyle);
     win.addEventListener('resize', scheduleLayout, { passive:true });
     mapLabels?.start();
-    observer.observe(doc.body, { subtree: true, childList: true, characterData: true });
+    observer.observe(doc.body, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['placeholder'] });
     schedule();
   }
   return { start, stop, original, readText };

@@ -1,8 +1,8 @@
 {
   "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
-  "version": "0.7.0",
-  "entries": 4377,
-  "templates": 150,
+  "version": "0.7.1",
+  "entries": 4406,
+  "templates": 151,
   "achievements": {
     "total": 108,
     "descriptionsMatched": 108,

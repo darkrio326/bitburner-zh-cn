@@ -1,6 +1,6 @@
 {
   "name": "bitburner-zh-cn-userscript",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "private": true,
   "type": "module",
   "scripts": {

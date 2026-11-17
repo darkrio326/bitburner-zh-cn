@@ -1,0 +1,15 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "newEntries": 29,
+  "updatedExistingEntries": 4,
+  "augmentationPurchaseReceipt": true,
+  "augmentationShopLabelsAndFilter": true,
+  "hashUpgrades": 11,
+  "cumulativeEffects": 8,
+  "stockSelectorLabels": 3,
+  "stockOrderLabels": 4,
+  "sourceTextSegments": 32,
+  "sourceExcerptsVerified": true,
+  "retained": "Hash-upgrade/API names, stock symbols, order values, server/company identifiers and all numbers.",
+  "meaning": "Pinned-source matching audit and local fixture coverage; not live purchase or unlocked-save acceptance."
+}

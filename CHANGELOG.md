@@ -4,6 +4,28 @@ Versions follow [Semantic Versioning](https://semver.org/). Dates use Asia/Shang
 These entries describe local deliverables; a version is publicly available only
 when its files have actually reached the GitHub `main` branch.
 
+## [0.7.1] - 2026-11-17
+
+### Fixed
+
+- Translate established elapsed/remaining work-timer nodes immediately after game
+  updates, preventing the delayed English flash while keeping game-supplied values,
+  React node identities and the existing batch processing for other content.
+- Translate the augmentation-purchase success receipt while preserving the exact
+  augmentation name and the warning that installation is required.
+- Extend shared reputation/favor labels and favor help to the augmentation shop.
+- Translate its reviewed filter placeholder without changing typed text, filtering
+  events or fresh game-provided hints; restore it on disable, hover and removal.
+
+### Added
+
+- 29 reviewed entries, including descriptions and cumulative effects for all 11
+  hash upgrades, three stock order selectors, four order-book labels and the receipt.
+- Frame-sampled timer regressions, placeholder/input lifecycle checks, and local
+  React/MUI tests for hash values, copied names and unchanged stock order parameters.
+- Real v0.7.0 installation was confirmed by a user. This does not establish real
+  v0.7.1 installation or automatic-update acceptance.
+
 ## [0.7.0] - 2026-11-16
 
 ### Added

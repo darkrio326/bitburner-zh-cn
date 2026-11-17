@@ -1,0 +1,74 @@
+{
+  "version": "0.7.1",
+  "date": "2026-11-17",
+  "target": "Bitburner v3.0.1",
+  "sourceCommit": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "browser": "Google Chrome 157.0.8103.79",
+  "environment": "macOS arm64; v25.9.0; Playwright 1.56.1; headless Chrome",
+  "unit": {
+    "passed": 22,
+    "failed": 0
+  },
+  "localBrowser": {
+    "startTime": "2026-11-17T01:11:42.634Z",
+    "duration": 84793.11200000001,
+    "expected": 47,
+    "skipped": 4,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "officialBrowser": {
+    "startTime": "2026-11-17T01:14:42.435Z",
+    "duration": 46221.126000000004,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "timer": {
+    "baseline": {
+      "frames": 110,
+      "updates": 8,
+      "incorrectFrames": 16
+    },
+    "fixed": {
+      "frames": 110,
+      "updates": 8,
+      "incorrectFrames": 0,
+      "sameNodes": true
+    },
+    "official": {
+      "version": "0.7.1",
+      "frames": 194,
+      "displayedTimes": [
+        "0 秒 已用时",
+        "1 秒 已用时",
+        "2 秒 已用时",
+        "3 秒 已用时"
+      ],
+      "englishFrames": [],
+      "sameTextNode": true
+    }
+  },
+  "sourceAudit": {
+    "scriptsPassed": 6,
+    "newEntries": 29,
+    "updatedExistingEntries": 4,
+    "totalEntries": 4406,
+    "templates": 151,
+    "hashUpgrades": 11,
+    "cumulativeEffects": 8,
+    "stockSelectorLabels": 3,
+    "stockOrderLabels": 4
+  },
+  "build": "byte-for-byte reproducible",
+  "metadata": "version, stable script identity, GitHub main Raw URLs and embedded licenses checked",
+  "userscriptSha256": "a06ffe18416975048d4e56be5c2df6e6a497d580388be806f0085e8e558ec1a2",
+  "publicationEvidence": "See v0.7.1 GitHub Release for exact commit, CI and public download verification. This file records pre-release local validation.",
+  "tampermonkey": {
+    "v0.7.0Installation": "USER_CONFIRMED",
+    "v0.7.1Installation": "NOT_TESTED",
+    "automaticUpdate": "NOT_TESTED"
+  },
+  "realUnlockedHashStockAndAugmentationTransactions": "NOT_TESTED"
+}

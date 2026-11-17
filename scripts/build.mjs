@@ -72,7 +72,7 @@ const result = await build({
       mapLabels: dictionary.mapLabels,
       entries: dictionary.entries.filter(e => e.review.status === 'approved').map(e => ({
         id: e.id, en: e.en, zh: e.zh, scopes: e.scopes, segment: e.segment, inline: e.inline, selector: e.selector,
-        match: e.match, slots: e.slots, line: e.line, lineBlock: e.lineBlock,
+        match: e.match, slots: e.slots, line: e.line, lineBlock: e.lineBlock, attribute: e.attribute,
         review: { status: e.review.status }, source: { kind: e.source.kind, path: e.source.path,
           target: e.source.target, targetLine: e.source.targetLine, pr: e.source.pr, head: e.source.head, line: e.source.next?.line },
       })),

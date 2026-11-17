@@ -218,6 +218,19 @@ test('official v3.0.1: deep city pages, bilingual employer roles, narrow layout 
  await visit('Rothman University');await page.locator('button').filter({hasText:'学习计算机科学（免费）'}).click();
  await expect(page.getByText('你正在 学习计算机科学',{exact:true})).toBeVisible();
  await expect(page.getByRole('button',{name:'停止上课',exact:true})).toBeVisible();
+ const timerFrames=await page.locator('p').filter({hasText:/已用时$/}).evaluate(element=>new Promise(resolve=>{
+  const originalNode=element.firstChild,start=performance.now(),texts=new Set(),englishFrames=[];let frames=0;
+  function sample(){
+   frames++;const text=element.textContent;texts.add(text);
+   if(/\b(?:seconds?|minutes?|hours?|days?|elapsed)\b/.test(text))englishFrames.push(text);
+   if(performance.now()-start<3200)requestAnimationFrame(sample);
+   else resolve({frames,displayedTimes:[...texts],englishFrames,sameTextNode:element.firstChild===originalNode});
+  }
+  requestAnimationFrame(sample);
+ }));
+ expect(timerFrames.frames).toBeGreaterThan(30);expect(timerFrames.displayedTimes.length).toBeGreaterThanOrEqual(3);
+ expect(timerFrames.englishFrames).toEqual([]);expect(timerFrames.sameTextNode).toBe(true);
+ writeFileSync('output/playwright/live-work-timer-v071.json',JSON.stringify({version:JSON.parse(readFileSync('package.json')).version,...timerFrames},null,2)+'\n');
  await page.mouse.move(5,5);await page.screenshot({path:'output/playwright/live-course-work.png'});
  await page.getByRole('button',{name:'停止上课',exact:true}).click();
  const result=page.locator('.MuiModal-root');await expect(result).toContainText('你总共获得了：');await expect(result).toContainText('后，你总共花费了');await expect(result).not.toContainText('效力于');await expect(result).not.toContainText('for');

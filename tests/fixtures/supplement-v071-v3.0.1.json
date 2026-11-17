@@ -1,0 +1,479 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "hashes": [
+    {
+      "name": "Sell for Money",
+      "desc": "(\n      <>\n        Sell hashes for <Money money={1e6} />\n      </>\n    )",
+      "effect": "(level: number): JSX.Element | null => (\n      <>\n        Sold for <Money money={1e6 * level} />\n      </>\n    )"
+    },
+    {
+      "name": "Sell for Corporation Funds",
+      "desc": "(\n      <>\n        Sell hashes for <Money money={1e9} /> in Corporation funds\n      </>\n    )",
+      "effect": "(level: number): JSX.Element | null => (\n      <>\n        Sold for <Money money={1e9 * level} /> Corporation funds.\n      </>\n    )"
+    },
+    {
+      "name": "Reduce Minimum Security",
+      "desc": "\"Use hashes to decrease the minimum security of a single server by 2%. \" +\n      \"Note that a server's minimum security cannot go below 1. This effect persists \" +\n      \"until you install augmentations (since servers are reset at that time).\"",
+      "effect": null
+    },
+    {
+      "name": "Increase Maximum Money",
+      "desc": "(\n      <>\n        Use hashes to increase the maximum amount of money on a single server by 2%. This effect persists until you\n        install augmentations (since servers are reset at that time). Note that a server's maximum money is soft capped\n        above <Money money={10e12} />\n      </>\n    )",
+      "effect": null
+    },
+    {
+      "name": "Improve Studying",
+      "desc": "\"Use hashes to improve the experience earned when studying at a university by 20%. \" +\n      \"This effect persists until you install augmentations.\"",
+      "effect": "(level: number): JSX.Element | null => <>Improves studying by {level * 20}%</>"
+    },
+    {
+      "name": "Improve Gym Training",
+      "desc": "\"Use hashes to improve the experience earned when training at the gym by 20%. This effect \" +\n      \"persists until you install augmentations.\"",
+      "effect": "(level: number): JSX.Element | null => <>Improves training by {level * 20}%</>"
+    },
+    {
+      "name": "Exchange for Corporation Research",
+      "desc": "\"Exchange hashes for 1k Scientific Research in all of your corporation's divisions\"",
+      "effect": "(level: number): JSX.Element | null => (\n      <>Acquired a total of {formatInt(level * 1000)} Scientific Research in your divisions.</>\n    )"
+    },
+    {
+      "name": "Exchange for Bladeburner Rank",
+      "desc": "\"Exchange hashes for 100 Bladeburner Rank\"",
+      "effect": "(level: number): JSX.Element | null => (\n      <>Acquired a total of {formatInt(100 * level)} Bladeburner rank</>\n    )"
+    },
+    {
+      "name": "Exchange for Bladeburner SP",
+      "desc": "\"Exchanges hashes for 10 Bladeburner Skill Points\"",
+      "effect": "(level: number): JSX.Element | null => (\n      <>Acquired a total of {formatInt(10 * level)} Bladeburner Skill Points</>\n    )"
+    },
+    {
+      "name": "Generate Coding Contract",
+      "desc": "\"Generate a random Coding Contract somewhere on the network\"",
+      "effect": "(level: number): JSX.Element | null => <>Generated {level} contracts.</>"
+    },
+    {
+      "name": "Company Favor",
+      "desc": "\"Use hashes to increase the favor with a company by 5. This effect persists until you enter a new BitNode.\"",
+      "effect": null
+    }
+  ],
+  "selectors": [
+    {
+      "key": "Market",
+      "value": "Market Order"
+    },
+    {
+      "key": "Limit",
+      "value": "Limit Order"
+    },
+    {
+      "key": "Stop",
+      "value": "Stop Order"
+    }
+  ],
+  "orders": [
+    {
+      "key": "LimitBuy",
+      "value": "Limit Buy Order"
+    },
+    {
+      "key": "LimitSell",
+      "value": "Limit Sell Order"
+    },
+    {
+      "key": "StopBuy",
+      "value": "Stop Buy Order"
+    },
+    {
+      "key": "StopSell",
+      "value": "Stop Sell Order"
+    }
+  ],
+  "texts": [
+    {
+      "en": "Sell hashes for",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 14,
+        "targetExcerpt": "Sell hashes for "
+      }
+    },
+    {
+      "en": "Sold for",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 20,
+        "targetExcerpt": "Sold for "
+      }
+    },
+    {
+      "en": "in Corporation funds",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 29,
+        "targetExcerpt": "in Corporation funds\n      "
+      }
+    },
+    {
+      "en": "Corporation funds.",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "Corporation funds.\n      "
+      }
+    },
+    {
+      "en": "Use hashes to decrease the minimum security of a single server by 2%. Note that a server's minimum security cannot go below 1. This effect persists until you install augmentations (since servers are reset at that time).",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 43,
+        "targetExcerpt": "\"Use hashes to decrease the minimum security of a single server by 2%. \" +\n      \"Note that a server's minimum security cannot go below 1. This effect persists \" +\n      \"until you install augmentations (since servers are reset at that time).\""
+      }
+    },
+    {
+      "en": "Use hashes to increase the maximum amount of money on a single server by 2%. This effect persists until you install augmentations (since servers are reset at that time). Note that a server's maximum money is soft capped above",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 54,
+        "targetExcerpt": "Use hashes to increase the maximum amount of money on a single server by 2%. This effect persists until you\n        install augmentations (since servers are reset at that time). Note that a server's maximum money is soft capped\n        above "
+      }
+    },
+    {
+      "en": "Use hashes to improve the experience earned when studying at a university by 20%. This effect persists until you install augmentations.",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "\"Use hashes to improve the experience earned when studying at a university by 20%. \" +\n      \"This effect persists until you install augmentations.\""
+      }
+    },
+    {
+      "en": "Improves studying by",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 69,
+        "targetExcerpt": "Improves studying by "
+      }
+    },
+    {
+      "en": "Use hashes to improve the experience earned when training at the gym by 20%. This effect persists until you install augmentations.",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 75,
+        "targetExcerpt": "\"Use hashes to improve the experience earned when training at the gym by 20%. This effect \" +\n      \"persists until you install augmentations.\""
+      }
+    },
+    {
+      "en": "Improves training by",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 78,
+        "targetExcerpt": "Improves training by "
+      }
+    },
+    {
+      "en": "Exchange hashes for 1k Scientific Research in all of your corporation's divisions",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 83,
+        "targetExcerpt": "\"Exchange hashes for 1k Scientific Research in all of your corporation's divisions\""
+      }
+    },
+    {
+      "en": "Acquired a total of",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 86,
+        "targetExcerpt": "Acquired a total of "
+      }
+    },
+    {
+      "en": "Scientific Research in your divisions.",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 86,
+        "targetExcerpt": "Scientific Research in your divisions."
+      }
+    },
+    {
+      "en": "Exchange hashes for 100 Bladeburner Rank",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 92,
+        "targetExcerpt": "\"Exchange hashes for 100 Bladeburner Rank\""
+      }
+    },
+    {
+      "en": "Bladeburner rank",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 95,
+        "targetExcerpt": "Bladeburner rank"
+      }
+    },
+    {
+      "en": "Exchanges hashes for 10 Bladeburner Skill Points",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 101,
+        "targetExcerpt": "\"Exchanges hashes for 10 Bladeburner Skill Points\""
+      }
+    },
+    {
+      "en": "Bladeburner Skill Points",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 104,
+        "targetExcerpt": "Bladeburner Skill Points"
+      }
+    },
+    {
+      "en": "Generate a random Coding Contract somewhere on the network",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 110,
+        "targetExcerpt": "\"Generate a random Coding Contract somewhere on the network\""
+      }
+    },
+    {
+      "en": "Generated",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 112,
+        "targetExcerpt": "Generated "
+      }
+    },
+    {
+      "en": "contracts.",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 112,
+        "targetExcerpt": "contracts."
+      }
+    },
+    {
+      "en": "Use hashes to increase the favor with a company by 5. This effect persists until you enter a new BitNode.",
+      "scope": "hacknet",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 117,
+        "targetExcerpt": "\"Use hashes to increase the favor with a company by 5. This effect persists until you enter a new BitNode.\""
+      }
+    },
+    {
+      "en": "Market Order",
+      "scope": "stocks",
+      "selector": "[role=\"combobox\"],[role=\"option\"]",
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/ui/StockTicker.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 34,
+        "targetExcerpt": "\"Market Order\""
+      }
+    },
+    {
+      "en": "Limit Order",
+      "scope": "stocks",
+      "selector": "[role=\"combobox\"],[role=\"option\"]",
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/ui/StockTicker.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "\"Limit Order\""
+      }
+    },
+    {
+      "en": "Stop Order",
+      "scope": "stocks",
+      "selector": "[role=\"combobox\"],[role=\"option\"]",
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/ui/StockTicker.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "\"Stop Order\""
+      }
+    },
+    {
+      "en": "Limit Buy Order",
+      "scope": "stocks",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/Enums.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 6,
+        "targetExcerpt": "\"Limit Buy Order\""
+      }
+    },
+    {
+      "en": "Limit Sell Order",
+      "scope": "stocks",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/Enums.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 7,
+        "targetExcerpt": "\"Limit Sell Order\""
+      }
+    },
+    {
+      "en": "Stop Buy Order",
+      "scope": "stocks",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/Enums.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 8,
+        "targetExcerpt": "\"Stop Buy Order\""
+      }
+    },
+    {
+      "en": "Stop Sell Order",
+      "scope": "stocks",
+      "selector": "p",
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/Enums.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 9,
+        "targetExcerpt": "\"Stop Sell Order\""
+      }
+    },
+    {
+      "en": "You purchased {augmentation}. Its enhancements will not take effect until they are installed. To install your augmentations, go to the 'Augmentations' tab on the left-hand navigation menu. Purchasing additional augmentations will now be more expensive.",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionHelpers.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 124,
+        "targetExcerpt": "`You purchased ${augmentation.name}. Its enhancements will not take effect until they are installed. ` +\n        \"To install your augmentations, go to the 'Augmentations' tab on the left-hand navigation menu. \" +\n        \"Purchasing additional augmentations will now be more expensive.\""
+      },
+      "match": "template",
+      "slots": {
+        "augmentation": "augmentation"
+      }
+    },
+    {
+      "en": "Reputation:",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/ui/React/ReputationInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "Reputation: "
+      }
+    },
+    {
+      "en": "Favor:",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/ui/React/FavorInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 26,
+        "targetExcerpt": "Favor: "
+      }
+    },
+    {
+      "en": "Filter augmentations",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 227,
+        "targetExcerpt": "\"Filter augmentations\""
+      },
+      "attribute": "placeholder"
+    }
+  ]
+}
