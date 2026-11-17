@@ -1,50 +1,45 @@
-# v0.7.0 验证记录
+# v0.7.1 验证记录
 
-日期：2026-11-16（Asia/Shanghai）。目标：Bitburner v3.0.1，提交 `3162fd2590e221eadd0c0fbd46151913f7c4c41c`。本机环境：macOS arm64、Node.js 25.9.0、Playwright 1.56.1、Chrome 157。GitHub Actions 已在 Ubuntu 24.04 + Node.js 22 + Playwright Chromium 上通过；精确提交与运行链接见下方。
+日期：2026-11-17（Asia/Shanghai）。目标：Bitburner v3.0.1，固定提交 `3162fd2590e221eadd0c0fbd46151913f7c4c41c`。本机环境：macOS arm64、Node.js 25.9.0、Playwright 1.56.1、Chrome 157。
 
-本轮扩展 Source-File 和文档词库，并完成公开仓库与安装/更新地址验证。保留既有匹配器、Text.data 替换、悬停阅读、地图覆盖和恢复机制，仅扩展文档识别、行内代码排除与文档布局。
+本轮修复工作计时更新时的英文闪帧，保留游戏提供的实时数值及既有翻译/恢复机制；新增 29 条译文，修正 4 条已有词条，覆盖截图中的强化购买回执、声望/人脉标签和筛选提示，以及哈希兑换说明和股票订单类型。
 
 ## 实际检查
 
-| 层次 | 验证范围 |
+| 层次 | 结果与范围 |
 | --- | --- |
-| 来源审计 | 15 个 Source-File 的效果正文；33 篇指南的 Markdown 文本节点；新增 1737 条补译的原文摘录、固定提交与行号。未执行游戏源码或读取存档。 |
-| Node 单测 | 20 项：新增文档/Source-File 覆盖与作用域隔离；保留原有词库、模板、标识符、成就、城市、经营模块与独立构建检查。 |
-| 本地 Chrome/React | 42 项：原有 38 项及新增 4 项。逐页验证 33 篇文档的每个可翻译文本节点、代码文本一致、英文恢复、链接事件和搜索输入；Source-File 1–15 切换、数值和名称保留；弹窗、悬停阅读与清理；900/1280 像素文档避让概览。 |
-| 官网 Chrome 注入 | 4 项：原有导航/编辑器、地图/成就/离线、深层城市/课程回归；新增文档首页、完整新手指南、终端/脚本说明、NS API 搜索、代码原文、返回首页、英文恢复与 900/1280 布局。 |
-| 发布检查 | JS 语法、重复构建字节一致、package/lockfile/元数据/README/CHANGELOG 版本一致、GitHub main Raw 地址、单文件无运行时依赖、两类完整许可内嵌。 |
-| 许可来源 | 本地保存的上游许可与固定 v3.0.1、中文 PR head 的 `license.txt` 字节一致；两个固定版本根目录均无 NOTICE 文件。 |
+| 来源审计 | 六项审计通过。核对固定源码中的 11 种哈希升级说明、8 种累计效果、3 个股票选项、4 个订单标签，以及强化回执、标签与占位提示；新增译文的原文摘录和行号均可追溯。原有强化、城市、成就、工作、经营模块、Source-File 和文档覆盖同时复核。 |
+| Node 单测 | 22 项通过。保留原有匹配、来源、模板、标识符和构建检查；新增哈希/股票覆盖与强化回执的已知名称槽位检查。 |
+| 本地 Chrome/React | 47 项通过，0 失败。原有 42 项与新增 5 项：逐帧计时、计时生命周期、哈希动态数值/名称/操作参数、股票选项原始值及布局、强化回执和筛选输入/占位提示恢复。 |
+| 官网 Chrome 注入 | 4 项通过，0 失败。导航、终端与 Monaco、城市/地图/成就/离线、深层城市与免费课程、文档与搜索回归；加入真实课程计时连续采样。 |
+| 构建与元数据 | JS 语法通过；单文件重复构建字节一致；package、lockfile、元数据、README 和 CHANGELOG 版本一致；稳定脚本身份及 main Raw 更新地址不变；两类许可继续完整内嵌。 |
 
-执行命令：`npm ci`、`npm run check`、`npm test`、`npm run test:live`，以及五项 `audit-*.mjs` 来源审计。默认浏览器运行中的官网项为显式跳过，由 `test:live` 单独执行。汇总见 [verification-v0.7.0.json](verification-v0.7.0.json)。
+执行 `npm run build`、`npm run check`、`npm run test:browser`、`npm run test:live` 及六项 `audit-*.mjs`。默认浏览器运行中的 4 项官网用例显式跳过，再由 `test:live` 单独执行。机器可读记录见 [verification-v0.7.1.json](verification-v0.7.1.json)；历史 [v0.7.0 记录](verification-v0.7.0.json)保留。
 
-## GitHub 托管与下载验证
+## 计时闪烁证据
 
-- 公开仓库：[darkrio326/bitburner-zh-cn](https://github.com/darkrio326/bitburner-zh-cn)，默认分支 `main`。
-- [GitHub Actions 通过记录](https://github.com/darkrio326/bitburner-zh-cn/actions/runs/43829562032)，测试提交 `4dafdb219855fd534a4b517d165a119d0b61eaf3`：20 项单测、42 项浏览器回归通过，4 项官网测试按配置跳过；官网测试仍以上方本机独立执行结果为准。
-- 首次托管发现 Ubuntu 26.04 与 Playwright 1.56.1 不兼容，已固定 runner 为 Ubuntu 24.04。文档悬停用例显式分别定位链接和正文，避免不同字体换行使鼠标中心落在嵌套链接上；本机该用例连续执行 3 次通过。
-- 匿名访问 [main Raw 安装/更新文件](https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js) 返回 HTTP 200，版本 `0.7.0`，SHA-256 为 `dc24bd5709693fc1b7495445d5e1315555643de7745929f54ace789458c2f859`，与本地构建一致。`@updateURL`、`@downloadURL` 与安装链接均指向该文件。
-- 本记录指向已经完成的测试提交；最终发布提交、CI 和附件校验值见 [GitHub Releases](https://github.com/darkrio326/bitburner-zh-cn/releases)。地址可用不等于真实 Tampermonkey 自动更新验收。
+- 同一 React/MUI 场景：8 次更新、110 个采样帧，修复前有 16 帧出现英文时长，修复后为 0 帧；覆盖秒、分、小时、天边界及剩余时间。
+- 官网免费计算机课程：3.2 秒内采样 194 帧，显示依次为 `0 秒`、`1 秒`、`2 秒`、`3 秒`，英文闪帧为 0，React Text 节点保持同一个。
+- 关闭、重新开启、悬停模式、离开工作页面及完全移除时，均检查了最新英文数值恢复。没有引入独立计时器或重算游戏时间；其他内容仍由原有批处理处理。
+
+这些结果确认了所测场景中的英文闪帧消除，不代表所有设备上的长时间性能或其他插件组合已验收。
 
 ## 操作范围
 
-官网用例各自使用全新隔离浏览器上下文，不读取用户浏览器配置或存档。原有回归仅在新测试游戏中进行导航、未保存的 Monaco 编辑、正常保存/重载离线测试、免费课程开始/停止，以及潜入介绍的查看/取消。新文档用例只导航、搜索和切换汉化。
+官网用例使用全新隔离上下文，不读取用户浏览器配置或存档。操作为导航、未保存的 Monaco 编辑、测试游戏正常保存/重载、免费课程开始/停止、潜入介绍查看/取消、文档搜索及汉化切换。没有执行游戏脚本、购买、赌博、股票交易、导入或篡改存档、提交暗网密码、安装或移植强化，也没有访问内部 Player 状态。
 
-没有执行脚本、购买、赌博、交易、导入或篡改存档、提交暗网密码、安装或移植强化，也没有访问内部 Player 状态。Source-File 和经营模块的真实解锁分支仍仅有源码与本地 React 场景覆盖。
+哈希兑换、股票订单和强化购买回执使用固定源码构造的本地 React/MUI 场景，按钮只记录模拟参数。输入值、订单原始值、名称、金额、数量及比例保持不变；900/1280 像素下新增控件和回执无横向溢出。筛选只翻译经审校的 `placeholder`，不改变输入值或筛选事件，游戏后续写入的新提示不会被恢复操作覆盖。
 
-## 证据
+## 发布与扩展验收
 
-- [精确文档与 Source-File 覆盖](documentation-coverage.json)
-- [强化覆盖](primary-coverage.json)、[城市/成就](city-achievements-coverage.json)、[深层页面](deep-pages-coverage.json)、[经营模块](management-coverage.json)
-- [官网 900 像素新手指南](images/v0.7-beginner-900.png)
-- [本地 Source-File 15 场景](images/v0.7-sourcefile-15.png)
+本记录保存发布前的本机验证；精确发布提交、GitHub Actions 及公开下载校验见 [v0.7.1 Release](https://github.com/darkrio326/bitburner-zh-cn/releases/tag/v0.7.1)。安装与更新仍使用同一个 [main Raw 文件](https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js)。
 
-原始 Playwright JSON、截图与失败时的 trace 留在本地 `output/playwright/`、`test-results/`，不进入公开包。公开汇总不包含本机绝对路径。
+用户已确认 v0.7.0 真实 Tampermonkey 安装正常。v0.7.1 的真实扩展安装、GM API 和自动更新过程尚未验收；官网注入与公开下载验证不能代替这一步。
 
-## 明确未验收
+## 覆盖与限制
 
-- 真实 Tampermonkey 安装、GM API、自动更新版本检查与下载。
-- Firefox、Safari、Steam、移动设备、长时间高负载和其他游戏版本。
-- 官网真实解锁存档中的 Source-File、经营模块、强化购买/安装与股票交易。
-- 全部 NS API 参考正文、其他进阶专题、全部更新日志/迁移文档，以及任意游戏错误和小游戏内容。
+- [本次补译](supplement-v0.7.1-coverage.json)、[强化](primary-coverage.json)、[城市/成就](city-achievements-coverage.json)、[深层页面](deep-pages-coverage.json)、[经营模块](management-coverage.json)、[文档与 Source-File](documentation-coverage.json)。
+- 尚未验证 Firefox、Safari、Steam、移动设备、长时间高负载、其他游戏版本及官网真实解锁存档中的高级模块/交易。
+- 尚未全部覆盖 NS API 参考正文、进阶专题、更新日志/迁移文档、任意动态错误和小游戏内容。
 
-**源码覆盖、机器审校、本地测试、官网注入、GitHub 发布及扩展安装/更新是不同层次，不能互相代替。**
+原始 Playwright JSON、截图与 trace 留在本地输出目录，不进入公开包。源码匹配、机器语言审校、本地测试、官网注入、GitHub 发布和真实扩展安装分别记录。

@@ -1,4 +1,4 @@
-# Bitburner Simplified Chinese · v0.7.0
+# Bitburner Simplified Chinese · v0.7.1
 
 [中文](README.md) · [Changelog](CHANGELOG.md) · [Verification](docs/verification.md) · [Maintenance](docs/maintenance.md)
 
@@ -6,7 +6,7 @@ An unofficial Tampermonkey userscript for the [official Bitburner web game](http
 
 **[Install userscript](https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js)**
 
-> The [GitHub repository](https://github.com/darkrio326/bitburner-zh-cn) is public, and the install/update endpoint has been verified. [Releases](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml). Real Tampermonkey installation and automatic update downloads remain untested.
+> The [GitHub repository](https://github.com/darkrio326/bitburner-zh-cn) is public, and the install/update endpoint has been verified. [Releases](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml). A user confirmed successful v0.7.0 installation; real v0.7.1 installation and automatic updates remain unverified.
 
 ## Installation and updates
 
@@ -16,7 +16,7 @@ An unofficial Tampermonkey userscript for the [official Bitburner web game](http
 
 When upgrading a previous manual installation, **replace the existing script's entire contents** once to acquire the update metadata. Avoid enabling two copies. The original `@name` and `@namespace` remain stable.
 
-Tampermonkey checks the GitHub `main` Raw file and downloads newer versions according to the extension's update settings. Both `@updateURL` and `@downloadURL` point to the same standalone file. You may also trigger a manual update check. See the [Tampermonkey metadata documentation](https://www.tampermonkey.net/documentation.php). Real extension installation and update downloads have **not** been tested in this round.
+Tampermonkey checks the GitHub `main` Raw file and downloads newer versions according to the extension's update settings. Both `@updateURL` and `@downloadURL` point to the same standalone file. You may also trigger a manual update check. See the [Tampermonkey metadata documentation](https://www.tampermonkey.net/documentation.php). A user confirmed successful v0.7.0 installation. Real v0.7.1 installation and update downloads remain **unverified**.
 
 ## Controls
 
@@ -29,9 +29,11 @@ Only the enabled flag and display mode are saved in Tampermonkey storage. The sc
 
 ## Coverage
 
-The dictionary contains **4,377 reviewed entries**, including **150 constrained templates**: 1,683 entries from the reference translation diff and 2,694 attributed supplements. An additional 56 map labels cover 76 locations across six city maps.
+The dictionary contains **4,406 reviewed entries**, including **151 constrained templates**: 1,683 entries from the reference translation diff and 2,723 attributed supplements. An additional 56 map labels cover 76 locations across six city maps.
 
 Existing coverage includes navigation, stats, factions, augmentations, Hacknet, settings, tutorials, cities, jobs, crimes, training, grafting, darknet UI, achievements, offline messages, Gang, Bladeburner and Corporation.
+
+Version 0.7.1 adds **29 entries** and corrects four existing entries: augmentation purchase receipts, reputation/favor labels and the filter placeholder, descriptions/effects of 11 hash upgrades, and stock order labels. It also fixes transient English flashes in work timers. See the [supplement coverage](docs/supplement-v0.7.1-coverage.json).
 
 Version 0.7 adds **1,737 entries**:
 
@@ -43,13 +45,13 @@ See the [exact coverage manifest](docs/documentation-coverage.json). The Corpora
 
 ## Implementation and limits
 
-Inline mode changes existing `Text.data` only. It does not replace, wrap or remove React nodes, set game elements' `innerHTML`/`textContent`, modify React state, alter game source/builds or access saves. Restoration only reverts text still equal to the script's own translation.
+Inline prose changes existing `Text.data`. Approved filter hints change only the input’s `placeholder` attribute, never its value. It does not replace, wrap or remove React nodes, set game elements' `innerHTML`/`textContent`, modify React state, alter game source/builds or access saves. Restoration only reverts text or placeholders still equal to the script's own translation.
 
-The toolbar, reader and map overlay use independent Shadow DOM. Original ASCII maps and click targets stay unchanged. Delegated events and batched observers handle dynamic updates without periodic full-page scans. Batches visit up to 400 nodes with a 6 ms soft time budget.
+The toolbar, reader and map overlay use independent Shadow DOM. Original ASCII maps and click targets stay unchanged. Delegated events and batched observers handle dynamic updates without periodic full-page scans. Batches visit up to 400 nodes with a 6 ms soft time budget. Recognized elapsed/remaining work timers are translated immediately after the game updates them, before the next paint; the game remains responsible for all time values.
 
-Inputs, editors, terminals, logs, code blocks, styled inline code and formulas are excluded. Player-defined names are protected at their known DOM positions. Document prose and translated location headings avoid the overview panel. Matching is exact and scoped; dynamic templates preserve constrained variable values and never use unrestricted wildcards.
+Input contents, editors, terminals, logs, code blocks, styled inline code and formulas are excluded. Player-defined names are protected at their known DOM positions. Document prose and translated location headings avoid the overview panel. Matching is exact and scoped; dynamic templates preserve constrained variable values and never use unrestricted wildcards.
 
-Uncovered content includes all NS API reference prose, some advanced guides, changelogs, migration documents, arbitrary errors and minigame content. Tampermonkey/real GM APIs, automatic update downloads, Firefox, Safari, Steam and mobile are unverified. Real unlocked saves for Source-Files, management modules and augmentation purchases/installs were not tested. Other game versions or DOM-modifying plugins may conflict; switch to hover mode or disable the script if needed.
+Uncovered content includes all NS API reference prose, some advanced guides, changelogs, migration documents, arbitrary errors and minigame content. Real v0.7.1 Tampermonkey/GM APIs, automatic update downloads, Firefox, Safari, Steam and mobile are unverified. Real unlocked saves for Source-Files, management modules and augmentation purchases/installs were not tested. Other game versions or DOM-modifying plugins may conflict; switch to hover mode or disable the script if needed.
 
 ## Development
 

@@ -3370,9 +3370,9 @@
       "review": {
         "status": "approved",
         "reviewer": "Codex source/semantic review",
-        "reviewedOn": "2026-11-16",
+        "reviewedOn": "2026-11-17",
         "humanReviewed": false,
-        "note": "已核对 PR 对应关系、v3.0.1 原文与语义。"
+        "note": "已核对 PR 对应关系、v3.0.1 原文与语义。 v0.7.1：修正派系强化商店中的作用域或筛选框提示；输入值与业务参数不变。"
       },
       "source": {
         "kind": "pr-diff",
@@ -3395,7 +3395,8 @@
         },
         "targetLine": 227,
         "targetExcerpt": "\"Filter augmentations\""
-      }
+      },
+      "attribute": "placeholder"
     },
     {
       "id": "d07fc510efa5",
@@ -8089,15 +8090,16 @@
       "en": "Faction favor increases the rate at which you earn reputation for this faction by 1% per favor. Faction favor is gained whenever you install an Augmentation. The amount of favor you gain depends on the total amount of reputation you earned with this faction across all resets.",
       "zh": "人脉每提高 1 点，你在该派系获得的声望速度就提升 1%。每当你安装一个强化时都会获得人脉。获得的人脉数量取决于你在所有转生中为该派系赚取的声望总量。",
       "scopes": [
-        "factions"
+        "factions",
+        "augmentations"
       ],
       "segment": true,
       "review": {
         "status": "approved",
         "reviewer": "Codex source/semantic review",
-        "reviewedOn": "2026-11-16",
+        "reviewedOn": "2026-11-17",
         "humanReviewed": false,
-        "note": "审校调整术语或标识符保留；PR 原译见 source.next.text。"
+        "note": "审校调整术语或标识符保留；PR 原译见 source.next.text。 v0.7.1：共享 FavorInfo 说明在派系强化商店中同样适用。"
       },
       "source": {
         "kind": "pr-diff",
@@ -8127,15 +8129,16 @@
       "en": "Favor:",
       "zh": "人脉：",
       "scopes": [
-        "factions"
+        "factions",
+        "augmentations"
       ],
       "segment": true,
       "review": {
         "status": "approved",
         "reviewer": "Codex source/semantic review",
-        "reviewedOn": "2026-11-16",
+        "reviewedOn": "2026-11-17",
         "humanReviewed": false,
-        "note": "审校调整术语或标识符保留；PR 原译见 source.next.text。"
+        "note": "审校调整术语或标识符保留；PR 原译见 source.next.text。 v0.7.1：修正派系强化商店中的作用域或筛选框提示；输入值与业务参数不变。"
       },
       "source": {
         "kind": "pr-diff",
@@ -8166,15 +8169,16 @@
       "zh": "声望：",
       "scopes": [
         "factions",
-        "locations"
+        "locations",
+        "augmentations"
       ],
       "segment": true,
       "review": {
         "status": "approved",
         "reviewer": "Codex source/semantic review",
-        "reviewedOn": "2026-11-16",
+        "reviewedOn": "2026-11-17",
         "humanReviewed": false,
-        "note": "已核对 PR 对应关系、v3.0.1 原文与语义。"
+        "note": "已核对 PR 对应关系、v3.0.1 原文与语义。 v0.7.1：修正派系强化商店中的作用域或筛选框提示；输入值与业务参数不变。"
       },
       "source": {
         "kind": "pr-diff",
@@ -128340,6 +128344,705 @@
         "humanReviewed": false,
         "note": "v0.7：对照 v3.0.1 Source-File / Markdown 文档逐段补译；保留数值、程序、命令与 API，代码节点排除。",
         "reviewedOn": "2026-11-16"
+      }
+    },
+    {
+      "id": "v071-f26b57611b14",
+      "en": "Sell hashes for",
+      "zh": "出售哈希，换取",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 14,
+        "targetExcerpt": "Sell hashes for "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-4147e97f77ec",
+      "en": "Sold for",
+      "zh": "累计换得",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 20,
+        "targetExcerpt": "Sold for "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-be916dc32ca8",
+      "en": "in Corporation funds",
+      "zh": "公司资金",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 29,
+        "targetExcerpt": "in Corporation funds\n      "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-3a59a3281b5c",
+      "en": "Corporation funds.",
+      "zh": "公司资金。",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "Corporation funds.\n      "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-29c55465e912",
+      "en": "Use hashes to decrease the minimum security of a single server by 2%. Note that a server's minimum security cannot go below 1. This effect persists until you install augmentations (since servers are reset at that time).",
+      "zh": "消耗哈希，使一台服务器的最低安全等级降低 2%。服务器的最低安全等级不能低于 1。效果持续到安装强化时（届时服务器会被重置）。",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 43,
+        "targetExcerpt": "\"Use hashes to decrease the minimum security of a single server by 2%. \" +\n      \"Note that a server's minimum security cannot go below 1. This effect persists \" +\n      \"until you install augmentations (since servers are reset at that time).\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-1c1dc28e394e",
+      "en": "Use hashes to increase the maximum amount of money on a single server by 2%. This effect persists until you install augmentations (since servers are reset at that time). Note that a server's maximum money is soft capped above",
+      "zh": "消耗哈希，使一台服务器的最高资金提高 2%。效果持续到安装强化时（届时服务器会被重置）。注意：服务器的最高资金超过以下数值后，将受到软上限限制：",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 54,
+        "targetExcerpt": "Use hashes to increase the maximum amount of money on a single server by 2%. This effect persists until you\n        install augmentations (since servers are reset at that time). Note that a server's maximum money is soft capped\n        above "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-53a5296e11c7",
+      "en": "Use hashes to improve the experience earned when studying at a university by 20%. This effect persists until you install augmentations.",
+      "zh": "消耗哈希，使在大学学习时获得的经验提高 20%。效果持续到安装强化时。",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "\"Use hashes to improve the experience earned when studying at a university by 20%. \" +\n      \"This effect persists until you install augmentations.\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-8344a8ff0741",
+      "en": "Improves studying by",
+      "zh": "学习经验增益：",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 69,
+        "targetExcerpt": "Improves studying by "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-ba11f07bc37b",
+      "en": "Use hashes to improve the experience earned when training at the gym by 20%. This effect persists until you install augmentations.",
+      "zh": "消耗哈希，使在健身房训练时获得的经验提高 20%。效果持续到安装强化时。",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 75,
+        "targetExcerpt": "\"Use hashes to improve the experience earned when training at the gym by 20%. This effect \" +\n      \"persists until you install augmentations.\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-d96d604a4d41",
+      "en": "Improves training by",
+      "zh": "训练经验增益：",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 78,
+        "targetExcerpt": "Improves training by "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-3ffcf5da296c",
+      "en": "Exchange hashes for 1k Scientific Research in all of your corporation's divisions",
+      "zh": "用哈希为公司的所有部门各兑换 1k 科研点数",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 83,
+        "targetExcerpt": "\"Exchange hashes for 1k Scientific Research in all of your corporation's divisions\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-b951c29b1b0d",
+      "en": "Acquired a total of",
+      "zh": "累计获得",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 86,
+        "targetExcerpt": "Acquired a total of "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-94680202586d",
+      "en": "Scientific Research in your divisions.",
+      "zh": "科研点数，计入公司各部门。",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 86,
+        "targetExcerpt": "Scientific Research in your divisions."
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-223bd18835d0",
+      "en": "Exchange hashes for 100 Bladeburner Rank",
+      "zh": "用哈希兑换 100 点 Bladeburner 等级积分",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 92,
+        "targetExcerpt": "\"Exchange hashes for 100 Bladeburner Rank\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-a4317b040971",
+      "en": "Bladeburner rank",
+      "zh": "点 Bladeburner 等级积分",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 95,
+        "targetExcerpt": "Bladeburner rank"
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-7e910cc818de",
+      "en": "Exchanges hashes for 10 Bladeburner Skill Points",
+      "zh": "用哈希兑换 10 点 Bladeburner 技能点",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 101,
+        "targetExcerpt": "\"Exchanges hashes for 10 Bladeburner Skill Points\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-5133ff2c2a40",
+      "en": "Bladeburner Skill Points",
+      "zh": "点 Bladeburner 技能点",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 104,
+        "targetExcerpt": "Bladeburner Skill Points"
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-bb28399c2287",
+      "en": "Generate a random Coding Contract somewhere on the network",
+      "zh": "在网络上的随机位置生成一个编程合约",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 110,
+        "targetExcerpt": "\"Generate a random Coding Contract somewhere on the network\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-d14c2d8657cb",
+      "en": "Generated",
+      "zh": "已生成",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 112,
+        "targetExcerpt": "Generated "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-2693d880c7aa",
+      "en": "contracts.",
+      "zh": "个编程合约。",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 112,
+        "targetExcerpt": "contracts."
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-2800fc5a3ae3",
+      "en": "Use hashes to increase the favor with a company by 5. This effect persists until you enter a new BitNode.",
+      "zh": "消耗哈希，使在一家公司的公司人脉提高 5 点。效果持续到进入新的 BitNode 时。",
+      "scopes": [
+        "hacknet"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Hacknet/data/HashUpgradesMetadata.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 117,
+        "targetExcerpt": "\"Use hashes to increase the favor with a company by 5. This effect persists until you enter a new BitNode.\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-7567ff3f2d89",
+      "en": "Market Order",
+      "zh": "市价单",
+      "scopes": [
+        "stocks"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/ui/StockTicker.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 34,
+        "targetExcerpt": "\"Market Order\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "[role=\"combobox\"],[role=\"option\"]"
+    },
+    {
+      "id": "v071-0511adff4552",
+      "en": "Limit Order",
+      "zh": "限价单",
+      "scopes": [
+        "stocks"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/ui/StockTicker.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "\"Limit Order\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "[role=\"combobox\"],[role=\"option\"]"
+    },
+    {
+      "id": "v071-cdbcb640c2e2",
+      "en": "Stop Order",
+      "zh": "止损单",
+      "scopes": [
+        "stocks"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/ui/StockTicker.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "\"Stop Order\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "[role=\"combobox\"],[role=\"option\"]"
+    },
+    {
+      "id": "v071-b174a14cd737",
+      "en": "Limit Buy Order",
+      "zh": "Limit Buy Order（买入限价单）",
+      "scopes": [
+        "stocks"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/Enums.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 6,
+        "targetExcerpt": "\"Limit Buy Order\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-81e471a9b5fd",
+      "en": "Limit Sell Order",
+      "zh": "Limit Sell Order（卖出限价单）",
+      "scopes": [
+        "stocks"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/Enums.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 7,
+        "targetExcerpt": "\"Limit Sell Order\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-979f77eb8690",
+      "en": "Stop Buy Order",
+      "zh": "Stop Buy Order（买入止损单）",
+      "scopes": [
+        "stocks"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/Enums.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 8,
+        "targetExcerpt": "\"Stop Buy Order\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-7d9d1f9aec69",
+      "en": "Stop Sell Order",
+      "zh": "Stop Sell Order（卖出止损单）",
+      "scopes": [
+        "stocks"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/StockMarket/Enums.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 9,
+        "targetExcerpt": "\"Stop Sell Order\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "selector": "p"
+    },
+    {
+      "id": "v071-74e4475a1cfa",
+      "en": "You purchased {augmentation}. Its enhancements will not take effect until they are installed. To install your augmentations, go to the 'Augmentations' tab on the left-hand navigation menu. Purchasing additional augmentations will now be more expensive.",
+      "zh": "你已购买 {augmentation}。其效果只有在安装后才会生效。要安装强化，请前往左侧导航菜单中的“强化”页面。现在继续购买其他强化的价格会更高。",
+      "scopes": [
+        "augmentations"
+      ],
+      "segment": true,
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionHelpers.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 124,
+        "targetExcerpt": "`You purchased ${augmentation.name}. Its enhancements will not take effect until they are installed. ` +\n        \"To install your augmentations, go to the 'Augmentations' tab on the left-hand navigation menu. \" +\n        \"Purchasing additional augmentations will now be more expensive.\""
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-17",
+        "humanReviewed": false,
+        "note": "v0.7.1：按固定 v3.0.1 原文和实际文本节点分段审校；保留名称、数值、API 标识符与动态槽位，不改游戏规则。"
+      },
+      "match": "template",
+      "slots": {
+        "augmentation": "augmentation"
       }
     }
   ],

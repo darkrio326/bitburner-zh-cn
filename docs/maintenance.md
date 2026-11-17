@@ -14,7 +14,7 @@
 
 `en`、`zh`、`id` 分别为原文、采用译文和稳定标识。`scopes` 限定页面；`segment` 允许在悬停段落中组合；`selector` 可限定短词的元素；`inline: false` 表示仅悬停。模板需注明 `match: template` 和限定类型的 `slots`，中英文占位符必须完全一致。
 
-`source` 保留源文件、提交、行号、原文摘录与原 PR 译文；补译标记为 `kind: supplement`。`review` 记录状态、执行者、日期及修改理由。未审校条目保持 `pending`；只有批准条目进入产物。不要直接编辑生成的 `.user.js`。
+`source` 保留源文件、提交、行号、原文摘录与原 PR 译文；补译标记为 `kind: supplement`。`review` 记录状态、执行者、日期及修改理由。未审校条目保持 `pending`；只有批准条目进入产物。`attribute: placeholder` 只用于明确审校过的输入提示；不得把用户输入值当作词条处理。不要直接编辑生成的 `.user.js`。
 
 文档按 Markdown 实际渲染的文本节点分段。修改时必须检查链接、强调、代码相邻片段的中文语序和否定词，不能把匹配计数当作翻译质量验收。代码示例、命令、原生代码节点及 `span[class*="-code"]` 保留原文。
 
@@ -28,6 +28,7 @@ node scripts/audit-secondary.mjs
 node scripts/audit-deep-pages.mjs
 node scripts/audit-management.mjs
 node scripts/audit-documentation.mjs
+node scripts/audit-v071.mjs
 ```
 
 目标固定为 Bitburner v3.0.1 的 `3162fd2590e221eadd0c0fbd46151913f7c4c41c`，官方默认分支是 `dev`；它的更新不会自动改变适配目标。审计命令会刷新覆盖快照，修改后应查看实际差异。普通构建和单测不依赖源码缓存或网络。
