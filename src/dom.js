@@ -30,7 +30,8 @@ export function scopeResolver(doc, dictionary, readText) {
     return null;
   }
   function page() {
-    const managementPages = { Gang: 'gang', Bladeburner: 'bladeburner', Corporation: 'corporation', Documentation: 'documentation' };
+    const managementPages = { Gang: 'gang', Bladeburner: 'bladeburner', Corporation: 'corporation', Documentation: 'documentation',
+      Sleeves: 'sleeves', "Stanek's Gift": 'stanek', 'IPvGO Subnet': 'go' };
     for (const item of doc.querySelectorAll('.MuiDrawer-root [class*="-active"]')) {
       const selected = managementPages[normalize(readText(item))];
       if (selected) return selected;
@@ -49,6 +50,8 @@ export function scopeResolver(doc, dictionary, readText) {
       const special = headingScope(title);
       if (special) return special;
       if (title === 'Stats') return 'stats';
+      if (title === 'Sleeves') return 'sleeves';
+      if (title === "Stanek's Gift") return 'stanek';
       if (title === 'Factions' || dictionary.factionNames.includes(title)) return 'factions';
       if (title === 'Augmentations' || title.startsWith('Faction Augmentations -')) return 'augmentations';
       if (title === 'Hacknet Nodes' || title === 'Hacknet Servers') return 'hacknet';
@@ -82,10 +85,18 @@ export function scopeResolver(doc, dictionary, readText) {
       const special = heading && headingScope(normalize(readText(heading)));
       if (special) return special;
       const firstParagraph = surface.querySelector('p');
+      // The Covenant opens sleeve purchases over its faction page, without a heading.
+      if (firstParagraph && /^(Purchase an additional Sleeve\.|You can also purchase upgrades for your Sleeves\.)/.test(normalize(readText(firstParagraph)))) return 'sleeves';
       if (firstParagraph && /^(Would you like to start a corporation\?|Would you like to sell your position as CEO and start a new corporation\?)/.test(normalize(readText(firstParagraph)))) return 'corporation';
       if (firstParagraph && /^Offline for .+\. While you were offline:$/u.test(normalize(readText(firstParagraph)))) return 'offline';
       const alertText = firstParagraph ?? surface.querySelector('.MuiTypography-root');
       if (alertText && normalize(readText(alertText)).includes('you spent a total of') && normalize(readText(alertText)).includes('You earned a total of:')) return 'training-result';
+      // AlertManager can remain open after the game has changed the underlying page.
+      const alertBody = surface.querySelector('.MuiTypography-root');
+      const message = alertBody ? normalize(readText(alertBody)) : '';
+      if (/^You (?:finished working for|worked for) /.test(message)) return 'work-result';
+      if (/^(?:You've finished grafting|You cancelled the grafting of) /.test(message)) return 'grafting';
+      if (message.startsWith('You received a Source-File for destroying a BitNode!')) return 'augmentations';
     }
     const overview = element.closest(OVERVIEW);
     if (overview) return overview.querySelector('[id^="overview-"]') ? 'overview' : 'tutorial';
@@ -222,7 +233,9 @@ export function createInlineTranslator(doc, match, getScope, mapLabels) {
     }
     mapLabels?.visit(node, scope);
     const item = dataNode(node, scope, original) || (node.parentElement.closest('pre') && scope !== 'darknet') ? null :
-      match(text, scope) ?? (node.parentElement.closest('button,[role="button"]') ? match(text, 'common') : null);
+      match(text, scope) ??
+      (node.parentElement.closest('.MuiModal-root,[role="dialog"]') ? match(text, 'dialogs') : null) ??
+      (node.parentElement.closest('button,[role="button"]') ? match(text, 'common') : null);
     const prior = owned.get(node);
     const oldButton = fitted.get(node);
     if (oldButton) { oldButton.removeAttribute('data-bitburner-zh-fit'); fitted.delete(node); }
@@ -245,7 +258,7 @@ export function createInlineTranslator(doc, match, getScope, mapLabels) {
     const button = node.parentElement.closest('button');
     if (scope === 'factions' && /^(Join|Join!)$/.test(normalize(text)) && button) {
       button.setAttribute('data-bitburner-zh-fit', 'join'); fitted.set(node, button);
-    } else if (['locations','grafting','darknet','gang','bladeburner','corporation','documentation'].includes(scope) && button) {
+    } else if (['locations','grafting','darknet','gang','bladeburner','corporation','documentation','sleeves','stanek','go'].includes(scope) && button) {
       button.setAttribute('data-bitburner-zh-fit', 'wrap'); fitted.set(node, button);
     }
     if (heading && scope === 'locations') {

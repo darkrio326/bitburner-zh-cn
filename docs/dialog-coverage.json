@@ -1,0 +1,22 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "inspectedDialogFiles": 84,
+  "inspectedDirectDialogCalls": 144,
+  "reviewedResultPaths": [
+    "src/Augmentation/AugmentationHelpers.ts",
+    "src/RedPill.tsx",
+    "src/Prestige.ts",
+    "src/Work/CompanyWork.tsx",
+    "src/Work/FactionWork.tsx",
+    "src/Work/GraftingWork.tsx",
+    "src/Locations/ui/TravelAgencyRoot.tsx",
+    "src/PersonObjects/Player/PlayerObjectGeneralMethods.ts",
+    "src/Infiltration/Infiltration.ts",
+    "src/ui/GameRoot.tsx"
+  ],
+  "newEntries": 26,
+  "newTemplates": 5,
+  "sourceExcerptsVerified": true,
+  "reusedSourceFileDescriptions": "Existing augmentation-scoped Source-File 1-15 descriptions are also recognized in the award dialog.",
+  "remaining": "The inventory includes developer tools, arbitrary script/engine errors and other gameplay dialogs outside this fix; it is not a claim that every call is translated."
+}

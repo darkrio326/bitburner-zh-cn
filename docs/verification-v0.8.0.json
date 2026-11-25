@@ -1,0 +1,124 @@
+{
+  "version": "0.8.0",
+  "date": "2026-11-24",
+  "target": "Bitburner v3.0.1",
+  "sourceCommit": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "baseCommit": "75f75a268366ca7c3fa62cb1f42c8d2157e967dc",
+  "browser": "Google Chrome 158.0.8127.38",
+  "environment": "macOS arm64; Node.js 25.9.0; Playwright 1.56.1; headless Chrome",
+  "unit": {
+    "passed": 25,
+    "failed": 0
+  },
+  "localBrowser": {
+    "startTime": "2026-11-24T01:45:04.315Z",
+    "duration": 108703.307,
+    "expected": 52,
+    "skipped": 4,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "officialBrowser": {
+    "startTime": "2026-11-24T01:47:02.644Z",
+    "duration": 48663.585,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "advancedCoverage": {
+    "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+    "reviewedNewEntries": 410,
+    "sourceUiFiles": 32,
+    "byScope": {
+      "sleeves": {
+        "entries": 169,
+        "templates": 13
+      },
+      "stanek": {
+        "entries": 62,
+        "templates": 16
+      },
+      "go": {
+        "entries": 179,
+        "templates": 2
+      }
+    },
+    "retainedSyntaxAndIdentifiers": [
+      "[X, Y]",
+      "ID:",
+      "ID: N/A",
+      "IPvGO",
+      "x"
+    ],
+    "supplementSourceExcerptsVerified": true,
+    "meaning": "Pinned v3.0.1 source-match coverage; not all game branches, unlocked live saves or Tampermonkey acceptance."
+  },
+  "timer": {
+    "local": {
+      "frames": 110,
+      "updates": 8,
+      "incorrectFrames": [],
+      "numberChanges": [
+        [
+          "2 hours 22 minutes 48 seconds",
+          "1 minute 0 seconds"
+        ],
+        [
+          "59 seconds",
+          "1 minute 0 seconds"
+        ],
+        [
+          "1 minute 0 seconds",
+          "59 seconds"
+        ],
+        [
+          "59 minutes 59 seconds",
+          "1 hour 0 seconds"
+        ],
+        [
+          "1 hour 0 seconds",
+          "59 minutes 59 seconds"
+        ],
+        [
+          "23 hours 59 minutes 59 seconds",
+          "1 second"
+        ],
+        [
+          "1 day 0 seconds",
+          "0 seconds"
+        ],
+        [
+          "1 day 1 second",
+          "2 hours 22 minutes 47 seconds"
+        ]
+      ],
+      "sameNodes": true,
+      "terminal": "1 day 1 second elapsed"
+    },
+    "official": {
+      "version": "0.8.0",
+      "frames": 194,
+      "displayedTimes": [
+        "0 秒 已用时",
+        "1 秒 已用时",
+        "2 秒 已用时",
+        "3 秒 已用时"
+      ],
+      "englishFrames": [],
+      "sameTextNode": true
+    }
+  },
+  "artifactSha256": "883bbe9b944183e4de620dbe972cbe302c699f64cdde553d86b9b86700a794b9",
+  "delivery": {
+    "localBuild": "PASS",
+    "publicRelease": "NOT_PUBLISHED",
+    "realTampermonkeyInstall": "NOT_TESTED",
+    "realUnlockedAdvancedSave": "NOT_TESTED"
+  },
+  "notes": [
+    "Advanced interactions use source-shaped local React/MUI fixtures with simulated callbacks.",
+    "Official tests use fresh isolated contexts, not the user save.",
+    "Fixed-source match coverage does not establish every gameplay branch or full translation coverage."
+  ]
+}

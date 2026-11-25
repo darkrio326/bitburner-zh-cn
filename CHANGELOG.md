@@ -4,6 +4,51 @@ Versions follow [Semantic Versioning](https://semver.org/). Dates use Asia/Shang
 These entries describe local deliverables; a version is publicly available only
 when its files have actually reached the GitHub `main` branch.
 
+## [0.8.1] - 2026-11-25
+
+### Fixed
+
+- Translate the full augmentation-install result after the game navigates back to
+  Terminal. Preserve the complete multiline augmentation list and NeuroFlux level.
+- Match reviewed game-result dialogs independently of the underlying page in
+  direct and hover modes; keep terminal, logs and unknown script messages intact.
+- Recognize company/faction work, grafting results and Source-File award dialogs;
+  reuse existing Source-File effect translations and retain the no-refund warning.
+
+### Added
+
+- 26 source-reviewed result texts, including five constrained templates for install
+  receipts, Source-File upgrades, travel and sleeve/job notifications.
+- A cross-module inventory of 144 direct dialog calls in 84 files, with the 10
+  result-producing source files fixed here recorded in `docs/dialog-coverage.json`.
+- Screenshot-based local receipt replay, name/newline/node preservation checks,
+  900/1104/1280 layouts, React updates, hover, disable and removal regressions.
+
+The installation result is replayed
+from source and the screenshot, without installing augmentations in a real save.
+
+## [0.8.0] - 2026-11-24
+
+### Added
+
+- 410 reviewed translations for Sleeves (169), Stanek's Gift (62), and IPvGO
+  (179), including FAQ/help dialogs, task labels, fragment effects, scoring,
+  history, opponent selection and fixed dynamic status/error messages.
+- 31 constrained templates preserve game-provided progress, amounts, names and
+  signed effects. Source provenance is checked against pinned v3.0.1.
+- Local React/MUI regressions for original select values, task callbacks, input
+  retention, dynamic node identity, portal dialogs, hover and cleanup.
+
+### Fixed
+
+- Recognize all three advanced pages and Covenant sleeve purchase dialogs.
+- Allow translated buttons in these modules to wrap within the available width.
+
+### Scope
+
+- This is a local deliverable until published. Unlocked official-game saves,
+  Tampermonkey installation and automatic updating have not been tested for 0.8.0.
+
 ## [0.7.1] - 2026-11-17
 
 ### Fixed

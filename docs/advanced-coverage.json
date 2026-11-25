@@ -1,0 +1,28 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "reviewedNewEntries": 410,
+  "sourceUiFiles": 32,
+  "byScope": {
+    "sleeves": {
+      "entries": 169,
+      "templates": 13
+    },
+    "stanek": {
+      "entries": 62,
+      "templates": 16
+    },
+    "go": {
+      "entries": 179,
+      "templates": 2
+    }
+  },
+  "retainedSyntaxAndIdentifiers": [
+    "[X, Y]",
+    "ID:",
+    "ID: N/A",
+    "IPvGO",
+    "x"
+  ],
+  "supplementSourceExcerptsVerified": true,
+  "meaning": "Pinned v3.0.1 source-match coverage; not all game branches, unlocked live saves or Tampermonkey acceptance."
+}
