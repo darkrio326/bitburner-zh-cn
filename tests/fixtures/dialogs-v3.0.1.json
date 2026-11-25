@@ -1,0 +1,341 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "paths": [
+    "src/Augmentation/AugmentationHelpers.ts",
+    "src/RedPill.tsx",
+    "src/Prestige.ts",
+    "src/Work/CompanyWork.tsx",
+    "src/Work/FactionWork.tsx",
+    "src/Work/GraftingWork.tsx",
+    "src/Locations/ui/TravelAgencyRoot.tsx",
+    "src/PersonObjects/Player/PlayerObjectGeneralMethods.ts",
+    "src/Infiltration/Infiltration.ts",
+    "src/ui/GameRoot.tsx"
+  ],
+  "items": [
+    {
+      "en": "You have not purchased any Augmentations to install!",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/AugmentationHelpers.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 71,
+        "targetExcerpt": "\"You have not purchased any Augmentations to install!\""
+      }
+    },
+    {
+      "en": "You slowly drift to sleep as scientists put you under in order to install the following Augmentations:\n{augmentations}\nYou wake up in your home...you feel different...",
+      "scope": "dialogs",
+      "match": "template",
+      "slots": {
+        "augmentations": "augmentationLines"
+      },
+      "source": {
+        "kind": "supplement",
+        "path": "src/Augmentation/AugmentationHelpers.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 106,
+        "targetExcerpt": "\"You slowly drift to sleep as scientists put you under in order \" +\n        \"to install the following Augmentations:\\n\" +\n        augmentationList +\n        \"\\nYou wake up in your home...you feel different...\""
+      }
+    },
+    {
+      "en": "The Source-File for the BitNode you just destroyed, {sourceFile}, is already at max level!",
+      "scope": "dialogs",
+      "match": "template",
+      "slots": {
+        "sourceFile": "sourceFile"
+      },
+      "source": {
+        "kind": "supplement",
+        "path": "src/RedPill.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 30,
+        "targetExcerpt": "`The Source-File for the BitNode you just destroyed, ${sourceFile.name}, is already at max level!`"
+      }
+    },
+    {
+      "en": "{sourceFile} was upgraded to level {level} for destroying its corresponding BitNode!",
+      "scope": "dialogs",
+      "match": "template",
+      "slots": {
+        "sourceFile": "sourceFile",
+        "level": "integer"
+      },
+      "source": {
+        "kind": "supplement",
+        "path": "src/RedPill.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "`${sourceFile.name} was upgraded to level ${lvl} for destroying its corresponding BitNode!`"
+      }
+    },
+    {
+      "en": "You received a Source-File for destroying a BitNode!",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/RedPill.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 41,
+        "targetExcerpt": "You received a Source-File for destroying a BitNode!\n        "
+      }
+    },
+    {
+      "en": "You received a copy of the Corporation Management Handbook on your home computer. It's a short introduction for managing Corporation. You should check the in-game Corporation documentation in the Documentation tab (Documentation -> Advanced Mechanics -> Corporation). It's the most useful and up-to-date resource for managing Corporation.",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Prestige.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 286,
+        "targetExcerpt": "\"You received a copy of the Corporation Management Handbook on your home computer. It's a short introduction for \" +\n        \"managing Corporation.\\n\\nYou should check the in-game Corporation documentation in the Documentation tab \" +\n        \"(Documentation -> Advanced Mechanics -> Corporation). It's the most useful and up-to-date resource for managing Corporation.\""
+      }
+    },
+    {
+      "en": "The National Security Agency would like to have a word with you once you're ready. You should train your combat stats to level 100 before going there.",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Prestige.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 296,
+        "targetExcerpt": "`The ${CompanyName.NSA} would like to have a word with you once you're ready. You should train your combat stats to level 100 before going there.`"
+      }
+    },
+    {
+      "en": "Seek out The Covenant if you'd like to purchase a new sleeve or two! And see what VitaLife in New Tokyo has to offer for you",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Prestige.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 313,
+        "targetExcerpt": "`Seek out ${FactionName.TheCovenant} if you'd like to purchase a new sleeve or two! And see what ${CompanyName.VitaLife} in ${CityName.NewTokyo} has to offer for you`"
+      }
+    },
+    {
+      "en": "Saynt_Garmo is watching you",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Prestige.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 320,
+        "targetExcerpt": "\"Saynt_Garmo is watching you\""
+      }
+    },
+    {
+      "en": "Trouble is brewing in Chongqing",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Prestige.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 324,
+        "targetExcerpt": "`Trouble is brewing in ${CityName.Chongqing}`"
+      }
+    },
+    {
+      "en": "Congratulations on destroying your first BitNode! Make sure to check the Documentation tab. Many pages are unlocked now.",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Prestige.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 375,
+        "targetExcerpt": "\"Congratulations on destroying your first BitNode! Make sure to check the Documentation tab. Many pages are unlocked now.\""
+      }
+    },
+    {
+      "en": "You finished working for",
+      "scope": "work-result",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/CompanyWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 56,
+        "targetExcerpt": "You finished working for "
+      }
+    },
+    {
+      "en": "You have",
+      "scope": "work-result",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/CompanyWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 58,
+        "targetExcerpt": "You have "
+      }
+    },
+    {
+      "en": "reputation with them.",
+      "scope": "work-result",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/CompanyWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 58,
+        "targetExcerpt": "reputation with them.\n        "
+      }
+    },
+    {
+      "en": "You worked for",
+      "scope": "work-result",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/FactionWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "You worked for "
+      }
+    },
+    {
+      "en": "They now have a total of",
+      "scope": "work-result",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/FactionWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 64,
+        "targetExcerpt": "They now have a total of "
+      }
+    },
+    {
+      "en": "reputation.",
+      "scope": "work-result",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/FactionWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 64,
+        "targetExcerpt": "reputation.\n        "
+      }
+    },
+    {
+      "en": "You've finished grafting",
+      "scope": "grafting",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/GraftingWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 69,
+        "targetExcerpt": "You've finished grafting "
+      }
+    },
+    {
+      "en": "The augmentation has been applied to your body",
+      "scope": "grafting",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/GraftingWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 70,
+        "targetExcerpt": "The augmentation has been applied to your body\n            "
+      }
+    },
+    {
+      "en": ", but you feel a bit off.",
+      "scope": "grafting",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/GraftingWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 71,
+        "targetExcerpt": "\", but you feel a bit off.\""
+      }
+    },
+    {
+      "en": "You cancelled the grafting of",
+      "scope": "grafting",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/GraftingWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 78,
+        "targetExcerpt": "You cancelled the grafting of "
+      }
+    },
+    {
+      "en": "Your money was not returned to you.",
+      "scope": "grafting",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Work/GraftingWork.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 80,
+        "targetExcerpt": "Your money was not returned to you.\n        "
+      }
+    },
+    {
+      "en": "You are now in {city}!",
+      "scope": "dialogs",
+      "match": "template",
+      "slots": {
+        "city": "city"
+      },
+      "source": {
+        "kind": "supplement",
+        "path": "src/Locations/ui/TravelAgencyRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 31,
+        "targetExcerpt": "`You are now in ${to}!`"
+      }
+    },
+    {
+      "en": "You quit {company} while one of your sleeves was working there. The sleeve is now idle.",
+      "scope": "dialogs",
+      "match": "template",
+      "slots": {
+        "company": "company"
+      },
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Player/PlayerObjectGeneralMethods.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 388,
+        "targetExcerpt": "`You quit ${company} while one of your sleeves was working there. The sleeve is now idle.`"
+      }
+    },
+    {
+      "en": "Infiltration was cancelled because you were hospitalized",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Infiltration/Infiltration.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 87,
+        "targetExcerpt": "\"Infiltration was cancelled because you were hospitalized\""
+      }
+    },
+    {
+      "en": "Soft Reset!",
+      "scope": "dialogs",
+      "source": {
+        "kind": "supplement",
+        "path": "src/ui/GameRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 298,
+        "targetExcerpt": "\"Soft Reset!\""
+      }
+    }
+  ],
+  "sourceFileNames": [
+    "Source-File 1: Source Genesis",
+    "Source-File 2: Rise of the Underworld",
+    "Source-File 3: Corporatocracy",
+    "Source-File 4: The Singularity",
+    "Source-File 5: Artificial Intelligence",
+    "Source-File 6: Bladeburners",
+    "Source-File 7: Bladeburners 2079",
+    "Source-File 8: Ghost of Wall Street",
+    "Source-File 9: Hacktocracy",
+    "Source-File 10: Digital Carbon",
+    "Source-File 11: The Big Crash",
+    "Source-File 12: The Recursion",
+    "Source-File 13: They're lunatics",
+    "Source-File 14: IPvGO Subnet Takeover",
+    "Source-File 15: The Secrets of the Dark Net"
+  ]
+}

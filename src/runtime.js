@@ -58,7 +58,9 @@ export function install(dictionary, env = {}) {
     if (!pinned) panel.hidden = true;
   }
   function lookup(text, scope, element) {
-    const item = match(text, scope) ?? (element.closest('button,[role="button"]') ? match(text, 'common') : null);
+    const item = match(text, scope) ??
+      (element.closest('.MuiModal-root,[role="dialog"]') ? match(text, 'dialogs') : null) ??
+      (element.closest('button,[role="button"]') ? match(text, 'common') : null);
     return item && (!item.selector || element.closest(item.selector)) ? item : null;
   }
   function readElement(element, scope) {

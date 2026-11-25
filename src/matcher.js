@@ -15,10 +15,16 @@ function compile(entry, values) {
     if (type === 'number') return number;
     if (type === 'money') return `(?:[$€£¥₩₹]\\s?${number}|${number}\\s?[$€£¥₩₹])`;
     if (type === 'ram') return `${number}\\s*(?:[KMGTPE]i?B)`;
+    const lines = type === 'augmentationLines';
     const list = type.endsWith('List');
-    const items = values[list ? type.slice(0, -4) : type];
+    const items = values[lines ? 'augmentation' : list ? type.slice(0, -4) : type];
     if (!Array.isArray(items) || !items.length) throw new Error(`Unknown slot type: ${type}`);
     const single = `(?:${items.map(literal).sort((a,b) => b.length-a.length).join('|')})`;
+    // installAugmentations emits known names on separate lines; only NFG has a level.
+    if (lines) {
+      const installed = `(?:NeuroFlux Governor - \\d+|${single})`;
+      return `${installed}(?:\\r?\\n${installed})*(?:\\r?\\n)?`;
+    }
     return list ? `${single}(?:(?:, |,? or | and )${single})*` : single;
   }
   let source = '', cursor = 0;

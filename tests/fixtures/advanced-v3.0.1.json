@@ -1,0 +1,5101 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "pages": [
+    {
+      "path": "src/CotMG/ui/ActiveFragmentSummary.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/CotMG/ui/Cell.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/CotMG/ui/DummyGrid.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/CotMG/ui/FragmentInspector.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/CotMG/ui/FragmentPreview.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/CotMG/ui/FragmentSelector.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/CotMG/ui/Grid.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/CotMG/ui/MainBoard.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+      "scope": "stanek"
+    },
+    {
+      "path": "src/Go/ui/GoGameboard.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoGameboardWrapper.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoHistoryPage.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoInstructionsPage.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoPoint.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoRoot.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoScoreExplanation.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoScoreModal.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoScorePowerSummary.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoScoreSummaryTable.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoStatusPage.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoSubnetSearch.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/Go/ui/GoTutorialChallenge.tsx",
+      "scope": "go"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/CovenantPurchasesRoot.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/CovenantSleeveMemoryUpgrade.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/SleeveAugmentationsModal.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/SleeveRoot.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+      "scope": "sleeves"
+    },
+    {
+      "path": "src/PersonObjects/Sleeve/ui/TravelModal.tsx",
+      "scope": "sleeves"
+    }
+  ],
+  "items": [
+    {
+      "text": "Summary of active fragments:",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/ActiveFragmentSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 57,
+        "targetExcerpt": "Summary of active fragments:"
+      }
+    },
+    {
+      "text": "Coordinate",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/ActiveFragmentSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "Coordinate"
+      }
+    },
+    {
+      "text": "Effect",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/ActiveFragmentSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "Effect"
+      }
+    },
+    {
+      "text": "[X, Y]",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 30,
+        "targetExcerpt": "[X, Y] "
+      }
+    },
+    {
+      "text": "ID: N/A",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 33,
+        "targetExcerpt": "ID: N/A\n          "
+      }
+    },
+    {
+      "text": "Effect: N/A",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "Effect: N/A\n          "
+      }
+    },
+    {
+      "text": "Base Power: N/A",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 37,
+        "targetExcerpt": "Base Power: N/A\n          "
+      }
+    },
+    {
+      "text": "Charge: N/A",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 39,
+        "targetExcerpt": "Charge: N/A\n          "
+      }
+    },
+    {
+      "text": "root [X, Y] N/A",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 41,
+        "targetExcerpt": "root [X, Y] N/A\n          "
+      }
+    },
+    {
+      "text": "ID:",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 69,
+        "targetExcerpt": "ID: "
+      }
+    },
+    {
+      "text": "Effect:",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 71,
+        "targetExcerpt": "Effect: "
+      }
+    },
+    {
+      "text": "Base Power:",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 73,
+        "targetExcerpt": "Base Power: "
+      }
+    },
+    {
+      "text": "Charge:",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 75,
+        "targetExcerpt": "Charge: "
+      }
+    },
+    {
+      "text": "root [X, Y]",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentInspector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 77,
+        "targetExcerpt": "root [X, Y] "
+      }
+    },
+    {
+      "text": "remaining",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 21,
+        "targetExcerpt": "remaining"
+      }
+    },
+    {
+      "text": "power:",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 40,
+        "targetExcerpt": "power: "
+      }
+    },
+    {
+      "text": "None",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 83,
+        "targetExcerpt": "None"
+      }
+    },
+    {
+      "text": "Delete",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/FragmentSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 86,
+        "targetExcerpt": "Delete"
+      }
+    },
+    {
+      "text": "WARNING : This will remove all active fragment from the grid.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/MainBoard.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 113,
+        "targetExcerpt": "WARNING : This will remove all active fragment from the grid. "
+      }
+    },
+    {
+      "text": "All cumulated charges will be lost.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/MainBoard.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 114,
+        "targetExcerpt": "All cumulated charges will be lost.\n          "
+      }
+    },
+    {
+      "text": "Clear grid",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/MainBoard.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 118,
+        "targetExcerpt": "Clear grid"
+      }
+    },
+    {
+      "text": "Stanek's Gift",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 26,
+        "targetExcerpt": "Stanek's Gift\n        "
+      }
+    },
+    {
+      "text": "Stanek's Gift is a powerful, unique augmentation obtained by joining the Church of the Machine God, which can be found in Chongqing. It is only possible to join the church if you are in BitNode 13 or possess at least one level of Source File 13, and you will be turned away if you have purchased or installed any augmentations beside NeuroFlux Governors. You are, however, permitted to install augmentations as normal once you have joined the church.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 34,
+        "targetExcerpt": "Stanek's Gift is a powerful, unique augmentation obtained by joining the Church of the Machine God,\n                  which can be found in Chongqing. It is only possible to join the church if you are in BitNode 13 or\n                  possess at least one level of Source File 13, and you will be turned away if you have purchased or\n                  installed any augmentations beside NeuroFlux Governors. You are, however, permitted to install\n                  augmentations as normal once you have joined the church.\n                "
+      }
+    },
+    {
+      "text": "Initially, those bearing the gift will find that its overwhelming power worsens all of their stats by 10%. This penalty can be overcome in time by receiving free upgrades from the Church of the Machine God faction, but the reputation requirements for these upgrades are steep, and you can only obtain reputation with the church by charging the gift.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 42,
+        "targetExcerpt": "Initially, those bearing the gift will find that its overwhelming power worsens all of their stats by\n                  10%. This penalty can be overcome in time by receiving free upgrades from the Church of the Machine\n                  God faction, but the reputation requirements for these upgrades are steep, and you can only obtain\n                  reputation with the church by charging the gift.\n                "
+      }
+    },
+    {
+      "text": "In order to charge Stanek's Gift, the user must first arrange stat-modifying fragments within the grid located on the device. This may be done manually or by scripts that utilize the Stanek's Gift Netscript API. Not every tile of the grid must house a fragment, but fragments cannot overlap or otherwise share tiles. Fragments can be rotated, but their design does not allow them to be flipped around to mirror their original shape. Note that the size of the grid is determined by the BitNode you are currently in and the level of your Source File 13, if applicable.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 49,
+        "targetExcerpt": "In order to charge Stanek's Gift, the user must first arrange stat-modifying fragments within the grid\n                  located on the device. This may be done manually or by scripts that utilize the Stanek's Gift\n                  Netscript API. Not every tile of the grid must house a fragment, but fragments cannot overlap or\n                  otherwise share tiles. Fragments can be rotated, but their design does not allow them to be flipped\n                  around to mirror their original shape. Note that the size of the grid is determined by the BitNode you\n                  are currently in and the level of your Source File 13, if applicable.\n                "
+      }
+    },
+    {
+      "text": "There exist two kinds of fragments. The first are Stat Fragments, which take up 4 tiles of the grid. Each Stat Fragment is unique, and there is only one of each. There is no way to obtain more of these fragments. Each Stat Fragment has an associated stat that it will improve, as well as a multiplier on its effectiveness known as power. When initially placed, a Stat Fragment will have no effect. In order for the fragment to gain stat boosts, it must be charged. The other kind of fragments are known as Booster Fragments, which take up 5 tiles of the grid. There is no shortage of Booster Fragments, and it is virtually impossible to run out of them. While not providing any direct stat increases to their user, Booster Fragments increase the efficacy of adjacent Stat Fragments by 10%, and do not need to be charged. Multiple Booster Fragments can affect the same Stat Fragment.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 58,
+        "targetExcerpt": "There exist two kinds of fragments. The first are Stat Fragments, which take up 4 tiles of the grid.\n                  Each Stat Fragment is unique, and there is only one of each. There is no way to obtain more of these\n                  fragments. Each Stat Fragment has an associated stat that it will improve, as well as a multiplier on\n                  its effectiveness known as power. When initially placed, a Stat Fragment will have no effect. In order\n                  for the fragment to gain stat boosts, it must be charged. The other kind of fragments are known as\n                  Booster Fragments, which take up 5 tiles of the grid. There is no shortage of Booster Fragments, and\n                  it is virtually impossible to run out of them. While not providing any direct stat increases to their\n                  user, Booster Fragments increase the efficacy of adjacent Stat Fragments by 10%, and do not need to be\n                  charged. Multiple Booster Fragments can affect the same Stat Fragment.\n                "
+      }
+    },
+    {
+      "text": "This Booster Fragment provides a bonus to the adjacent Stat Fragment.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 89,
+        "targetExcerpt": "This Booster Fragment provides a bonus to the adjacent Stat Fragment.\n                "
+      }
+    },
+    {
+      "text": "Even though the Booster Fragment touches the Stat Fragment in multiple places, the bonus is only applied once.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 112,
+        "targetExcerpt": "Even though the Booster Fragment touches the Stat Fragment in multiple places, the bonus is only\n                  applied once.\n                "
+      }
+    },
+    {
+      "text": "This Booster Fragment does nothing, as it is not touching a Stat Fragment.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 136,
+        "targetExcerpt": "This Booster Fragment does nothing, as it is not touching a Stat Fragment.\n                "
+      }
+    },
+    {
+      "text": "This Booster Fragment provides a bonus to both Stat Fragments it's touching.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 165,
+        "targetExcerpt": "This Booster Fragment provides a bonus to both Stat Fragments it's touching.\n                "
+      }
+    },
+    {
+      "text": "Stat Fragments are charged using the stanek.chargeFragment(rootX, rootY) NetScript API function. The charging process ordinarily takes 1000ms to complete, but only takes 200ms during bonus time. When the function finishes executing, the fragment's charge levels will be raised by an amount corresponding to the number of threads that were used. Note that it is generally more effective to charge a fragment a few times with many threads than to charge it many times with few threads, so there is a benefit to combining charging jobs into fewer scripts. As a Stat Fragment's charge level is increased, its bonuses will increase, but there will be diminishing returns. As such, it is generally most efficient to charge all of the placed fragments equally. The charge level of a fragment will not decrease over time, but it will be reset to 0 upon removing it from the board or installing augmentations.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 170,
+        "targetExcerpt": "Stat Fragments are charged using the stanek.chargeFragment(rootX, rootY) NetScript API function. The\n                  charging process ordinarily takes 1000ms to complete, but only takes 200ms during bonus time. When the\n                  function finishes executing, the fragment's charge levels will be raised by an amount corresponding to\n                  the number of threads that were used. Note that it is generally more effective to charge a fragment a\n                  few times with many threads than to charge it many times with few threads, so there is a benefit to\n                  combining charging jobs into fewer scripts. As a Stat Fragment's charge level is increased, its\n                  bonuses will increase, but there will be diminishing returns. As such, it is generally most efficient\n                  to charge all of the placed fragments equally. The charge level of a fragment will not decrease over\n                  time, but it will be reset to 0 upon removing it from the board or installing augmentations.\n                "
+      }
+    },
+    {
+      "text": "The gift is a grid on which you can place upgrades called fragments. The main type of fragment increases a stat, like your hacking skill or agility exp. Once a stat fragment is placed it then needs to be charged via scripts in order to become useful. The other kind of fragments are called booster fragments. They increase the efficiency of the neighboring fragments (not diagonally). Use Q/E to rotate fragments.",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 187,
+        "targetExcerpt": "The gift is a grid on which you can place upgrades called fragments. The main type of fragment increases a stat,\n        like your hacking skill or agility exp. Once a stat fragment is placed it then needs to be charged via scripts\n        in order to become useful. The other kind of fragments are called booster fragments. They increase the\n        efficiency of the neighboring fragments (not diagonally). Use Q/E to rotate fragments.\n      "
+      }
+    },
+    {
+      "text": "Bonus time:",
+      "scope": "stanek",
+      "source": {
+        "kind": "supplement",
+        "path": "src/CotMG/ui/StaneksGiftRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 194,
+        "targetExcerpt": "Bonus time: "
+      }
+    },
+    {
+      "text": "Subnet owner:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoGameboardWrapper.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 216,
+        "targetExcerpt": "\"Subnet owner: \""
+      }
+    },
+    {
+      "text": "Find New Subnet",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoGameboardWrapper.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 235,
+        "targetExcerpt": "Find New Subnet\n          "
+      }
+    },
+    {
+      "text": "Traditional Go look",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoGameboardWrapper.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 252,
+        "targetExcerpt": "\"Traditional Go look\""
+      }
+    },
+    {
+      "text": "Show stones and grid as if it was a standard Go board",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoGameboardWrapper.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 253,
+        "targetExcerpt": "Show stones and grid as if it was a standard Go board"
+      }
+    },
+    {
+      "text": "Show previous move",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoGameboardWrapper.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 259,
+        "targetExcerpt": "\"Show previous move\""
+      }
+    },
+    {
+      "text": "Show the board as it was before the last move",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoGameboardWrapper.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 260,
+        "targetExcerpt": "Show the board as it was before the last move"
+      }
+    },
+    {
+      "text": "Previous Subnet:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 30,
+        "targetExcerpt": "Previous Subnet:"
+      }
+    },
+    {
+      "text": "Faction Stats:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 47,
+        "targetExcerpt": "Faction Stats:"
+      }
+    },
+    {
+      "text": "Wins:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 67,
+        "targetExcerpt": "Wins:"
+      }
+    },
+    {
+      "text": "(Black / White)",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 67,
+        "targetExcerpt": "\" (Black / White)\""
+      }
+    },
+    {
+      "text": "Current winstreak",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 75,
+        "targetExcerpt": "Current winstreak"
+      }
+    },
+    {
+      "text": "for black",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 75,
+        "targetExcerpt": "\" for black\""
+      }
+    },
+    {
+      "text": "Highest winstreak",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 81,
+        "targetExcerpt": "Highest winstreak"
+      }
+    },
+    {
+      "text": "The total number of empty points and routers",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 90,
+        "targetExcerpt": "The total number of empty points and routers "
+      }
+    },
+    {
+      "text": "you took control of, across all subnets",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 90,
+        "targetExcerpt": "you took control of, across all subnets\n                      "
+      }
+    },
+    {
+      "text": "Captured nodes:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 95,
+        "targetExcerpt": "Captured nodes:"
+      }
+    },
+    {
+      "text": "Node power is what stat bonuses scale from, and is gained on each completed subnet.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 102,
+        "targetExcerpt": "Node power is what stat bonuses scale from, and is gained on each completed subnet. "
+      }
+    },
+    {
+      "text": "It is calculated from the number of nodes you control, multiplied by modifiers for the",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 103,
+        "targetExcerpt": "It is calculated from the number of nodes you control, multiplied by modifiers for the "
+      }
+    },
+    {
+      "text": "opponent difficulty, if you won or lost, and your current winstreak.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 104,
+        "targetExcerpt": "opponent difficulty, if you won or lost, and your current winstreak.\n                      "
+      }
+    },
+    {
+      "text": "Node power:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 109,
+        "targetExcerpt": "Node power:"
+      }
+    },
+    {
+      "text": "Two wins in a row against an opponent will give you",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 118,
+        "targetExcerpt": "Two wins in a row against an opponent will give you "
+      }
+    },
+    {
+      "text": "reputation converted to favor with that faction (up to a max of",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 118,
+        "targetExcerpt": "reputation converted to\n                        favor with that faction (up to a max of "
+      }
+    },
+    {
+      "text": "reputation), if you are a member of that faction.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 119,
+        "targetExcerpt": "reputation), if you are a member of that\n                        faction.\n                        "
+      }
+    },
+    {
+      "text": "The reputation is immediately applied as favor, meaning it will increase reputation gain right away without needing an install.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 122,
+        "targetExcerpt": "The reputation is immediately applied as favor, meaning it will increase reputation gain right\n                        away without needing an install.\n                      "
+      }
+    },
+    {
+      "text": "Rep converted to favor",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 142,
+        "targetExcerpt": "Rep converted to favor\n                            "
+      }
+    },
+    {
+      "text": "from winstreaks:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 144,
+        "targetExcerpt": "from winstreaks:\n                          "
+      }
+    },
+    {
+      "text": "(max)",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 147,
+        "targetExcerpt": "\"(max)\""
+      }
+    },
+    {
+      "text": "The total stat multiplier gained via your current node power.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 156,
+        "targetExcerpt": "The total stat multiplier gained via your current node power."
+      }
+    },
+    {
+      "text": "Bonus:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoHistoryPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 158,
+        "targetExcerpt": "Bonus:"
+      }
+    },
+    {
+      "text": "CHALLENGE: This white network on the bottom is vulnerable! Click on the board to place a router. Capture some white pieces by cutting off their access to any empty nodes.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 15,
+        "targetExcerpt": "\"CHALLENGE: This white network on the bottom is vulnerable! Click on the board to place a router. Capture some white pieces by cutting off their access to any empty nodes.\""
+      }
+    },
+    {
+      "text": "Correct! With no open ports, the white routers are destroyed. Now you surround and control the empty nodes in the bottom-right.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 19,
+        "targetExcerpt": "\"Correct! With no open ports, the white routers are destroyed. Now you surround and control the empty nodes in the bottom-right.\""
+      }
+    },
+    {
+      "text": "Unfortunately the white routers still touch at least one empty node. Hit 'Reset' to try again.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 21,
+        "targetExcerpt": "\"Unfortunately the white routers still touch at least one empty node. Hit 'Reset' to try again.\""
+      }
+    },
+    {
+      "text": "CHALLENGE: Your routers are in trouble! They only have one open port. Save the black network by connecting them to more empty nodes.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 29,
+        "targetExcerpt": "\"CHALLENGE: Your routers are in trouble! They only have one open port. Save the black network by connecting them to more empty nodes.\""
+      }
+    },
+    {
+      "text": "Correct! Now the network touches three empty nodes instead of one, making it much harder to cut them off.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 33,
+        "targetExcerpt": "\"Correct! Now the network touches three empty nodes instead of one, making it much harder to cut them off.\""
+      }
+    },
+    {
+      "text": "Unfortunately your network can still be cut off from all empty ports in just one move by white. Hit 'Reset' to try again.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "\"Unfortunately your network can still be cut off from all empty ports in just one move by white. Hit 'Reset' to try again.\""
+      }
+    },
+    {
+      "text": "CHALLENGE: Save the black network on the left! Connect the network to more than one empty node.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 44,
+        "targetExcerpt": "\"CHALLENGE: Save the black network on the left! Connect the network to more than one empty node.\""
+      }
+    },
+    {
+      "text": "Correct! Now the network touches two empty nodes instead of one, making it much harder to cut them off.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 47,
+        "targetExcerpt": "\"Correct! Now the network touches two empty nodes instead of one, making it much harder to cut them off.\""
+      }
+    },
+    {
+      "text": "Incorrect. Your left network can still be cut off from empty ports in just one move. Also, you blocked one of your only open ports from your right network!",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 50,
+        "targetExcerpt": "\"Incorrect. Your left network can still be cut off from empty ports in just one move. Also, you blocked one of your only open ports from your right network!\""
+      }
+    },
+    {
+      "text": "CHALLENGE: The black routers are only connected to one empty-node group. Place a router such that they are connected to TWO empty node groups instead.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 59,
+        "targetExcerpt": "\"CHALLENGE: The black routers are only connected to one empty-node group. Place a router such that they are connected to TWO empty node groups instead.\""
+      }
+    },
+    {
+      "text": "Correct! Now that your network surrounds empty nodes in multiple different areas, it is impossible for the network to be captured by white because of the suicide rule (unless you fill in your own empty nodes!).",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 63,
+        "targetExcerpt": "\"Correct! Now that your network surrounds empty nodes in multiple different areas, it is impossible for the network to be captured by white because of the suicide rule (unless you fill in your own empty nodes!).\""
+      }
+    },
+    {
+      "text": "Incorrect. The black network still only touches one group of open nodes. (Hint: Try dividing up the bottom open-node group.) Hit 'Reset' to try again.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "\"Incorrect. The black network still only touches one group of open nodes. (Hint: Try dividing up the bottom open-node group.) Hit 'Reset' to try again.\""
+      }
+    },
+    {
+      "text": "IPvGO",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 76,
+        "targetExcerpt": "IPvGO"
+      }
+    },
+    {
+      "text": "In late 2070, the .org bubble burst, and most of the newly-implemented IPvGO 'net collapsed overnight. Since then, various factions have been fighting over small subnets to control their computational power. These subnets are very valuable in the right hands, if you can wrest them from their current owners.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 79,
+        "targetExcerpt": "In late 2070, the .org bubble burst, and most of the newly-implemented IPvGO 'net collapsed overnight. Since\n          then, various factions have been fighting over small subnets to control their computational power. These\n          subnets are very valuable in the right hands, if you can wrest them from their current owners.\n          "
+      }
+    },
+    {
+      "text": "(For details about how to automate with the API, and for a working starter script, visit the",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 84,
+        "targetExcerpt": "(For details about how to automate with the API, and for a working starter script, visit the"
+      }
+    },
+    {
+      "text": "section of the in-game documentation.)",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 85,
+        "targetExcerpt": "section of the in-game\n          documentation.)\n        "
+      }
+    },
+    {
+      "text": "How to take over IPvGO Subnets",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 92,
+        "targetExcerpt": "How to take over IPvGO Subnets"
+      }
+    },
+    {
+      "text": "Your goal is to control more",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 95,
+        "targetExcerpt": "Your goal is to control more "
+      }
+    },
+    {
+      "text": "empty nodes",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 95,
+        "targetExcerpt": "empty nodes"
+      }
+    },
+    {
+      "text": "in the subnet than the faction currently holding it, by surrounding those open nodes with your routers.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 95,
+        "targetExcerpt": "in the subnet than the faction currently holding it, by\n              surrounding those open nodes with your routers.\n              "
+      }
+    },
+    {
+      "text": "Each turn you place a router in an empty node (or pass). The router will connect to your adjacent routers, forming networks. A network's remaining open ports are indicated by lines heading out towards the empty nodes adjacent to the network.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 99,
+        "targetExcerpt": "Each turn you place a router in an empty node (or pass). The router will connect to your adjacent routers,\n              forming networks. A network's remaining open ports are indicated by lines heading out towards the empty\n              nodes adjacent to the network.\n              "
+      }
+    },
+    {
+      "text": "If a group of routers no longer is connected to any empty nodes, they will experience intense packet loss and be removed from the subnet. Make sure you ALWAYS have access to several empty nodes in each of your networks! A network with only one remaining open port will start to fade in and out, because it is at risk of being destroyed.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 104,
+        "targetExcerpt": "If a group of routers no longer is connected to any empty nodes, they will experience intense packet loss\n              and be removed from the subnet. Make sure you ALWAYS have access to several empty nodes in each of your\n              networks! A network with only one remaining open port will start to fade in and out, because it is at risk\n              of being destroyed.\n              "
+      }
+    },
+    {
+      "text": "You also can use your routers to limit your opponent's access to empty nodes as much as possible. Cut a network off from any empty nodes, and their entire group of routers will be removed!",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 110,
+        "targetExcerpt": "You also can use your routers to limit your opponent's access to empty nodes as much as possible. Cut a\n              network off from any empty nodes, and their entire group of routers will be removed!\n              "
+      }
+    },
+    {
+      "text": "Winning the Subnet",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 127,
+        "targetExcerpt": "Winning the Subnet"
+      }
+    },
+    {
+      "text": "The game ends when all of the open nodes on the subnet are completely surrounded by a single color, or when both players pass consecutively.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 130,
+        "targetExcerpt": "The game ends when all of the open nodes on the subnet are completely surrounded by a single color, or\n              when both players pass consecutively.\n              "
+      }
+    },
+    {
+      "text": "Once the subnet is fully claimed, each player will get one point for each empty node they fully surround on the subnet, plus a point for each router they have. You can use the edge of the board along with your routers to fully surround and claim empty nodes.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 134,
+        "targetExcerpt": "Once the subnet is fully claimed, each player will get one point for each empty node they fully surround\n              on the subnet, plus a point for each router they have. You can use the edge of the board along with your\n              routers to fully surround and claim empty nodes. "
+      }
+    },
+    {
+      "text": "White will also get a few points (called \"komi\") as a home-field advantage in the subnet, and to balance black's advantage of having the first move.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 138,
+        "targetExcerpt": "White will also get a few points (called \"komi\") as a home-field advantage in the subnet, and to balance\n              black's advantage of having the first move.\n              "
+      }
+    },
+    {
+      "text": "Any territory you control at the end of the game will award you stat multiplier bonuses. Winning the node will increase the amount gained, but is not required.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 142,
+        "targetExcerpt": "Any territory you control at the end of the game will award you stat multiplier bonuses. Winning the node\n              will increase the amount gained, but is not required.\n              "
+      }
+    },
+    {
+      "text": "rep converted to favor with that faction (up to a max of",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 146,
+        "targetExcerpt": "rep converted to favor with that\n              faction (up to a max of "
+      }
+    },
+    {
+      "text": "The rep is immediately applied as favor, meaning it will increase reputation gain right away without needing an install.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 149,
+        "targetExcerpt": "The rep is immediately applied as favor, meaning it will increase reputation gain right away without\n              needing an install.\n              "
+      }
+    },
+    {
+      "text": "For experienced Go players: IPvGO uses the old traditional Go score rules, area scoring, rather than the Japanese territory scoring that was popular in the mid-21st century. All stones are alive and count towards score unless captured during the game. Chains that could be dead are not automatically captured after the game, and prisoners are not calculated. This was chosen for its simplicity to teach and to calculate, rather than using the territory scoring shortcuts designed to make physical games quicker.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 153,
+        "targetExcerpt": "For experienced Go players: IPvGO uses the old traditional Go score rules, area scoring, rather than the\n              Japanese territory scoring that was popular in the mid-21st century. All stones are alive and count\n              towards score unless captured during the game. Chains that could be dead are not automatically captured\n              after the game, and prisoners are not calculated. This was chosen for its simplicity to teach and to\n              calculate, rather than using the territory scoring shortcuts designed to make physical games quicker.\n            "
+      }
+    },
+    {
+      "text": "Special Rule Details",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 165,
+        "targetExcerpt": "Special Rule Details"
+      }
+    },
+    {
+      "text": "* Because these subnets have fallen into disrepair, they are not always perfectly square. Dead areas, such as the top-left corner in the example above, are not part of the subnet. They do not count as territory, and do not provide open ports to adjacent routers.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 168,
+        "targetExcerpt": "* Because these subnets have fallen into disrepair, they are not always perfectly square. Dead areas, such\n              as the top-left corner in the example above, are not part of the subnet. They do not count as territory,\n              and do not provide open ports to adjacent routers.\n              "
+      }
+    },
+    {
+      "text": "* You cannot suicide your own routers by cutting off access to their last remaining open node. You also cannot suicide a router by placing it in a node that is completely surrounded by your opponent's routers.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 173,
+        "targetExcerpt": "* You cannot suicide your own routers by cutting off access to their last remaining open node. You also\n              cannot suicide a router by placing it in a node that is completely surrounded by your opponent's routers.\n              "
+      }
+    },
+    {
+      "text": "* There is one exception to the suicide rule: You can place a router on ANY node if it would capture any of the opponent's routers.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 177,
+        "targetExcerpt": "* There is one exception to the suicide rule: You can place a router on ANY node if it would capture any\n              of the opponent's routers.\n              "
+      }
+    },
+    {
+      "text": "* You cannot repeat previous board states. This rule prevents infinite loops of capturing and re-capturing. This means that in some cases you cannot immediately capture an enemy network that is flashing and vulnerable.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 181,
+        "targetExcerpt": "* You cannot repeat previous board states. This rule prevents infinite loops of capturing and\n              re-capturing. This means that in some cases you cannot immediately capture an enemy network that is\n              flashing and vulnerable.\n              "
+      }
+    },
+    {
+      "text": "Note that you CAN re-capture eventually, but you must play somewhere else on the board first, to make the overall board state different.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 186,
+        "targetExcerpt": "Note that you CAN re-capture eventually, but you must play somewhere else on the board first, to make the\n              overall board state different.\n            "
+      }
+    },
+    {
+      "text": "Strategy",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 201,
+        "targetExcerpt": "Strategy"
+      }
+    },
+    {
+      "text": "* You can place routers and look at the board state via the \"ns.go\" api. For more details, go to the",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 205,
+        "targetExcerpt": "* You can place routers and look at the board state via the \"ns.go\" api. For more details, go to the"
+      }
+    },
+    {
+      "text": "page in the documentation tab.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 206,
+        "targetExcerpt": "page in the documentation\n              tab.\n              "
+      }
+    },
+    {
+      "text": "* If a network surrounds a single empty node, the opponent can eventually capture it by filling in that node. However, if your network has two separate empty nodes inside of it, the suicide rule prevents the opponent from filling up either of them. This means your network cannot be captured! Try to build your networks to surround several different empty nodes, and avoid filling in your network's empty nodes when possible.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 210,
+        "targetExcerpt": "* If a network surrounds a single empty node, the opponent can eventually capture it by filling in that\n              node. However, if your network has two separate empty nodes inside of it, the suicide rule prevents the\n              opponent from filling up either of them. This means your network cannot be captured! Try to build your\n              networks to surround several different empty nodes, and avoid filling in your network's empty nodes when\n              possible.\n              "
+      }
+    },
+    {
+      "text": "* Pay attention to when a network of routers has only one or two open ports to empty spaces! That is your opportunity to defend your network, or capture the opposing faction's.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 217,
+        "targetExcerpt": "* Pay attention to when a network of routers has only one or two open ports to empty spaces! That is your\n              opportunity to defend your network, or capture the opposing faction's.\n              "
+      }
+    },
+    {
+      "text": "* Every faction has a different style, and different weaknesses. Try to identify what they are good and bad at doing.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 221,
+        "targetExcerpt": "* Every faction has a different style, and different weaknesses. Try to identify what they are good and\n              bad at doing.\n              "
+      }
+    },
+    {
+      "text": "* The best way to learn strategies is to experiment and find out what works!",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 225,
+        "targetExcerpt": "* The best way to learn strategies is to experiment and find out what works!\n              "
+      }
+    },
+    {
+      "text": "* This game is Go with slightly simplified scoring. For more rule details and strategies try",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 227,
+        "targetExcerpt": "* This game is Go with slightly simplified scoring. For more rule details and strategies try"
+      }
+    },
+    {
+      "text": "The Way to Go interactive guide.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoInstructionsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 229,
+        "targetExcerpt": "The Way to Go interactive guide.\n              "
+      }
+    },
+    {
+      "text": "no signal",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoPoint.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 113,
+        "targetExcerpt": "no signal"
+      }
+    },
+    {
+      "text": "IPvGO Subnet",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 26,
+        "targetExcerpt": "\"IPvGO Subnet\""
+      }
+    },
+    {
+      "text": "Status",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 27,
+        "targetExcerpt": "\"Status\""
+      }
+    },
+    {
+      "text": "History",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 28,
+        "targetExcerpt": "\"History\""
+      }
+    },
+    {
+      "text": "How to Play",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 29,
+        "targetExcerpt": "\"How to Play\""
+      }
+    },
+    {
+      "text": "IPvGO Scoring Explanation",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreExplanation.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 20,
+        "targetExcerpt": "IPvGO Scoring Explanation"
+      }
+    },
+    {
+      "text": "IPvGO uses one of the oldest scoring systems in Go, \"area scoring\", rather than \"territory scoring\" later popularized by Japan. All stones are alive unless captured, chains that could be dead are not automatically captured after the game, and prisoners are not calculated. The displayed score is always the ending score if both players pass.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreExplanation.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 21,
+        "targetExcerpt": "IPvGO uses one of the oldest scoring systems in Go, \"area scoring\", rather than \"territory scoring\" later\n            popularized by Japan. All stones are alive unless captured, chains that could be dead are not automatically\n            captured after the game, and prisoners are not calculated. The displayed score is always the ending score if\n            both players pass. "
+      }
+    },
+    {
+      "text": "This scoring ruleset was chosen for its simplicity to teach and to calculate, rather than using territory scoring shortcuts designed to make physical games quicker.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreExplanation.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 25,
+        "targetExcerpt": "This scoring ruleset was chosen for its simplicity to teach and to calculate, rather than using territory\n            scoring shortcuts designed to make physical games quicker.\n            "
+      }
+    },
+    {
+      "text": "Territory scoring relies heavily on all players having a clear understanding of which chains on the board will be \"alive\" or \"dead\" given future perfect play. It is much more complicated to implement, and requires a much deeper knowledge of Go for new players, and for their IPvGO automation scripts.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreExplanation.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 28,
+        "targetExcerpt": "Territory scoring relies heavily on all players having a clear understanding of which chains on the board\n            will be \"alive\" or \"dead\" given future perfect play. It is much more complicated to implement, and requires\n            a much deeper knowledge of Go for new players, and for their IPvGO automation scripts.\n            "
+      }
+    },
+    {
+      "text": "In most cases the winner, and the difference in score between players, comes out to be the same in both scoring systems, but in area scoring you \"show your work\" and prove that something is alive or dead, and gives opportunities for the player to capitalize on the computer's mistakes (or vice versa).",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreExplanation.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 32,
+        "targetExcerpt": "In most cases the winner, and the difference in score between players, comes out to be the same in both\n            scoring systems, but in area scoring you \"show your work\" and prove that something is alive or dead, and\n            gives opportunities for the player to capitalize on the computer's mistakes (or vice versa).\n          "
+      }
+    },
+    {
+      "text": "Game complete!",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 41,
+        "targetExcerpt": "Game complete!\n          "
+      }
+    },
+    {
+      "text": "Score Explanation",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 59,
+        "targetExcerpt": "Score Explanation"
+      }
+    },
+    {
+      "text": "New Subnet",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 60,
+        "targetExcerpt": "New Subnet"
+      }
+    },
+    {
+      "text": "Subnet power gained:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 38,
+        "targetExcerpt": "Subnet power gained:"
+      }
+    },
+    {
+      "text": "The total number of empty points and routers you took control of on this subnet",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 43,
+        "targetExcerpt": "The total number of empty points and routers you took control of on this subnet"
+      }
+    },
+    {
+      "text": "Nodes Captured:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 45,
+        "targetExcerpt": "Nodes Captured:"
+      }
+    },
+    {
+      "text": "The difficulty multiplier for this opponent faction",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 49,
+        "targetExcerpt": "The difficulty multiplier for this opponent faction"
+      }
+    },
+    {
+      "text": "Difficulty Multiplier:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 51,
+        "targetExcerpt": "Difficulty Multiplier:"
+      }
+    },
+    {
+      "text": "x",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 52,
+        "targetExcerpt": "x"
+      }
+    },
+    {
+      "text": "Win",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 56,
+        "targetExcerpt": "\"Win\""
+      }
+    },
+    {
+      "text": "Loss",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 56,
+        "targetExcerpt": "\"Loss\""
+      }
+    },
+    {
+      "text": "Streak:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 56,
+        "targetExcerpt": "Streak:"
+      }
+    },
+    {
+      "text": "Consecutive wins award progressively higher multipliers for node power. Coming back from a loss streak also gives an extra bonus.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "Consecutive wins award progressively higher multipliers for node power. Coming back from a loss streak\n                also gives an extra bonus.\n              "
+      }
+    },
+    {
+      "text": "Win Streak",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 69,
+        "targetExcerpt": "\"Win Streak\""
+      }
+    },
+    {
+      "text": "Multiplier:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 69,
+        "targetExcerpt": "Multiplier:\n              "
+      }
+    },
+    {
+      "text": "Node power gained:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 86,
+        "targetExcerpt": "Node power gained:"
+      }
+    },
+    {
+      "text": "Your total node power from all subnets",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 90,
+        "targetExcerpt": "Your total node power from all subnets"
+      }
+    },
+    {
+      "text": "Total node power:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 92,
+        "targetExcerpt": "Total node power:"
+      }
+    },
+    {
+      "text": "Winstreak Bonus:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 111,
+        "targetExcerpt": "Winstreak Bonus: "
+      }
+    },
+    {
+      "text": "reputation converted to favor",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 112,
+        "targetExcerpt": "reputation converted to favor"
+      }
+    },
+    {
+      "text": "New Total Bonus:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScorePowerSummary.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 120,
+        "targetExcerpt": "New Total Bonus: "
+      }
+    },
+    {
+      "text": "Owned Empty Nodes:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreSummaryTable.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "Owned Empty Nodes:"
+      }
+    },
+    {
+      "text": "Routers placed:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreSummaryTable.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 41,
+        "targetExcerpt": "Routers placed:"
+      }
+    },
+    {
+      "text": "Komi represents the current faction's home-field advantage on this subnet,",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreSummaryTable.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 48,
+        "targetExcerpt": "Komi represents the current faction's home-field advantage on this subnet, "
+      }
+    },
+    {
+      "text": "to balance the first-move advantage that the player with the black routers has.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreSummaryTable.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 49,
+        "targetExcerpt": "to balance the first-move advantage that the player with the black routers has.\n              "
+      }
+    },
+    {
+      "text": "Komi:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreSummaryTable.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 54,
+        "targetExcerpt": "Komi:"
+      }
+    },
+    {
+      "text": "Total score:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoScoreSummaryTable.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "Total score:"
+      }
+    },
+    {
+      "text": "Current Subnet:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoStatusPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 26,
+        "targetExcerpt": "Current Subnet:"
+      }
+    },
+    {
+      "text": "Summary of All Subnet Boosts:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoStatusPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 42,
+        "targetExcerpt": "Summary of All Subnet Boosts:"
+      }
+    },
+    {
+      "text": "Faction:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoStatusPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 48,
+        "targetExcerpt": "Faction:"
+      }
+    },
+    {
+      "text": "Effect:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoStatusPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 51,
+        "targetExcerpt": "Effect:"
+      }
+    },
+    {
+      "text": "IPvGO Subnet Search",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 65,
+        "targetExcerpt": "IPvGO Subnet Search"
+      }
+    },
+    {
+      "text": "Opponent Faction:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 72,
+        "targetExcerpt": "\"Opponent Faction: \""
+      }
+    },
+    {
+      "text": "Subnet size:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 87,
+        "targetExcerpt": "Subnet size: "
+      }
+    },
+    {
+      "text": "This faction will also get a few points as a home-field advantage in the subnet, and to balance the player's advantage of having the first move.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 104,
+        "targetExcerpt": "This faction will also get a few points as a home-field advantage in the subnet, and to balance the\n                player's advantage of having the first move.\n              "
+      }
+    },
+    {
+      "text": "This faction has placed a few routers to defend their subnet already.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 112,
+        "targetExcerpt": "This faction has placed a few routers to defend their subnet already."
+      }
+    },
+    {
+      "text": "Handicap:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 113,
+        "targetExcerpt": "Handicap: "
+      }
+    },
+    {
+      "text": "Faction subnet bonus:",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 137,
+        "targetExcerpt": "\"Faction subnet bonus:\""
+      }
+    },
+    {
+      "text": "Search for Subnet",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 143,
+        "targetExcerpt": "Search for Subnet"
+      }
+    },
+    {
+      "text": "Cancel",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoSubnetSearch.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 144,
+        "targetExcerpt": "Cancel"
+      }
+    },
+    {
+      "text": "Reset",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/ui/GoTutorialChallenge.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 86,
+        "targetExcerpt": "Reset"
+      }
+    },
+    {
+      "text": "Purchase an additional Sleeve. These Duplicate Sleeves are permanent (they persist through BitNodes). You can purchase a total of",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantPurchasesRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 51,
+        "targetExcerpt": "Purchase an additional Sleeve. These Duplicate Sleeves are permanent (they persist through BitNodes). You\n              can purchase a total of "
+      }
+    },
+    {
+      "text": "from",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantPurchasesRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 52,
+        "targetExcerpt": "from "
+      }
+    },
+    {
+      "text": "Purchase -",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantPurchasesRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 55,
+        "targetExcerpt": "Purchase -&nbsp;\n              "
+      }
+    },
+    {
+      "text": "You can also purchase upgrades for your Sleeves. These upgrades are also permanent.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantPurchasesRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "You can also purchase upgrades for your Sleeves. These upgrades are also permanent."
+      }
+    },
+    {
+      "text": "Upgrade Memory of Sleeve",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantSleeveMemoryUpgrade.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 58,
+        "targetExcerpt": "Upgrade Memory of Sleeve "
+      }
+    },
+    {
+      "text": "Purchase a memory upgrade for your sleeve. Note that a sleeve's max memory is 100 (current:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantSleeveMemoryUpgrade.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 61,
+        "targetExcerpt": "Purchase a memory upgrade for your sleeve. Note that a sleeve's max memory is 100 (current:"
+      }
+    },
+    {
+      "text": "Amount of memory to purchase (must be an integer):",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantSleeveMemoryUpgrade.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "Amount of memory to purchase (must be an integer):&nbsp;"
+      }
+    },
+    {
+      "text": "Purchase",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantSleeveMemoryUpgrade.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 71,
+        "targetExcerpt": "Purchase "
+      }
+    },
+    {
+      "text": "memory -",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/CovenantSleeveMemoryUpgrade.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 71,
+        "targetExcerpt": "memory&nbsp;-&nbsp;\n        "
+      }
+    },
+    {
+      "text": "How do Duplicate Sleeves work?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 16,
+        "targetExcerpt": "How do Duplicate Sleeves work?"
+      }
+    },
+    {
+      "text": "Duplicate Sleeves are essentially clones. You can use them to perform any work type action, such as working for a company/faction or committing a crime. Having sleeves perform these tasks earns you money, experience, and reputation.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 19,
+        "targetExcerpt": "Duplicate Sleeves are essentially clones. You can use them to perform any work type action, such as working\n          for a company/faction or committing a crime. Having sleeves perform these tasks earns you money, experience,\n          and reputation.\n        "
+      }
+    },
+    {
+      "text": "Sleeves are their own individuals, which means they each have their own experience and stats.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 26,
+        "targetExcerpt": "Sleeves are their own individuals, which means they each have their own experience and stats.\n        "
+      }
+    },
+    {
+      "text": "When a sleeve earns experience, it earns experience for itself, the player's original 'consciousness', as well as all of the player's other sleeves.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 31,
+        "targetExcerpt": "When a sleeve earns experience, it earns experience for itself, the player's original 'consciousness', as well\n          as all of the player's other sleeves.\n        "
+      }
+    },
+    {
+      "text": "What is Synchronization (Sync)?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "What is Synchronization (Sync)?"
+      }
+    },
+    {
+      "text": "Synchronization is a measure of how aligned your consciousness is with that of your Duplicate Sleeves. It is a numerical value between 1 and 100, and it affects how much experience is earned when the sleeve is performing a task.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 39,
+        "targetExcerpt": "Synchronization is a measure of how aligned your consciousness is with that of your Duplicate Sleeves. It is a\n          numerical value between 1 and 100, and it affects how much experience is earned when the sleeve is performing\n          a task.\n        "
+      }
+    },
+    {
+      "text": "Let N be the sleeve's synchronization. When the sleeve earns experience by performing a task, both the sleeve and the player's original host consciousness earn N% of the amount of experience normally earned by the task. All of the player's other sleeves earn ((N/100)^2 * 100)% of the experience.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 46,
+        "targetExcerpt": "Let N be the sleeve's synchronization. When the sleeve earns experience by performing a task, both the sleeve\n          and the player's original host consciousness earn N% of the amount of experience normally earned by the task.\n          All of the player's other sleeves earn ((N/100)^2 * 100)% of the experience.\n        "
+      }
+    },
+    {
+      "text": "Synchronization can be increased by assigning sleeves to the 'Synchronize' task.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 52,
+        "targetExcerpt": "Synchronization can be increased by assigning sleeves to the 'Synchronize' task."
+      }
+    },
+    {
+      "text": "What is Shock?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 55,
+        "targetExcerpt": "What is Shock?"
+      }
+    },
+    {
+      "text": "Sleeve shock is a measure of how much trauma the sleeve has due to being placed in a new body. It is a numerical value between 0 and 99, where 99 indicates full shock and 0 indicates no shock. Shock affects the amount of experience earned by the sleeve.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 58,
+        "targetExcerpt": "Sleeve shock is a measure of how much trauma the sleeve has due to being placed in a new body. It is a\n          numerical value between 0 and 99, where 99 indicates full shock and 0 indicates no shock. Shock affects the\n          amount of experience earned by the sleeve.\n        "
+      }
+    },
+    {
+      "text": "Sleeve shock slowly decreases over time. You can further increase the rate at which it decreases by assigning sleeves to the 'Shock Recovery' task.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 65,
+        "targetExcerpt": "Sleeve shock slowly decreases over time. You can further increase the rate at which it decreases by assigning\n          sleeves to the 'Shock Recovery' task.\n        "
+      }
+    },
+    {
+      "text": "Why can't I work for this company or faction?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 70,
+        "targetExcerpt": "Why can't I work for this company or faction?"
+      }
+    },
+    {
+      "text": "Only one of your sleeves can work for a given company/faction a time. To clarify further, if you have two sleeves they can work for two different companies/factions, but they cannot both work for the same company/faction.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 73,
+        "targetExcerpt": "Only one of your sleeves can work for a given company/faction a time. To clarify further, if you have two\n          sleeves they can work for two different companies/factions, but they cannot both work for the same\n          company/faction.\n        "
+      }
+    },
+    {
+      "text": "How do I buy Augmentations for my Sleeves?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 79,
+        "targetExcerpt": "How do I buy Augmentations for my Sleeves?"
+      }
+    },
+    {
+      "text": "Your Sleeve needs to have a Shock of 0 in order for you to buy Augmentations for it.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 81,
+        "targetExcerpt": "Your Sleeve needs to have a Shock of 0 in order for you to buy Augmentations for it."
+      }
+    },
+    {
+      "text": "Why can't I buy the X Augmentation for my sleeve?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 84,
+        "targetExcerpt": "Why can't I buy the X Augmentation for my sleeve?"
+      }
+    },
+    {
+      "text": "Certain Augmentations, like",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 87,
+        "targetExcerpt": "Certain Augmentations, like "
+      }
+    },
+    {
+      "text": "-specific ones and NeuroFlux Governor, are not available for sleeves. You also need enough current reputation on some faction that offers that Augmentation.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 87,
+        "targetExcerpt": "-specific ones and NeuroFlux Governor, are not available\n          for sleeves. You also need enough current reputation on some faction that offers that Augmentation.\n        "
+      }
+    },
+    {
+      "text": "Do sleeves get reset when installing Augmentations or switching BitNodes?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 92,
+        "targetExcerpt": "Do sleeves get reset when installing Augmentations or switching BitNodes?"
+      }
+    },
+    {
+      "text": "Sleeves are reset when switching BitNodes, but not when installing Augmentations. However installing Augmentations on a sleeve does reset their stats.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 95,
+        "targetExcerpt": "Sleeves are reset when switching BitNodes, but not when installing Augmentations. However installing\n          Augmentations on a sleeve does reset their stats.\n        "
+      }
+    },
+    {
+      "text": "What is Memory?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 100,
+        "targetExcerpt": "What is Memory?"
+      }
+    },
+    {
+      "text": "Sleeve memory dictates what a sleeve's synchronization will be when it's reset by switching BitNodes. For example, if a sleeve has a memory of 25, then when you switch BitNodes its synchronization will initially be set to 25, rather than 1.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 103,
+        "targetExcerpt": "Sleeve memory dictates what a sleeve's synchronization will be when it's reset by switching BitNodes. For\n          example, if a sleeve has a memory of 25, then when you switch BitNodes its synchronization will initially be\n          set to 25, rather than 1.\n        "
+      }
+    },
+    {
+      "text": "Memory can only be increased by purchasing upgrades from",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 110,
+        "targetExcerpt": "Memory can only be increased by purchasing upgrades from "
+      }
+    },
+    {
+      "text": ". It is a persistent stat, meaning it never gets resets back to 1. The maximum possible value for a sleeve's memory is 100.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 110,
+        "targetExcerpt": ". It is a persistent stat,\n          meaning it never gets resets back to 1. The maximum possible value for a sleeve's memory is 100.\n        "
+      }
+    },
+    {
+      "text": "What is bonus time?",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 115,
+        "targetExcerpt": "What is bonus time?"
+      }
+    },
+    {
+      "text": "Sleeves accumulate bonus time when they idle or when you open the game after being offline. They use bonus time to reduce the time requirement of their tasks so that they can complete their tasks faster.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/FAQModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 118,
+        "targetExcerpt": "Sleeves accumulate bonus time when they idle or when you open the game after being offline. They use bonus\n          time to reduce the time requirement of their tasks so that they can complete their tasks faster.\n        "
+      }
+    },
+    {
+      "text": "Hacking:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 22,
+        "targetExcerpt": "Hacking:&nbsp;"
+      }
+    },
+    {
+      "text": "exp)",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 22,
+        "targetExcerpt": "exp)"
+      }
+    },
+    {
+      "text": "Strength:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 23,
+        "targetExcerpt": "Strength:&nbsp;"
+      }
+    },
+    {
+      "text": "Defense:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 24,
+        "targetExcerpt": "Defense:&nbsp;"
+      }
+    },
+    {
+      "text": "Dexterity:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 26,
+        "targetExcerpt": "Dexterity:&nbsp;"
+      }
+    },
+    {
+      "text": "Agility:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 30,
+        "targetExcerpt": "Agility:&nbsp;"
+      }
+    },
+    {
+      "text": "Charisma:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 31,
+        "targetExcerpt": "Charisma:&nbsp;"
+      }
+    },
+    {
+      "text": "Intelligence:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "Intelligence:&nbsp;"
+      }
+    },
+    {
+      "text": "Stats:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 43,
+        "targetExcerpt": "\"Stats:\""
+      }
+    },
+    {
+      "text": "Hacking Level multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 48,
+        "targetExcerpt": "Hacking Level multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Hacking Experience multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 49,
+        "targetExcerpt": "Hacking Experience multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Strength Level multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 50,
+        "targetExcerpt": "Strength Level multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Strength Experience multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 51,
+        "targetExcerpt": "Strength Experience multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Defense Level multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 52,
+        "targetExcerpt": "Defense Level multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Defense Experience multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 53,
+        "targetExcerpt": "Defense Experience multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Dexterity Level multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 54,
+        "targetExcerpt": "Dexterity Level multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Dexterity Experience multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 55,
+        "targetExcerpt": "Dexterity Experience multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Agility Level multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 56,
+        "targetExcerpt": "Agility Level multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Agility Experience multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 57,
+        "targetExcerpt": "Agility Experience multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Charisma Level multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 58,
+        "targetExcerpt": "Charisma Level multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Charisma Experience multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 59,
+        "targetExcerpt": "Charisma Experience multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Faction Reputation Gain multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 60,
+        "targetExcerpt": "Faction Reputation Gain multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Company Reputation Gain multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 61,
+        "targetExcerpt": "Company Reputation Gain multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Salary multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "Salary multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Crime Money multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 63,
+        "targetExcerpt": "Crime Money multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Crime Success multiplier:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 64,
+        "targetExcerpt": "Crime Success multiplier:&nbsp;"
+      }
+    },
+    {
+      "text": "Multipliers:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "\"Multipliers:\""
+      }
+    },
+    {
+      "text": "Bonus Time:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/MoreStatsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 72,
+        "targetExcerpt": "Bonus Time: "
+      }
+    },
+    {
+      "text": "You can purchase augmentations for your Sleeves. These augmentations have the same effect as they would for you. You can only purchase augmentations that you unlocked through factions. If an augmentation is useless for Sleeves, it will not be available. Sleeves can install an augmentation without its prerequisites.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveAugmentationsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 30,
+        "targetExcerpt": "You can purchase augmentations for your Sleeves. These augmentations have the same effect as they would for\n          you. You can only purchase augmentations that you unlocked through factions. If an augmentation is useless for\n          Sleeves, it will not be available. Sleeves can install an augmentation without its prerequisites.\n          "
+      }
+    },
+    {
+      "text": "When purchasing an augmentation for a Sleeve, it is immediately installed. This means that the Sleeve will immediately lose all of its stat experience.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveAugmentationsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "When purchasing an augmentation for a Sleeve, it is immediately installed. This means that the Sleeve will\n          immediately lose all of its stat experience.\n          "
+      }
+    },
+    {
+      "text": "Augmentations will appear below as they become available.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveAugmentationsModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 39,
+        "targetExcerpt": "Augmentations will appear below as they become available.\n        "
+      }
+    },
+    {
+      "text": "More Stats",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 222,
+        "targetExcerpt": "More Stats"
+      }
+    },
+    {
+      "text": "Insufficient funds",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 223,
+        "targetExcerpt": "Insufficient funds"
+      }
+    },
+    {
+      "text": "Travel",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 230,
+        "targetExcerpt": "Travel\n                "
+      }
+    },
+    {
+      "text": "Manage Augmentations",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 245,
+        "targetExcerpt": "Manage Augmentations\n                "
+      }
+    },
+    {
+      "text": "Set Task",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 255,
+        "targetExcerpt": "Set Task\n          "
+      }
+    },
+    {
+      "text": "Sleeves",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 19,
+        "targetExcerpt": "Sleeves"
+      }
+    },
+    {
+      "text": "Duplicate Sleeves are MK-V Synthoids (synthetic androids) into which your consciousness has been copied. In other words, these Synthoids contain a perfect duplicate of your mind.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 21,
+        "targetExcerpt": "Duplicate Sleeves are MK-V Synthoids (synthetic androids) into which your consciousness has been copied. In\n          other words, these Synthoids contain a perfect duplicate of your mind.\n          "
+      }
+    },
+    {
+      "text": "Sleeves can be used to perform different tasks simultaneously.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 25,
+        "targetExcerpt": "Sleeves can be used to perform different tasks simultaneously.\n          "
+      }
+    },
+    {
+      "text": "You enabled the \"Disable Sleeves' experience and augmentation\" option. Your sleeves will not gain experience, and they won't be able to install augmentations.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 31,
+        "targetExcerpt": "You enabled the \"Disable Sleeves' experience and augmentation\" option. Your sleeves will not gain\n            experience, and they won't be able to install augmentations.\n            "
+      }
+    },
+    {
+      "text": "FAQ",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/SleeveRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 39,
+        "targetExcerpt": "FAQ"
+      }
+    },
+    {
+      "text": "City",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 42,
+        "targetExcerpt": "\"City\""
+      }
+    },
+    {
+      "text": "HP",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 44,
+        "targetExcerpt": "\"HP\""
+      }
+    },
+    {
+      "text": "Hacking",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 51,
+        "targetExcerpt": "\"Hacking\""
+      }
+    },
+    {
+      "text": "Strength",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 56,
+        "targetExcerpt": "\"Strength\""
+      }
+    },
+    {
+      "text": "Defense",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 61,
+        "targetExcerpt": "\"Defense\""
+      }
+    },
+    {
+      "text": "Dexterity",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "\"Dexterity\""
+      }
+    },
+    {
+      "text": "Agility",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 71,
+        "targetExcerpt": "\"Agility\""
+      }
+    },
+    {
+      "text": "Charisma",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 76,
+        "targetExcerpt": "\"Charisma\""
+      }
+    },
+    {
+      "text": "Intelligence",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 82,
+        "targetExcerpt": "\"Intelligence\""
+      }
+    },
+    {
+      "text": "Shock",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 93,
+        "targetExcerpt": "\"Shock\""
+      }
+    },
+    {
+      "text": "Sync",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 98,
+        "targetExcerpt": "\"Sync\""
+      }
+    },
+    {
+      "text": "Memory",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 103,
+        "targetExcerpt": "\"Memory\""
+      }
+    },
+    {
+      "text": "Money:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 119,
+        "targetExcerpt": "`Money:`"
+      }
+    },
+    {
+      "text": "Hacking Exp:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 120,
+        "targetExcerpt": "`Hacking Exp:`"
+      }
+    },
+    {
+      "text": "Strength Exp:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 121,
+        "targetExcerpt": "`Strength Exp:`"
+      }
+    },
+    {
+      "text": "Defense Exp:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 122,
+        "targetExcerpt": "`Defense Exp:`"
+      }
+    },
+    {
+      "text": "Dexterity Exp:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 123,
+        "targetExcerpt": "`Dexterity Exp:`"
+      }
+    },
+    {
+      "text": "Agility Exp:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 124,
+        "targetExcerpt": "`Agility Exp:`"
+      }
+    },
+    {
+      "text": "Charisma Exp:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 125,
+        "targetExcerpt": "`Charisma Exp:`"
+      }
+    },
+    {
+      "text": "Reputation:",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 150,
+        "targetExcerpt": "`Reputation:`"
+      }
+    },
+    {
+      "text": "Earnings",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 177,
+        "targetExcerpt": "Earnings "
+      }
+    },
+    {
+      "text": "(Boosted by bonus time)",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/StatsElement.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 177,
+        "targetExcerpt": "\"(Boosted by bonus time)\""
+      }
+    },
+    {
+      "text": "Train Strength",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 25,
+        "targetExcerpt": "\"Train Strength\""
+      }
+    },
+    {
+      "text": "Train Defense",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 25,
+        "targetExcerpt": "\"Train Defense\""
+      }
+    },
+    {
+      "text": "Train Dexterity",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 25,
+        "targetExcerpt": "\"Train Dexterity\""
+      }
+    },
+    {
+      "text": "Train Agility",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 25,
+        "targetExcerpt": "\"Train Agility\""
+      }
+    },
+    {
+      "text": "Hacking Contracts",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 149,
+        "targetExcerpt": "\"Hacking Contracts\""
+      }
+    },
+    {
+      "text": "Field Work",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 152,
+        "targetExcerpt": "\"Field Work\""
+      }
+    },
+    {
+      "text": "Security Work",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 155,
+        "targetExcerpt": "\"Security Work\""
+      }
+    },
+    {
+      "text": "No university available in city!",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 177,
+        "targetExcerpt": "\"No university available in city!\""
+      }
+    },
+    {
+      "text": "No gym available in city!",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 196,
+        "targetExcerpt": "\"No gym available in city!\""
+      }
+    },
+    {
+      "text": "Idle",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 223,
+        "targetExcerpt": "Idle"
+      }
+    },
+    {
+      "text": "Work for Company",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 224,
+        "targetExcerpt": "\"Work for Company\""
+      }
+    },
+    {
+      "text": "Work for Faction",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 225,
+        "targetExcerpt": "\"Work for Faction\""
+      }
+    },
+    {
+      "text": "Commit Crime",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 226,
+        "targetExcerpt": "\"Commit Crime\""
+      }
+    },
+    {
+      "text": "Take University Course",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 227,
+        "targetExcerpt": "\"Take University Course\""
+      }
+    },
+    {
+      "text": "Workout at Gym",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 229,
+        "targetExcerpt": "\"Workout at Gym\""
+      }
+    },
+    {
+      "text": "Perform Bladeburner Actions",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 230,
+        "targetExcerpt": "\"Perform Bladeburner Actions\""
+      }
+    },
+    {
+      "text": "Shock Recovery",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 231,
+        "targetExcerpt": "\"Shock Recovery\""
+      }
+    },
+    {
+      "text": "Synchronize",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TaskSelector.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 232,
+        "targetExcerpt": "Synchronize"
+      }
+    },
+    {
+      "text": "You cannot afford to have this sleeve travel to another city",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TravelModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 22,
+        "targetExcerpt": "\"You cannot afford to have this sleeve travel to another city\""
+      }
+    },
+    {
+      "text": "Have this sleeve travel to a different city. This affects the gyms and universities at which this sleeve can study. Traveling to a different city costs",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TravelModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 33,
+        "targetExcerpt": "Have this sleeve travel to a different city. This affects the gyms and universities at which this sleeve can\n          study. Traveling to a different city costs "
+      }
+    },
+    {
+      "text": ". It will also set your current sleeve task to idle.",
+      "scope": "sleeves",
+      "source": {
+        "kind": "supplement",
+        "path": "src/PersonObjects/Sleeve/ui/TravelModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 34,
+        "targetExcerpt": ". It will\n          also set your current sleeve task to idle.\n        "
+      }
+    },
+    {
+      "text": "Practice Board",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 8,
+        "targetExcerpt": "\"Practice Board\""
+      }
+    },
+    {
+      "text": "Practice on a subnet where you place both colors of routers, or play as white against your IPvGO script.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 10,
+        "targetExcerpt": "\"Practice on a subnet where you place both colors of routers, or play as white against your IPvGO script.\""
+      }
+    },
+    {
+      "text": "Easy AI",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 16,
+        "targetExcerpt": "\"Easy AI\""
+      }
+    },
+    {
+      "text": "The Netburners faction are a mysterious group with only the most tenuous control over their subnets. Concentrating mainly on their hacknet server business, IPvGO is not their main strength.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 18,
+        "targetExcerpt": "\"The Netburners faction are a mysterious group with only the most tenuous control over their subnets. Concentrating mainly on their hacknet server business, IPvGO is not their main strength.\""
+      }
+    },
+    {
+      "text": "increased hacknet production",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 19,
+        "targetExcerpt": "\"increased hacknet production\""
+      }
+    },
+    {
+      "text": "Spread AI",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 24,
+        "targetExcerpt": "\"Spread AI\""
+      }
+    },
+    {
+      "text": "The Slum Snakes faction are a small-time street gang who turned to organized crime using their subnets. They are known to use long router chains snaking across the subnet to encircle territory.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 26,
+        "targetExcerpt": "\"The Slum Snakes faction are a small-time street gang who turned to organized crime using their subnets. They are known to use long router chains snaking across the subnet to encircle territory.\""
+      }
+    },
+    {
+      "text": "crime success rate",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 27,
+        "targetExcerpt": "\"crime success rate\""
+      }
+    },
+    {
+      "text": "Aggro AI",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 32,
+        "targetExcerpt": "\"Aggro AI\""
+      }
+    },
+    {
+      "text": "The Black Hand faction is a black-hat hacking group who uses their subnets to launch targeted DDOS attacks. They are famous for their unrelenting aggression, surrounding and strangling any foothold their opponents try to establish.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 34,
+        "targetExcerpt": "\"The Black Hand faction is a black-hat hacking group who uses their subnets to launch targeted DDOS attacks. They are famous for their unrelenting aggression, surrounding and strangling any foothold their opponents try to establish.\""
+      }
+    },
+    {
+      "text": "hacking money",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "\"hacking money\""
+      }
+    },
+    {
+      "text": "Martial AI",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 40,
+        "targetExcerpt": "\"Martial AI\""
+      }
+    },
+    {
+      "text": "The faction known as Tetrads prefers to get up close and personal. Their combat style excels at circling around and cutting through their opponents, both on and off of the subnets.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 42,
+        "targetExcerpt": "\"The faction known as Tetrads prefers to get up close and personal. Their combat style excels at circling around and cutting through their opponents, both on and off of the subnets.\""
+      }
+    },
+    {
+      "text": "strength, defense, dexterity, and agility levels",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 43,
+        "targetExcerpt": "\"strength, defense, dexterity, and agility levels\""
+      }
+    },
+    {
+      "text": "Mid AI",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 48,
+        "targetExcerpt": "\"Mid AI\""
+      }
+    },
+    {
+      "text": "Not much is known about this shadowy faction. They do not easily let go of subnets that they control, and are known to lease IPvGO cycles in exchange for reputation among other factions.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 50,
+        "targetExcerpt": "\"Not much is known about this shadowy faction. They do not easily let go of subnets that they control, and are known to lease IPvGO cycles in exchange for reputation among other factions.\""
+      }
+    },
+    {
+      "text": "reputation gain",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 51,
+        "targetExcerpt": "\"reputation gain\""
+      }
+    },
+    {
+      "text": "Hard AI",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 56,
+        "targetExcerpt": "\"Hard AI\""
+      }
+    },
+    {
+      "text": "The Illuminati are thought to only exist in myth. Said to always have prepared defenses in their IPvGO subnets. Provoke them at your own risk.",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 58,
+        "targetExcerpt": "\"The Illuminati are thought to only exist in myth. Said to always have prepared defenses in their IPvGO subnets. Provoke them at your own risk.\""
+      }
+    },
+    {
+      "text": "faster hack(), grow(), and weaken()",
+      "scope": "go",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Go/Constants.ts",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 59,
+        "targetExcerpt": "\"faster hack(), grow(), and weaken()\""
+      }
+    }
+  ],
+  "opponents": [
+    {
+      "key": "none",
+      "description": "Practice Board",
+      "flavorText": "Practice on a subnet where you place both colors of routers, or play as white against your IPvGO script.",
+      "bonusDescription": ""
+    },
+    {
+      "key": "Netburners",
+      "description": "Easy AI",
+      "flavorText": "The Netburners faction are a mysterious group with only the most tenuous control over their subnets. Concentrating mainly on their hacknet server business, IPvGO is not their main strength.",
+      "bonusDescription": "increased hacknet production"
+    },
+    {
+      "key": "SlumSnakes",
+      "description": "Spread AI",
+      "flavorText": "The Slum Snakes faction are a small-time street gang who turned to organized crime using their subnets. They are known to use long router chains snaking across the subnet to encircle territory.",
+      "bonusDescription": "crime success rate"
+    },
+    {
+      "key": "TheBlackHand",
+      "description": "Aggro AI",
+      "flavorText": "The Black Hand faction is a black-hat hacking group who uses their subnets to launch targeted DDOS attacks. They are famous for their unrelenting aggression, surrounding and strangling any foothold their opponents try to establish.",
+      "bonusDescription": "hacking money"
+    },
+    {
+      "key": "Tetrads",
+      "description": "Martial AI",
+      "flavorText": "The faction known as Tetrads prefers to get up close and personal. Their combat style excels at circling around and cutting through their opponents, both on and off of the subnets.",
+      "bonusDescription": "strength, defense, dexterity, and agility levels"
+    },
+    {
+      "key": "Daedalus",
+      "description": "Mid AI",
+      "flavorText": "Not much is known about this shadowy faction. They do not easily let go of subnets that they control, and are known to lease IPvGO cycles in exchange for reputation among other factions.",
+      "bonusDescription": "reputation gain"
+    },
+    {
+      "key": "Illuminati",
+      "description": "Hard AI",
+      "flavorText": "The Illuminati are thought to only exist in myth. Said to always have prepared defenses in their IPvGO subnets. Provoke them at your own risk.",
+      "bonusDescription": "faster hack(), grow(), and weaken()"
+    }
+  ],
+  "dynamic": {
+    "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+    "items": [
+      {
+        "text": "No AI (Practice Board)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoSubnetSearch.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 80,
+          "targetExcerpt": "`${faction} (${opponentDetails[faction].description})`",
+          "related": [
+            {
+              "kind": "supplement",
+              "path": "src/Go/Enums.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 2,
+              "targetExcerpt": "\"No AI\""
+            },
+            {
+              "kind": "supplement",
+              "path": "src/Go/Constants.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 8,
+              "targetExcerpt": "\"Practice Board\""
+            }
+          ]
+        }
+      },
+      {
+        "text": "Netburners (Easy AI)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoSubnetSearch.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 80,
+          "targetExcerpt": "`${faction} (${opponentDetails[faction].description})`",
+          "related": [
+            {
+              "kind": "supplement",
+              "path": "src/Go/Enums.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 3,
+              "targetExcerpt": "\"Netburners\""
+            },
+            {
+              "kind": "supplement",
+              "path": "src/Go/Constants.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 16,
+              "targetExcerpt": "\"Easy AI\""
+            }
+          ]
+        }
+      },
+      {
+        "text": "Slum Snakes (Spread AI)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoSubnetSearch.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 80,
+          "targetExcerpt": "`${faction} (${opponentDetails[faction].description})`",
+          "related": [
+            {
+              "kind": "supplement",
+              "path": "src/Go/Enums.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 4,
+              "targetExcerpt": "\"Slum Snakes\""
+            },
+            {
+              "kind": "supplement",
+              "path": "src/Go/Constants.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 24,
+              "targetExcerpt": "\"Spread AI\""
+            }
+          ]
+        }
+      },
+      {
+        "text": "The Black Hand (Aggro AI)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoSubnetSearch.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 80,
+          "targetExcerpt": "`${faction} (${opponentDetails[faction].description})`",
+          "related": [
+            {
+              "kind": "supplement",
+              "path": "src/Go/Enums.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 5,
+              "targetExcerpt": "\"The Black Hand\""
+            },
+            {
+              "kind": "supplement",
+              "path": "src/Go/Constants.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 32,
+              "targetExcerpt": "\"Aggro AI\""
+            }
+          ]
+        }
+      },
+      {
+        "text": "Tetrads (Martial AI)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoSubnetSearch.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 80,
+          "targetExcerpt": "`${faction} (${opponentDetails[faction].description})`",
+          "related": [
+            {
+              "kind": "supplement",
+              "path": "src/Go/Enums.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 6,
+              "targetExcerpt": "\"Tetrads\""
+            },
+            {
+              "kind": "supplement",
+              "path": "src/Go/Constants.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 40,
+              "targetExcerpt": "\"Martial AI\""
+            }
+          ]
+        }
+      },
+      {
+        "text": "Daedalus (Mid AI)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoSubnetSearch.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 80,
+          "targetExcerpt": "`${faction} (${opponentDetails[faction].description})`",
+          "related": [
+            {
+              "kind": "supplement",
+              "path": "src/Go/Enums.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 7,
+              "targetExcerpt": "\"Daedalus\""
+            },
+            {
+              "kind": "supplement",
+              "path": "src/Go/Constants.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 48,
+              "targetExcerpt": "\"Mid AI\""
+            }
+          ]
+        }
+      },
+      {
+        "text": "Illuminati (Hard AI)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoSubnetSearch.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 80,
+          "targetExcerpt": "`${faction} (${opponentDetails[faction].description})`",
+          "related": [
+            {
+              "kind": "supplement",
+              "path": "src/Go/Enums.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 8,
+              "targetExcerpt": "\"Illuminati\""
+            },
+            {
+              "kind": "supplement",
+              "path": "src/Go/Constants.ts",
+              "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+              "targetLine": 56,
+              "targetExcerpt": "\"Hard AI\""
+            }
+          ]
+        }
+      },
+      {
+        "text": "This sleeve is currently idle.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 33,
+          "targetExcerpt": "\"This sleeve is currently idle.\""
+        }
+      },
+      {
+        "text": "This sleeve is currently supporting you in your bladeburner activities.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 38,
+          "targetExcerpt": "\"This sleeve is currently supporting you in your bladeburner activities.\""
+        }
+      },
+      {
+        "text": "This sleeve is currently set to focus on shock recovery. This causes the Sleeve's shock to decrease at a faster rate.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 42,
+          "targetExcerpt": "\"This sleeve is currently set to focus on shock recovery. This causes the Sleeve's shock to decrease at a faster rate.\""
+        }
+      },
+      {
+        "text": "This sleeve is currently set to synchronize with the original consciousness. This causes the Sleeve's synchronization to increase.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 44,
+          "targetExcerpt": "\"This sleeve is currently set to synchronize with the original consciousness. This causes the Sleeve's synchronization to increase.\""
+        }
+      },
+      {
+        "text": "This sleeve is currently working your job at {company}",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 36,
+          "targetExcerpt": "`This sleeve is currently working your job at ${work.companyName}`"
+        },
+        "slots": {
+          "company": "company"
+        }
+      },
+      {
+        "text": "This sleeve is currently working out at {location}",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 40,
+          "targetExcerpt": "`This sleeve is currently ${work.isGym() ? \"working out\" : \"studying\"} at ${work.location}`"
+        },
+        "slots": {
+          "location": "location"
+        }
+      },
+      {
+        "text": "This sleeve is currently studying at {location}",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 40,
+          "targetExcerpt": "`This sleeve is currently ${work.isGym() ? \"working out\" : \"studying\"} at ${work.location}`"
+        },
+        "slots": {
+          "location": "location"
+        }
+      },
+      {
+        "text": "This sleeve is currently doing {work} for {faction}.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 73,
+          "targetExcerpt": "`This sleeve is currently doing ${factionWorkTypeDescriptions[work.factionWorkType]} for ${\n        work.factionName\n      }.`"
+        },
+        "slots": {
+          "work": "sleeveWork",
+          "faction": "faction"
+        }
+      },
+      {
+        "text": "This sleeve is currently attempting to perform {action}.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 57,
+          "targetExcerpt": "`This sleeve is currently attempting to perform ${work.actionId.name}.\\n\\n`"
+        },
+        "slots": {
+          "action": "bladeAction"
+        },
+        "line": true,
+        "lineBlock": true
+      },
+      {
+        "text": "This sleeve is currently attempting {crime} (Success Rate: {chance}%).",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 66,
+          "targetExcerpt": "`This sleeve is currently attempting ${crime.workName} (Success Rate: ${formatPercent(\n          crime.successRate(sleeve),\n        )}).\\n\\nTasks Completed: ${formatInt(work.tasksCompleted)} \n\t\t\\n`"
+        },
+        "slots": {
+          "crime": "crimeWork",
+          "chance": "number"
+        },
+        "line": true,
+        "lineBlock": true
+      },
+      {
+        "text": "Estimated success chance: {chance}%",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 58,
+          "targetExcerpt": "`Estimated success chance: ${estimatedSuccessChance}\\n\\n`"
+        },
+        "slots": {
+          "chance": "number"
+        },
+        "line": true
+      },
+      {
+        "text": "Estimated success chance: {min}% ~ {max}%",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 58,
+          "targetExcerpt": "`Estimated success chance: ${estimatedSuccessChance}\\n\\n`"
+        },
+        "slots": {
+          "min": "number",
+          "max": "number"
+        },
+        "line": true
+      },
+      {
+        "text": "Tasks Completed: {count}",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 59,
+          "targetExcerpt": "`Tasks Completed: ${formatInt(work.tasksCompleted)}\\n \\n`"
+        },
+        "slots": {
+          "count": "number"
+        },
+        "line": true
+      },
+      {
+        "text": "Progress: {progress}%",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 60,
+          "targetExcerpt": "`Progress: ${formatPercent(progress)}`"
+        },
+        "slots": {
+          "progress": "number"
+        },
+        "line": true
+      },
+      {
+        "text": "This sleeve is currently attempting to infiltrate synthoid communities to generate additional contracts and operations.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 79,
+          "targetExcerpt": "\"This sleeve is currently attempting to infiltrate synthoid communities to generate additional contracts and operations.\\nThis activity is less efficient the more sleeves are assigned to it.\\n\\n\""
+        },
+        "line": true,
+        "lineBlock": true
+      },
+      {
+        "text": "This activity is less efficient the more sleeves are assigned to it.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/ui/SleeveElem.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 79,
+          "targetExcerpt": "\"This sleeve is currently attempting to infiltrate synthoid communities to generate additional contracts and operations.\\nThis activity is less efficient the more sleeves are assigned to it.\\n\\n\""
+        },
+        "line": true
+      },
+      {
+        "text": "The \"Disable Sleeves' experience and augmentation\" option was enabled. You cannot purchase augmentations for your sleeves.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/Sleeve.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 352,
+          "targetExcerpt": "`The \"Disable Sleeves' experience and augmentation\" option was enabled. You cannot purchase augmentations for your sleeves.`"
+        }
+      },
+      {
+        "text": "You must reduce the sleeve shock to 0. The current shock is {shock}.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/Sleeve.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 359,
+          "targetExcerpt": "`You must reduce the sleeve shock to 0. The current shock is ${formatSleeveShock(this.shock)}.`"
+        },
+        "slots": {
+          "shock": "number"
+        }
+      },
+      {
+        "text": "You must have at least {money}.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/Sleeve.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 375,
+          "targetExcerpt": "`You must have at least ${formatMoney(aug.baseCost)}.`"
+        },
+        "slots": {
+          "money": "money"
+        }
+      },
+      {
+        "text": "This sleeve already has \"{augmentation}\" augmentation.",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/PersonObjects/Sleeve/Sleeve.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 381,
+          "targetExcerpt": "`This sleeve already has \"${aug.name}\" augmentation.`"
+        },
+        "slots": {
+          "augmentation": "augmentation"
+        }
+      },
+      {
+        "text": "+x% faster hack(), grow(), and weaken()",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 27,
+          "targetExcerpt": "\"+x% faster hack(), grow(), and weaken()\""
+        }
+      },
+      {
+        "text": "{value}% faster hack(), grow(), and weaken()",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 27,
+          "targetExcerpt": "\"+x% faster hack(), grow(), and weaken()\""
+        }
+      },
+      {
+        "text": "+x% hack() power",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 30,
+          "targetExcerpt": "\"+x% hack() power\""
+        }
+      },
+      {
+        "text": "{value}% hack() power",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 30,
+          "targetExcerpt": "\"+x% hack() power\""
+        }
+      },
+      {
+        "text": "+x% grow() power",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 33,
+          "targetExcerpt": "\"+x% grow() power\""
+        }
+      },
+      {
+        "text": "{value}% grow() power",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 33,
+          "targetExcerpt": "\"+x% grow() power\""
+        }
+      },
+      {
+        "text": "+x% hacking experience and skill level",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 36,
+          "targetExcerpt": "\"+x% hacking experience and skill level\""
+        }
+      },
+      {
+        "text": "{value}% hacking experience and skill level",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 36,
+          "targetExcerpt": "\"+x% hacking experience and skill level\""
+        }
+      },
+      {
+        "text": "+x% strength experience and skill level",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 39,
+          "targetExcerpt": "\"+x% strength experience and skill level\""
+        }
+      },
+      {
+        "text": "{value}% strength experience and skill level",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 39,
+          "targetExcerpt": "\"+x% strength experience and skill level\""
+        }
+      },
+      {
+        "text": "+x% defense experience and skill level",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 42,
+          "targetExcerpt": "\"+x% defense experience and skill level\""
+        }
+      },
+      {
+        "text": "{value}% defense experience and skill level",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 42,
+          "targetExcerpt": "\"+x% defense experience and skill level\""
+        }
+      },
+      {
+        "text": "+x% dexterity experience and skill level",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 45,
+          "targetExcerpt": "\"+x% dexterity experience and skill level\""
+        }
+      },
+      {
+        "text": "{value}% dexterity experience and skill level",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 45,
+          "targetExcerpt": "\"+x% dexterity experience and skill level\""
+        }
+      },
+      {
+        "text": "+x% agility experience and skill level",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 48,
+          "targetExcerpt": "\"+x% agility experience and skill level\""
+        }
+      },
+      {
+        "text": "{value}% agility experience and skill level",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 48,
+          "targetExcerpt": "\"+x% agility experience and skill level\""
+        }
+      },
+      {
+        "text": "+x% charisma experience and skill level",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 51,
+          "targetExcerpt": "\"+x% charisma experience and skill level\""
+        }
+      },
+      {
+        "text": "{value}% charisma experience and skill level",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 51,
+          "targetExcerpt": "\"+x% charisma experience and skill level\""
+        }
+      },
+      {
+        "text": "+x% hacknet production",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 54,
+          "targetExcerpt": "\"+x% hacknet production\""
+        }
+      },
+      {
+        "text": "{value}% hacknet production",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 54,
+          "targetExcerpt": "\"+x% hacknet production\""
+        }
+      },
+      {
+        "text": "-x% cheaper hacknet costs",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 57,
+          "targetExcerpt": "\"-x% cheaper hacknet costs\""
+        }
+      },
+      {
+        "text": "{value}% cheaper hacknet costs",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 57,
+          "targetExcerpt": "\"-x% cheaper hacknet costs\""
+        }
+      },
+      {
+        "text": "+x% reputation from factions and companies",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 60,
+          "targetExcerpt": "\"+x% reputation from factions and companies\""
+        }
+      },
+      {
+        "text": "{value}% reputation from factions and companies",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 60,
+          "targetExcerpt": "\"+x% reputation from factions and companies\""
+        }
+      },
+      {
+        "text": "+x% work money",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 63,
+          "targetExcerpt": "\"+x% work money\""
+        }
+      },
+      {
+        "text": "{value}% work money",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 63,
+          "targetExcerpt": "\"+x% work money\""
+        }
+      },
+      {
+        "text": "+x% crime money and success chance",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 66,
+          "targetExcerpt": "\"+x% crime money and success chance\""
+        }
+      },
+      {
+        "text": "{value}% crime money and success chance",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 66,
+          "targetExcerpt": "\"+x% crime money and success chance\""
+        }
+      },
+      {
+        "text": "+x% bladeburner stats (max stamina, stamina gain, Field Analysis effectiveness, action success chance)",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 69,
+          "targetExcerpt": "\"+x% bladeburner stats (max stamina, stamina gain, Field Analysis effectiveness, action success chance)\""
+        }
+      },
+      {
+        "text": "{value}% bladeburner stats (max stamina, stamina gain, Field Analysis effectiveness, action success chance)",
+        "scope": "stanek",
+        "slots": {
+          "value": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 69,
+          "targetExcerpt": "\"+x% bladeburner stats (max stamina, stamina gain, Field Analysis effectiveness, action success chance)\""
+        }
+      },
+      {
+        "text": "1.1x adjacent fragment power",
+        "scope": "stanek",
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/FragmentType.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 72,
+          "targetExcerpt": "\"1.1x adjacent fragment power\""
+        }
+      },
+      {
+        "text": "{power}x adjacent fragment power",
+        "scope": "stanek",
+        "slots": {
+          "power": "number"
+        },
+        "source": {
+          "kind": "supplement",
+          "path": "src/CotMG/ui/FragmentInspector.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 54,
+          "targetExcerpt": "`${f.power}x adjacent fragment power`"
+        }
+      },
+      {
+        "text": "Currently showing a past board state. Please disable \"Show previous move\" to continue.",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 75,
+          "targetExcerpt": "`Currently showing a past board state. Please disable \"Show previous move\" to continue.`"
+        }
+      },
+      {
+        "text": "It is not your turn to play.",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 86,
+          "targetExcerpt": "`It is not your turn to play.`"
+        }
+      },
+      {
+        "text": "The game is complete, please reset to continue.",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 90,
+          "targetExcerpt": "`The game is complete, please reset to continue.`"
+        }
+      },
+      {
+        "text": "The opponent passes their turn; It is now your turn to move.",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 119,
+          "targetExcerpt": "`The opponent passes their turn; It is now your turn to move.`"
+        }
+      },
+      {
+        "text": "Place a router to begin!",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 172,
+          "targetExcerpt": "\"Place a router to begin!\""
+        }
+      },
+      {
+        "text": "View Final Score",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 180,
+          "targetExcerpt": "\"View Final Score\""
+        }
+      },
+      {
+        "text": "Waiting for opponent",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 183,
+          "targetExcerpt": "\"Waiting for opponent\""
+        }
+      },
+      {
+        "text": "Score: Black: {black} White: {white}",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 171,
+          "targetExcerpt": "`Score: Black: ${score[GoColor.black].sum} White: ${score[GoColor.white].sum}`"
+        },
+        "slots": {
+          "black": "number",
+          "white": "number"
+        }
+      },
+      {
+        "text": "End Game",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 177,
+          "targetExcerpt": "`End Game${playerString}`"
+        }
+      },
+      {
+        "text": "End Game (Black)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 177,
+          "targetExcerpt": "`End Game${playerString}`"
+        }
+      },
+      {
+        "text": "End Game (White)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 177,
+          "targetExcerpt": "`End Game${playerString}`"
+        }
+      },
+      {
+        "text": "Pass Turn",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 185,
+          "targetExcerpt": "`Pass Turn${playerString}`"
+        }
+      },
+      {
+        "text": "Pass Turn (Black)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 185,
+          "targetExcerpt": "`Pass Turn${playerString}`"
+        }
+      },
+      {
+        "text": "Pass Turn (White)",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoGameboardWrapper.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 185,
+          "targetExcerpt": "`Pass Turn${playerString}`"
+        }
+      },
+      {
+        "text": "Black wins!",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoScoreModal.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 33,
+          "targetExcerpt": "\"Black wins!\""
+        }
+      },
+      {
+        "text": "You win!",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoScoreModal.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 33,
+          "targetExcerpt": "\"You win!\""
+        }
+      },
+      {
+        "text": "White wins!",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoScoreModal.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 34,
+          "targetExcerpt": "\"White wins!\""
+        }
+      },
+      {
+        "text": "Winner: {opponent}",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoScoreModal.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 34,
+          "targetExcerpt": "`Winner: ${opponent}`"
+        },
+        "slots": {
+          "opponent": "goOpponent"
+        }
+      },
+      {
+        "text": "You",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoScoreSummaryTable.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 18,
+          "targetExcerpt": "\"You\""
+        }
+      },
+      {
+        "text": "Hit 'Reset' to try again",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoTutorialChallenge.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 42,
+          "targetExcerpt": "`Hit 'Reset' to try again`"
+        }
+      },
+      {
+        "text": "Invalid move: You cannot suicide your routers by placing them with no access to any empty ports.",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/ui/GoTutorialChallenge.tsx",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 50,
+          "targetExcerpt": "\"Invalid move: You cannot suicide your routers by placing them with no access to any empty ports.\""
+        }
+      },
+      {
+        "text": "Invalid move: That node is offline; a piece cannot be placed there",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 19,
+          "targetExcerpt": "\"That node is offline; a piece cannot be placed there\""
+        }
+      },
+      {
+        "text": "Invalid move: That node is already occupied by a piece",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 20,
+          "targetExcerpt": "\"That node is already occupied by a piece\""
+        }
+      },
+      {
+        "text": "Invalid move: It is illegal to repeat prior board states",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 21,
+          "targetExcerpt": "\"It is illegal to repeat prior board states\""
+        }
+      },
+      {
+        "text": "Invalid move: It is illegal to cause your own pieces to be captured",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 22,
+          "targetExcerpt": "\"It is illegal to cause your own pieces to be captured\""
+        }
+      },
+      {
+        "text": "Invalid move: It is not your turn to play",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 23,
+          "targetExcerpt": "\"It is not your turn to play\""
+        }
+      },
+      {
+        "text": "Invalid move: The game is over",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 24,
+          "targetExcerpt": "\"The game is over\""
+        }
+      },
+      {
+        "text": "Invalid move: Invalid move",
+        "scope": "go",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 25,
+          "targetExcerpt": "\"Invalid move\""
+        }
+      }
+    ],
+    "choices": [
+      {
+        "text": "Training",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 9,
+          "targetExcerpt": "\"Training\""
+        }
+      },
+      {
+        "text": "Field Analysis",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 10,
+          "targetExcerpt": "\"Field Analysis\""
+        }
+      },
+      {
+        "text": "Recruitment",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 11,
+          "targetExcerpt": "\"Recruitment\""
+        }
+      },
+      {
+        "text": "Diplomacy",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 12,
+          "targetExcerpt": "\"Diplomacy\""
+        }
+      },
+      {
+        "text": "Hyperbolic Regeneration Chamber",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 13,
+          "targetExcerpt": "\"Hyperbolic Regeneration Chamber\""
+        }
+      },
+      {
+        "text": "Incite Violence",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 14,
+          "targetExcerpt": "\"Incite Violence\""
+        }
+      },
+      {
+        "text": "Tracking",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 24,
+          "targetExcerpt": "\"Tracking\""
+        }
+      },
+      {
+        "text": "Bounty Hunter",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 25,
+          "targetExcerpt": "\"Bounty Hunter\""
+        }
+      },
+      {
+        "text": "Retirement",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 26,
+          "targetExcerpt": "\"Retirement\""
+        }
+      },
+      {
+        "text": "Infiltrate Synthoids",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 18,
+          "targetExcerpt": "\"Infiltrate Synthoids\""
+        }
+      },
+      {
+        "text": "Support main sleeve",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 19,
+          "targetExcerpt": "\"Support main sleeve\""
+        }
+      },
+      {
+        "text": "Take on contracts",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Bladeburner/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 20,
+          "targetExcerpt": "\"Take on contracts\""
+        }
+      },
+      {
+        "text": "Computer Science",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Work/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 8,
+          "targetExcerpt": "\"Computer Science\""
+        }
+      },
+      {
+        "text": "Data Structures",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Work/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 9,
+          "targetExcerpt": "\"Data Structures\""
+        }
+      },
+      {
+        "text": "Networks",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Work/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 10,
+          "targetExcerpt": "\"Networks\""
+        }
+      },
+      {
+        "text": "Algorithms",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Work/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 11,
+          "targetExcerpt": "\"Algorithms\""
+        }
+      },
+      {
+        "text": "Management",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Work/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 12,
+          "targetExcerpt": "\"Management\""
+        }
+      },
+      {
+        "text": "Leadership",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Work/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 13,
+          "targetExcerpt": "\"Leadership\""
+        }
+      },
+      {
+        "text": "Shoplift",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 2,
+          "targetExcerpt": "\"Shoplift\""
+        }
+      },
+      {
+        "text": "Rob Store",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 3,
+          "targetExcerpt": "\"Rob Store\""
+        }
+      },
+      {
+        "text": "Mug",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 4,
+          "targetExcerpt": "\"Mug\""
+        }
+      },
+      {
+        "text": "Larceny",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 5,
+          "targetExcerpt": "\"Larceny\""
+        }
+      },
+      {
+        "text": "Deal Drugs",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 6,
+          "targetExcerpt": "\"Deal Drugs\""
+        }
+      },
+      {
+        "text": "Bond Forgery",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 7,
+          "targetExcerpt": "\"Bond Forgery\""
+        }
+      },
+      {
+        "text": "Traffick Arms",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 8,
+          "targetExcerpt": "\"Traffick Arms\""
+        }
+      },
+      {
+        "text": "Homicide",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 9,
+          "targetExcerpt": "\"Homicide\""
+        }
+      },
+      {
+        "text": "Grand Theft Auto",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 10,
+          "targetExcerpt": "\"Grand Theft Auto\""
+        }
+      },
+      {
+        "text": "Kidnap",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 11,
+          "targetExcerpt": "\"Kidnap\""
+        }
+      },
+      {
+        "text": "Assassination",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 12,
+          "targetExcerpt": "\"Assassination\""
+        }
+      },
+      {
+        "text": "Heist",
+        "scope": "sleeves",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Crime/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 13,
+          "targetExcerpt": "\"Heist\""
+        }
+      }
+    ],
+    "slotValues": {
+      "goOpponent": [
+        "No AI",
+        "Netburners",
+        "Slum Snakes",
+        "The Black Hand",
+        "Tetrads",
+        "Daedalus",
+        "Illuminati"
+      ],
+      "bladeAction": [
+        "Training",
+        "Field Analysis",
+        "Recruitment",
+        "Diplomacy",
+        "Hyperbolic Regeneration Chamber",
+        "Incite Violence",
+        "Tracking",
+        "Bounty Hunter",
+        "Retirement",
+        "Infiltrate Synthoids",
+        "Support main sleeve",
+        "Take on contracts"
+      ],
+      "crimeWork": [
+        "to shoplift",
+        "to rob a store",
+        "to mug",
+        "larceny",
+        "to deal drugs",
+        "to forge bonds",
+        "to traffic arms",
+        "homicide",
+        "grand theft auto",
+        "to kidnap",
+        "to assassinate",
+        "a heist"
+      ],
+      "sleeveWork": [
+        "Hacking Contracts",
+        "Field Work",
+        "Security Work"
+      ]
+    },
+    "publicOpponents": [
+      {
+        "key": "none",
+        "value": "No AI",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 2,
+          "targetExcerpt": "\"No AI\""
+        }
+      },
+      {
+        "key": "Netburners",
+        "value": "Netburners",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 3,
+          "targetExcerpt": "\"Netburners\""
+        }
+      },
+      {
+        "key": "SlumSnakes",
+        "value": "Slum Snakes",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 4,
+          "targetExcerpt": "\"Slum Snakes\""
+        }
+      },
+      {
+        "key": "TheBlackHand",
+        "value": "The Black Hand",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 5,
+          "targetExcerpt": "\"The Black Hand\""
+        }
+      },
+      {
+        "key": "Tetrads",
+        "value": "Tetrads",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 6,
+          "targetExcerpt": "\"Tetrads\""
+        }
+      },
+      {
+        "key": "Daedalus",
+        "value": "Daedalus",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 7,
+          "targetExcerpt": "\"Daedalus\""
+        }
+      },
+      {
+        "key": "Illuminati",
+        "value": "Illuminati",
+        "source": {
+          "kind": "supplement",
+          "path": "src/Go/Enums.ts",
+          "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+          "targetLine": 8,
+          "targetExcerpt": "\"Illuminati\""
+        }
+      }
+    ]
+  },
+  "retained": [
+    "[X, Y]",
+    "ID:",
+    "ID: N/A",
+    "IPvGO",
+    "x"
+  ]
+}

@@ -1,4 +1,4 @@
-# Bitburner 简体中文汉化 · v0.7.1
+# Bitburner 简体中文汉化 · v0.8.1
 
 [English](README.en.md) · [更新记录](CHANGELOG.md) · [验证范围](docs/verification.md) · [维护与发布](docs/maintenance.md)
 
@@ -7,6 +7,8 @@
 **[一键安装 / Install](https://raw.githubusercontent.com/darkrio326/bitburner-zh-cn/main/bitburner-zh-cn.user.js)**
 
 > [GitHub 仓库](https://github.com/darkrio326/bitburner-zh-cn)已公开，安装与更新地址已验证可用。[版本下载](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml)。用户已确认 v0.7.0 安装正常；v0.7.1 的真实扩展安装与自动更新仍待验证。
+
+v0.8.1 包含分身、Stanek’s Gift、IPvGO 补译及安装强化等结果弹窗修复。上方安装与更新地址跟随 GitHub `main` 分支。
 
 ## 安装与升级
 
@@ -29,7 +31,7 @@ Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更�
 
 ## 覆盖
 
-当前有 **4406 条已审校词条**，含 **151 条固定句式模板**；其中 1683 条来自中文 PR 差异，2723 条为标明来源的补译。另有 56 种 ASCII 地图地点标签，覆盖六城的 76 处显示。
+当前有 **4842 条已审校词条**，含 **187 条固定句式模板**；其中 1683 条来自中文 PR 差异，3159 条为标明来源的补译。另有 56 种 ASCII 地图地点标签，覆盖六城的 76 处显示。
 
 | 区域 | 已收录内容 |
 | --- | --- |
@@ -38,9 +40,15 @@ Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更�
 | 城市与工作 | 城市/地点、地图、36 类职位、12 类犯罪、课程训练与结算 |
 | 其他玩法 | Hacknet、股票、移植、暗网界面、成就、离线提示、赌场主要控件和潜入说明 |
 | 经营模块 | 帮派、Bladeburner、公司经营的主要页面、任务、说明和弹窗 |
+| **v0.8.1 结果弹窗** | **安装强化完成、工作结算、移植完成/取消、Source-File 获得/升级、软重置和旅行提示** |
+| **v0.8 深层玩法** | **分身 FAQ、任务/属性/购买弹窗，Stanek 碎片及帮助，IPvGO 规则、对手、状态、历史与结算** |
 | **v0.7.1 补译** | **强化购买成功提示、商店声望/人脉与筛选提示、11 种哈希兑换的说明与累计效果、股票订单类型** |
 | **v0.7 Source-File** | **Source-File 1–15 全部效果说明**，保留名称标识符、函数和数值 |
 | **v0.7 文档** | **33 篇指南的正文文本**：首页、完整新手指南、18 篇基础机制、10 篇进阶介绍，以及编程入门、离线机制、冻结排查；含独立帮助弹窗识别 |
+
+v0.8.1 再新增 **26 条**结果提示，修复弹窗跨页面后失去匹配范围的问题；安装名单、等级及换行原样保留。见 [弹窗覆盖记录](docs/dialog-coverage.json)。
+
+v0.8 新增 **410 条**，其中分身 169 条、Stanek 62 条、IPvGO 179 条；补齐页面及跨页弹窗识别。见 [本次覆盖记录](docs/advanced-coverage.json)。
 
 v0.7.1 新增 **29 条**译文，修正 **4 条**已有词条的作用域或占位提示支持，并修复工作计时文字刷新时的英文闪现。详见 [本次补译范围](docs/supplement-v0.7.1-coverage.json)。
 
@@ -62,9 +70,9 @@ v0.7 新增 **1737 条**译文。精确文档清单见 [覆盖记录](docs/docum
 
 ## 验证与限制
 
-本轮在 macOS Chrome 中回归原有功能，并加入计时逐帧采样、强化回执与筛选、哈希兑换和订单控件检查，覆盖动态恢复及 900/1280 像素布局。官网测试使用**全新隔离上下文注入**，不使用用户存档。实际结果和证据见 [验证记录](docs/verification.md)。
+本轮在 macOS Chrome 中回归原有功能，并检查分身任务参数、多行进度、Covenant 购买弹窗、Stanek 动态效果和 IPvGO 选项/结算，覆盖悬停、关闭与清理。官网测试使用**全新隔离上下文注入**，不使用用户存档。实际结果和证据见 [验证记录](docs/verification.md)。
 
-尚未完成：全部 NS API 参考正文、所有进阶专题/更新日志/迁移文档、任意动态错误、全部小游戏内容。v0.7.0 已有用户安装通过反馈；v0.7.1 未验证真实 Tampermonkey/GM API、自动更新下载、Firefox、Safari、Steam、移动端，以及官网真实解锁存档中的 Source-File、经营模块、强化购买/安装和股票交易。代码与命令有意保留原文。
+尚未完成：全部 NS API 参考正文、所有进阶专题/更新日志/迁移文档、任意动态错误、全部小游戏内容。v0.7.0 已有用户安装通过反馈；v0.8.1 未验证真实 Tampermonkey/GM API、自动更新下载、Firefox、Safari、Steam、移动端，以及官网真实解锁存档中的 Source-File、经营模块、分身、Stanek、IPvGO、强化购买/安装和股票交易。代码与命令有意保留原文。
 
 ## 开发
 

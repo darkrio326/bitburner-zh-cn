@@ -1,0 +1,131 @@
+{
+  "version": "0.8.1",
+  "date": "2026-11-25",
+  "target": "Bitburner v3.0.1",
+  "sourceCommit": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "baseCommit": "75f75a268366ca7c3fa62cb1f42c8d2157e967dc",
+  "browser": "Google Chrome 158.0.8127.38",
+  "environment": "macOS arm64; Node.js 25.9.0; Playwright 1.56.1; headless Chrome",
+  "unit": {
+    "passed": 27,
+    "failed": 0
+  },
+  "localBrowser": {
+    "startTime": "2026-11-25T01:18:54.275Z",
+    "duration": 96720.573,
+    "expected": 56,
+    "skipped": 4,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "officialBrowser": {
+    "startTime": "2026-11-25T01:21:01.806Z",
+    "duration": 47994.123,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "dialogs": {
+    "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+    "inspectedDialogFiles": 84,
+    "inspectedDirectDialogCalls": 144,
+    "reviewedResultPaths": [
+      "src/Augmentation/AugmentationHelpers.ts",
+      "src/RedPill.tsx",
+      "src/Prestige.ts",
+      "src/Work/CompanyWork.tsx",
+      "src/Work/FactionWork.tsx",
+      "src/Work/GraftingWork.tsx",
+      "src/Locations/ui/TravelAgencyRoot.tsx",
+      "src/PersonObjects/Player/PlayerObjectGeneralMethods.ts",
+      "src/Infiltration/Infiltration.ts",
+      "src/ui/GameRoot.tsx"
+    ],
+    "newEntries": 26,
+    "newTemplates": 5,
+    "sourceExcerptsVerified": true,
+    "reusedSourceFileDescriptions": "Existing augmentation-scoped Source-File 1-15 descriptions are also recognized in the award dialog.",
+    "remaining": "The inventory includes developer tools, arbitrary script/engine errors and other gameplay dialogs outside this fix; it is not a claim that every call is translated."
+  },
+  "installationReceipt": {
+    "baselineVersion": "0.8.0",
+    "baselineUntranslated": true,
+    "verifiedNames": 12,
+    "nodePreserved": true,
+    "listLinesPreserved": true,
+    "viewportWidths": [
+      900,
+      1104,
+      1280
+    ],
+    "verificationLayer": "Source-shaped local React/MUI replay of the supplied screenshot"
+  },
+  "timer": {
+    "local": {
+      "frames": 110,
+      "updates": 8,
+      "incorrectFrames": [],
+      "numberChanges": [
+        [
+          "2 hours 22 minutes 48 seconds",
+          "1 minute 0 seconds"
+        ],
+        [
+          "59 seconds",
+          "1 minute 0 seconds"
+        ],
+        [
+          "1 minute 0 seconds",
+          "59 seconds"
+        ],
+        [
+          "59 minutes 59 seconds",
+          "1 hour 0 seconds"
+        ],
+        [
+          "1 hour 0 seconds",
+          "59 minutes 59 seconds"
+        ],
+        [
+          "23 hours 59 minutes 59 seconds",
+          "1 second"
+        ],
+        [
+          "1 day 0 seconds",
+          "0 seconds"
+        ],
+        [
+          "1 day 1 second",
+          "2 hours 22 minutes 47 seconds"
+        ]
+      ],
+      "sameNodes": true,
+      "terminal": "1 day 1 second elapsed"
+    },
+    "official": {
+      "version": "0.8.1",
+      "frames": 194,
+      "displayedTimes": [
+        "0 秒 已用时",
+        "1 秒 已用时",
+        "2 秒 已用时",
+        "3 秒 已用时"
+      ],
+      "englishFrames": [],
+      "sameTextNode": true
+    }
+  },
+  "artifactSha256": "c35cd1405e22d65080dfe613cd3246d4d67840bce190d1b7787f3c21c5149bb7",
+  "delivery": {
+    "localBuild": "PASS",
+    "publicRelease": "NOT_PUBLISHED",
+    "realTampermonkeyInstall": "NOT_TESTED",
+    "realAugmentationInstall": "NOT_PERFORMED"
+  },
+  "notes": [
+    "Official-site regression used fresh isolated contexts, not the user save.",
+    "No actual augmentation installation or reset was performed to reproduce this receipt.",
+    "The cross-module dialog inventory is not a claim of complete translation coverage."
+  ]
+}
