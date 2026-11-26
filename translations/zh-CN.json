@@ -3528,7 +3528,7 @@
         "reviewer": "Codex source/semantic review",
         "reviewedOn": "2026-11-16",
         "humanReviewed": false,
-        "note": "已核对 PR 对应关系、v3.0.1 原文与语义。"
+        "note": "已核对 PR 对应关系、v3.0.1 原文与语义。 v0.8.2：启用捐赠输入框 placeholder 翻译，保留输入值。"
       },
       "source": {
         "kind": "pr-diff",
@@ -3551,7 +3551,8 @@
         },
         "targetLine": 68,
         "targetExcerpt": "\"Donation amount\""
-      }
+      },
+      "attribute": "placeholder"
     },
     {
       "id": "83ac825688ac",
@@ -139343,6 +139344,54 @@
         "reviewedOn": "2026-11-25",
         "humanReviewed": false,
         "note": "v0.8.1：按固定 v3.0.1 安装、重置及工作结果弹窗审校；名单、名称、数值和 API 保留原文。"
+      }
+    },
+    {
+      "id": "v082-b344d80e24a3",
+      "en": "The",
+      "zh": "准备好后，",
+      "scopes": [
+        "factions"
+      ],
+      "segment": true,
+      "selector": "i",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 708,
+        "targetExcerpt": "The "
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-26",
+        "humanReviewed": false,
+        "note": "按 Bladeburners rumorText 与 FactionsRoot 的 i 元素审校，仅翻译传闻分段，保留 NSA 标识。"
+      }
+    },
+    {
+      "id": "v082-51c7fa724bf8",
+      "en": "would like to have a word with you once you're ready.",
+      "zh": "希望与你谈谈。",
+      "scopes": [
+        "factions"
+      ],
+      "segment": true,
+      "selector": "i",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 708,
+        "targetExcerpt": "would like to have a word with you once you're ready."
+      },
+      "review": {
+        "status": "approved",
+        "by": "Codex",
+        "reviewedOn": "2026-11-26",
+        "humanReviewed": false,
+        "note": "按 Bladeburners rumorText 与 FactionsRoot 的 i 元素审校，仅翻译传闻分段，保留 NSA 标识。"
       }
     }
   ],

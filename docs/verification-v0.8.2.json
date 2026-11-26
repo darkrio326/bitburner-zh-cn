@@ -1,0 +1,359 @@
+{
+  "version": "0.8.2",
+  "date": "2026-11-26",
+  "target": "Bitburner v3.0.1",
+  "sourceCommit": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "baseCommit": "1c6e9e0a9df509658ffe1b7ddff3979e59c2989f",
+  "browser": "Google Chrome 158.0.8127.38",
+  "unit": {
+    "passed": 28,
+    "failed": 0
+  },
+  "localBrowser": {
+    "startTime": "2026-11-26T02:58:27.051Z",
+    "duration": 97562.89499999999,
+    "expected": 60,
+    "skipped": 4,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "officialBrowser": {
+    "startTime": "2026-11-26T03:00:31.303Z",
+    "duration": 46127.271,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "factionCoverage": {
+    "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+    "sourceFiles": 12,
+    "inventoriedTexts": 244,
+    "matchedTexts": 184,
+    "retainedTexts": [
+      {
+        "text": "x",
+        "reason": "Multiplier symbol"
+      },
+      {
+        "text": "#@)($*&@__Y0U__^%$#@&*()__HAV3__(&@#*$%(@",
+        "reason": "Encoded in-game clue"
+      },
+      {
+        "text": "()@#*$%(__N0T__@&$#)@*(__S33N__)(*@#&$)(",
+        "reason": "Encoded in-game clue"
+      },
+      {
+        "text": "@&*($#@&__TH3__#@A&#@*)(@$#@)*",
+        "reason": "Encoded in-game clue"
+      },
+      {
+        "text": "%$#@&()@__TRU1H__()*@#$&()@#$",
+        "reason": "Encoded in-game clue"
+      },
+      {
+        "text": "I.I.I.I",
+        "reason": "Encoded in-game clue"
+      },
+      {
+        "text": "_.nITESECNIt.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ".-'NITESECNITESEc.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ".' NITESECNITESECn",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/ NITESECNITESEC;",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ": :NITESECNITESEC;",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "; $ NITESECNITESECN",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ": _, ,N'ITESECNITESEC",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ": .+^^`, : `NITESECNIT",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ") /), `-,-=,NITESECNI",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/ ^ ,-;|NITESECN;",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/ _.' '-';NITESECN",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "( , ,-''`^NITE'",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "_.nIt",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "_.nITESECNi",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "nITESECNIT^'",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "NITE^' ___",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/ .gP''''Tp.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ": d' . `b",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "; d' o `b ;",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/ d; `b|",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ".' $/b o |",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ".' d$/$; :",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/ .d/$/$; , ;",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "d .dNITESEC $ |",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ":bp.__.gNITESEC/$ :$ ;",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "NITESECNITESECNIT /$b :",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "~~//*>H4CK|\\|3T 8URN3R5**>?>\\\\~~",
+        "reason": "Encoded in-game clue"
+      },
+      {
+        "text": "-odmmNmds:",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`hNmo:..-omNh.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "yMd` `hNh",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "mMd oNm",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "oMNo .mM/",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`dMN+ -mM+",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "-mMNo -mN+",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ".+- :mMNo/mN/",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ":yNMd. :NMNNN/",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "-mMMMh. /NMMh`",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": ".dMMMd. /NMMMy`",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`yMMMd. /NNyNMMh`",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`sMMMd. +Nm: +NMMh.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "oMMMm- oNm: /NMMd.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "+NMMmsMm- :mMMd.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/NMMMm- -mMMd.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/MMMm- -mMMd.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`sMNMMm- .mMmo",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`sMd:hMMm. ./.",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`yMy` `yNMd`",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`hMs` oMMy",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "`hMh sMN-",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "/MM- .NMo",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "+MM: :MM+",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "sNNo-.`.-omNy`",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "-smNNNNmdo-",
+        "reason": "Faction ASCII artwork"
+      },
+      {
+        "text": "Open Stanek's Gift",
+        "reason": "Faction ASCII artwork"
+      }
+    ],
+    "factionAugmentationNameCollisions": [
+      "The Black Hand"
+    ],
+    "newEntries": 2,
+    "meaning": "Pinned faction UI prose/label inventory and two gang-type templates; not every runtime branch, real save or Tampermonkey acceptance."
+  },
+  "factionReplay": {
+    "baselineVersion": "0.8.1",
+    "baselineUntranslated": true,
+    "verifiedFactionHeadings": 34,
+    "sameNameAugmentationModal": "PASS",
+    "campaignAndGangDialogs": "PASS",
+    "donationInputAndPlaceholder": "PASS",
+    "dataAndNodePreservation": "PASS",
+    "hoverAndCleanup": "PASS",
+    "verificationLayer": "Source-shaped local React/MUI fixture; no user save"
+  },
+  "timer": {
+    "local": {
+      "frames": 110,
+      "updates": 8,
+      "incorrectFrames": [],
+      "numberChanges": [
+        [
+          "2 hours 22 minutes 48 seconds",
+          "1 minute 0 seconds"
+        ],
+        [
+          "59 seconds",
+          "1 minute 0 seconds"
+        ],
+        [
+          "1 minute 0 seconds",
+          "59 seconds"
+        ],
+        [
+          "59 minutes 59 seconds",
+          "1 hour 0 seconds"
+        ],
+        [
+          "1 hour 0 seconds",
+          "59 minutes 59 seconds"
+        ],
+        [
+          "23 hours 59 minutes 59 seconds",
+          "1 second"
+        ],
+        [
+          "1 day 0 seconds",
+          "0 seconds"
+        ],
+        [
+          "1 day 1 second",
+          "2 hours 22 minutes 47 seconds"
+        ]
+      ],
+      "sameNodes": true,
+      "terminal": "1 day 1 second elapsed"
+    },
+    "official": {
+      "version": "0.8.2",
+      "frames": 194,
+      "displayedTimes": [
+        "0 秒 已用时",
+        "1 秒 已用时",
+        "2 秒 已用时",
+        "3 秒 已用时"
+      ],
+      "englishFrames": [],
+      "sameTextNode": true
+    }
+  },
+  "artifactSha256": "cbbfdbd81a1e58e6e0176b7e6dcc35ad35aec032d08c3898528cbfe31b08fb1b",
+  "delivery": {
+    "localBuild": "PASS",
+    "publicRelease": "NOT_PUBLISHED",
+    "realTampermonkeyInstall": "USER_VERIFICATION",
+    "realFactionSave": "NOT_TESTED"
+  },
+  "notes": [
+    "Pre-publication verification snapshot. Remote delivery is proven separately by main, CI and public artifact readback.",
+    "Official tests use fresh isolated contexts, not the user save.",
+    "The faction source inventory does not prove every dynamic branch or every game page is translated."
+  ]
+}

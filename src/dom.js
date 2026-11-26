@@ -47,12 +47,14 @@ export function scopeResolver(doc, dictionary, readText) {
       // MegaCorp/ECorp and other employers are also faction names. The
       // location's own return button disambiguates these real UI routes.
       if (dictionary.locationNames?.includes(title) && [...doc.querySelectorAll('button')].some(b => normalize(readText(b)) === 'Return to World')) return 'locations';
+      // The Black Hand is both a faction and an augmentation. Main-page headings
+      // select the faction; headingScope still identifies the augmentation modal.
+      if (title === 'Factions' || dictionary.factionNames.includes(title)) return 'factions';
       const special = headingScope(title);
       if (special) return special;
       if (title === 'Stats') return 'stats';
       if (title === 'Sleeves') return 'sleeves';
       if (title === "Stanek's Gift") return 'stanek';
-      if (title === 'Factions' || dictionary.factionNames.includes(title)) return 'factions';
       if (title === 'Augmentations' || title.startsWith('Faction Augmentations -')) return 'augmentations';
       if (title === 'Hacknet Nodes' || title === 'Hacknet Servers') return 'hacknet';
       if (title === 'Options') return 'options';

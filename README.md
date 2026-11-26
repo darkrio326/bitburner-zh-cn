@@ -1,4 +1,4 @@
-# Bitburner 简体中文汉化 · v0.8.1
+# Bitburner 简体中文汉化 · v0.8.2
 
 [English](README.en.md) · [更新记录](CHANGELOG.md) · [验证范围](docs/verification.md) · [维护与发布](docs/maintenance.md)
 
@@ -8,7 +8,7 @@
 
 > [GitHub 仓库](https://github.com/darkrio326/bitburner-zh-cn)已公开，安装与更新地址已验证可用。[版本下载](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml)。用户已确认 v0.7.0 安装正常；v0.7.1 的真实扩展安装与自动更新仍待验证。
 
-v0.8.1 包含分身、Stanek’s Gift、IPvGO 补译及安装强化等结果弹窗修复。上方安装与更新地址跟随 GitHub `main` 分支。
+v0.8.2 修复 The Black Hand 派系与同名强化的页面识别冲突，恢复派系说明、工作和特殊行动汉化；补齐捐赠占位提示及一条派系传闻。保留 v0.8 的深层玩法与结果弹窗补译。上方安装与更新地址跟随 GitHub `main` 分支。
 
 ## 安装与升级
 
@@ -31,7 +31,9 @@ Tampermonkey 根据版本号从 GitHub `main` 分支检查并下载更新；更�
 
 ## 覆盖
 
-当前有 **4842 条已审校词条**，含 **187 条固定句式模板**；其中 1683 条来自中文 PR 差异，3159 条为标明来源的补译。另有 56 种 ASCII 地图地点标签，覆盖六城的 76 处显示。
+v0.8.2 派系修复：扫描 12 个固定源码文件、244 个文本项；184 个普通文本/模板匹配通过，60 个图案、密文线索或符号保留原样。见 [派系覆盖记录](docs/faction-coverage.json)。这些数量不代表所有运行分支均已实机验证。
+
+当前有 **4844 条已审校词条**，含 **187 条固定句式模板**；其中 1683 条来自中文 PR 差异，3161 条为标明来源的补译。另有 56 种 ASCII 地图地点标签，覆盖六城的 76 处显示。
 
 | 区域 | 已收录内容 |
 | --- | --- |
@@ -70,9 +72,9 @@ v0.7 新增 **1737 条**译文。精确文档清单见 [覆盖记录](docs/docum
 
 ## 验证与限制
 
-本轮在 macOS Chrome 中回归原有功能，并检查分身任务参数、多行进度、Covenant 购买弹窗、Stanek 动态效果和 IPvGO 选项/结算，覆盖悬停、关闭与清理。官网测试使用**全新隔离上下文注入**，不使用用户存档。实际结果和证据见 [验证记录](docs/verification.md)。
+本轮在 macOS Chrome 中复现 The Black Hand 派系页，检查 34 个派系标题、同名强化弹窗、特殊行动、捐赠输入和页面切换，并回归原有深层玩法与计时功能，覆盖悬停、关闭与清理。官网测试使用**全新隔离上下文注入**，不使用用户存档。实际结果和证据见 [验证记录](docs/verification.md)。
 
-尚未完成：全部 NS API 参考正文、所有进阶专题/更新日志/迁移文档、任意动态错误、全部小游戏内容。v0.7.0 已有用户安装通过反馈；v0.8.1 未验证真实 Tampermonkey/GM API、自动更新下载、Firefox、Safari、Steam、移动端，以及官网真实解锁存档中的 Source-File、经营模块、分身、Stanek、IPvGO、强化购买/安装和股票交易。代码与命令有意保留原文。
+尚未完成：全部 NS API 参考正文、所有进阶专题/更新日志/迁移文档、任意动态错误、全部小游戏内容。v0.7.0 已有用户安装通过反馈；v0.8.2 未验证真实 Tampermonkey/GM API、自动更新下载、Firefox、Safari、Steam、移动端，以及官网真实解锁存档中的 Source-File、经营模块、分身、Stanek、IPvGO、强化购买/安装和股票交易。代码与命令有意保留原文。
 
 ## 开发
 

@@ -4,6 +4,24 @@ Versions follow [Semantic Versioning](https://semver.org/). Dates use Asia/Shang
 These entries describe local deliverables; a version is publicly available only
 when its files have actually reached the GitHub `main` branch.
 
+## [0.8.2] - 2026-11-26
+
+### Fixed
+
+- Recognize The Black Hand as a faction on its main page, while retaining the
+  augmentation scope inside its identically named purchase dialog. Existing
+  faction descriptions, work options, donation text and campaigns now translate.
+- Enable the reviewed donation input placeholder without changing typed values.
+- Translate both prose segments of the Bladeburners rumor while preserving NSA.
+
+### Verification
+
+- Inventory 12 pinned faction source files: 184 prose/label/template items covered;
+  60 ASCII-art fragments, encoded clues and multiplier symbols retained.
+- Replay the reported page, all known faction headings, campaign/gang dialogs,
+  the identically named augmentation, React updates, hover and cleanup locally.
+- Real-save and Tampermonkey update verification remain with the user.
+
 ## [0.8.1] - 2026-11-25
 
 ### Fixed
