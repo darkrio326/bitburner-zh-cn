@@ -1,0 +1,2771 @@
+{
+  "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+  "paths": [
+    "src/Faction/ui/AugmentationsPage.tsx",
+    "src/Faction/ui/CovenantCampaign.tsx",
+    "src/Faction/ui/CreateGangModal.tsx",
+    "src/Faction/ui/DonateOption.tsx",
+    "src/Faction/ui/FactionInvitationManager.tsx",
+    "src/Faction/ui/FactionRoot.tsx",
+    "src/Faction/ui/FactionsRoot.tsx",
+    "src/Faction/ui/GangCampaign.tsx",
+    "src/Faction/ui/Info.tsx",
+    "src/Faction/ui/Option.tsx",
+    "src/Faction/ui/ShareOption.tsx",
+    "src/Faction/FactionInfo.tsx"
+  ],
+  "items": [
+    {
+      "text": "The price of every Augmentation increases for every queued Augmentation and it is reset when you install them.",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 149,
+        "targetExcerpt": "The price of every Augmentation increases for every queued Augmentation and it is reset when you install them.\n      "
+      }
+    },
+    {
+      "text": "Price multiplier:",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 154,
+        "targetExcerpt": "Price multiplier:"
+      }
+    },
+    {
+      "text": "x",
+      "scope": "augmentations",
+      "retained": "Multiplier symbol",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 154,
+        "targetExcerpt": "x "
+      }
+    },
+    {
+      "text": "This price multiplier increases for each",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 160,
+        "targetExcerpt": "This price multiplier increases for each "
+      }
+    },
+    {
+      "text": "augmentation already purchased. The multiplier is NOT reset when installing augmentations.",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 160,
+        "targetExcerpt": "augmentation already purchased. The\n        multiplier is NOT reset when installing augmentations.\n      "
+      }
+    },
+    {
+      "text": "Reputation multiplier:",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 174,
+        "targetExcerpt": "Reputation multiplier:"
+      }
+    },
+    {
+      "text": "Back",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 188,
+        "targetExcerpt": "Back"
+      }
+    },
+    {
+      "text": "Faction Augmentations -",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 189,
+        "targetExcerpt": "Faction Augmentations - "
+      }
+    },
+    {
+      "text": "These are all of the Augmentations that are available to purchase from",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 192,
+        "targetExcerpt": "These are all of the Augmentations that are available to purchase from "
+      }
+    },
+    {
+      "text": ". Augmentations are powerful upgrades that will enhance your abilities.",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 192,
+        "targetExcerpt": ". Augmentations\n            are powerful upgrades that will enhance your abilities.\n          "
+      }
+    },
+    {
+      "text": "Sort by Cost",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 212,
+        "targetExcerpt": "Sort by Cost"
+      }
+    },
+    {
+      "text": "Sort by Reputation",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 214,
+        "targetExcerpt": "Sort by Reputation\n            "
+      }
+    },
+    {
+      "text": "Sort by Default Order",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 217,
+        "targetExcerpt": "Sort by Default Order\n            "
+      }
+    },
+    {
+      "text": "Sort by Purchasable",
+      "scope": "augmentations",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 220,
+        "targetExcerpt": "Sort by Purchasable\n            "
+      }
+    },
+    {
+      "text": "Filter augmentations",
+      "scope": "augmentations",
+      "attribute": "placeholder",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/AugmentationsPage.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 227,
+        "targetExcerpt": "\"Filter augmentations\""
+      }
+    },
+    {
+      "text": "Research",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 14,
+        "targetExcerpt": "\"Research\""
+      }
+    },
+    {
+      "text": "The Beginning of True Immortality",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 15,
+        "targetExcerpt": "\"The Beginning of True Immortality\""
+      }
+    },
+    {
+      "text": "You tried your best to help the research team, but this research isn't making any progress.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 20,
+        "targetExcerpt": "You tried your best to help the research team, but this research isn't making any progress.\n          "
+      }
+    },
+    {
+      "text": "Research data is always randomly corrupted for unknown reasons, and a weird message is sent to you every time it happens:",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 27,
+        "targetExcerpt": "Research data is always randomly corrupted for unknown reasons, and a weird message is sent to you every\n              time it happens:\n              "
+      }
+    },
+    {
+      "text": "#@)($*&@__Y0U__^%$#@&*()__HAV3__(&@#*$%(@",
+      "scope": "factions",
+      "retained": "Encoded in-game clue",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 31,
+        "targetExcerpt": "#@)($*&@__Y0U__^%$#@&*()__HAV3__(&@#*$%(@\n              "
+      }
+    },
+    {
+      "text": "()@#*$%(__N0T__@&$#)@*(__S33N__)(*@#&$)(",
+      "scope": "factions",
+      "retained": "Encoded in-game clue",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 33,
+        "targetExcerpt": "()@#*$%(__N0T__@&$#)@*(__S33N__)(*@#&$)(\n              "
+      }
+    },
+    {
+      "text": "@&*($#@&__TH3__#@A&#@*)(@$#@)*",
+      "scope": "factions",
+      "retained": "Encoded in-game clue",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 35,
+        "targetExcerpt": "@&*($#@&__TH3__#@A&#@*)(@$#@)*\n              "
+      }
+    },
+    {
+      "text": "%$#@&()@__TRU1H__()*@#$&()@#$",
+      "scope": "factions",
+      "retained": "Encoded in-game clue",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 37,
+        "targetExcerpt": "%$#@&()@__TRU1H__()*@#$&()@#$\n            "
+      }
+    },
+    {
+      "text": "Purchase & Upgrade Duplicate Sleeves",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 56,
+        "targetExcerpt": "\"Purchase & Upgrade Duplicate Sleeves\""
+      }
+    },
+    {
+      "text": "Purchase Duplicate Sleeves and upgrades. These are permanent!",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CovenantCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 57,
+        "targetExcerpt": "\"Purchase Duplicate Sleeves and upgrades. These are permanent!\""
+      }
+    },
+    {
+      "text": "{faction} is a COMBAT gang and its members will have different tasks than in HACKING gangs. Compared to hacking gangs, progression with a combat gang can be more difficult as territory management is more important. However, well-managed combat gangs can progress faster than hacking ones.",
+      "scope": "factions",
+      "slots": {
+        "faction": "faction"
+      },
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CreateGangModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 22,
+        "targetExcerpt": "props.facName +\n    \" is a COMBAT gang and its members will have different tasks than in HACKING gangs. \" +\n    \"Compared to hacking gangs, progression with a combat gang can be more difficult as territory management \" +\n    \"is more important. However, well-managed combat gangs can progress faster than hacking ones.\""
+      }
+    },
+    {
+      "text": "{faction} is a HACKING gang and its members will have different tasks than in COMBAT gangs. Compared to combat gangs, progression with a hacking gang is slower but more straightforward as territory warfare is not as important.",
+      "scope": "factions",
+      "slots": {
+        "faction": "faction"
+      },
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CreateGangModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 28,
+        "targetExcerpt": "props.facName +\n    \" is a HACKING gang and its members will have different tasks than in COMBAT gangs. \" +\n    \"Compared to combat gangs, progression with a hacking gang is slower but more straightforward as territory warfare \" +\n    \"is not as important.\""
+      }
+    },
+    {
+      "text": "Would you like to create a new Gang with",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CreateGangModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 55,
+        "targetExcerpt": "Would you like to create a new Gang with "
+      }
+    },
+    {
+      "text": "This will prevent you from creating a Gang with any other Faction until the BitNode is destroyed or abandoned. It will also reset your reputation with",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CreateGangModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 58,
+        "targetExcerpt": "This will prevent you from creating a Gang with any other Faction until the BitNode is destroyed or abandoned.\n        It will also reset your reputation with "
+      }
+    },
+    {
+      "text": "Other than hacking vs combat and name, there are no differences between gangs.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CreateGangModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 65,
+        "targetExcerpt": "Other than hacking vs combat and name, there are no differences between gangs.\n      "
+      }
+    },
+    {
+      "text": "Create Gang",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CreateGangModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 68,
+        "targetExcerpt": "Create Gang\n      "
+      }
+    },
+    {
+      "text": "Cancel",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/CreateGangModal.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 70,
+        "targetExcerpt": "Cancel"
+      }
+    },
+    {
+      "text": "You just donated",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "You just donated "
+      }
+    },
+    {
+      "text": "to",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "to "
+      }
+    },
+    {
+      "text": "to gain",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "to gain "
+      }
+    },
+    {
+      "text": "reputation.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 37,
+        "targetExcerpt": "reputation.\n        "
+      }
+    },
+    {
+      "text": "Insufficient funds",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 47,
+        "targetExcerpt": "Insufficient funds"
+      }
+    },
+    {
+      "text": "Invalid donate amount entered!",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 48,
+        "targetExcerpt": "Invalid donate amount entered!"
+      }
+    },
+    {
+      "text": "This donation will result in",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 52,
+        "targetExcerpt": "This donation will result in "
+      }
+    },
+    {
+      "text": "reputation gain",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 52,
+        "targetExcerpt": "reputation gain\n      "
+      }
+    },
+    {
+      "text": "Unlock donations at",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "Unlock donations at "
+      }
+    },
+    {
+      "text": "favor with",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "favor with "
+      }
+    },
+    {
+      "text": "Donation amount",
+      "scope": "factions",
+      "attribute": "placeholder",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 68,
+        "targetExcerpt": "\"Donation amount\""
+      }
+    },
+    {
+      "text": "donate",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/DonateOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 73,
+        "targetExcerpt": "donate\n                "
+      }
+    },
+    {
+      "text": "You received a faction invitation.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionInvitationManager.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 64,
+        "targetExcerpt": "You received a faction invitation."
+      }
+    },
+    {
+      "text": "Would you like to join",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionInvitationManager.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "Would you like to join "
+      }
+    },
+    {
+      "text": "Joining this faction will prevent you from joining its enemies until your next augmentation.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionInvitationManager.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 71,
+        "targetExcerpt": "Joining this faction will prevent you from joining its enemies until your next augmentation.\n          "
+      }
+    },
+    {
+      "text": "is enemies with:",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionInvitationManager.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 73,
+        "targetExcerpt": "is enemies with:\n          "
+      }
+    },
+    {
+      "text": "Join",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionInvitationManager.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 84,
+        "targetExcerpt": "Join\n      "
+      }
+    },
+    {
+      "text": "Decide later",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionInvitationManager.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 86,
+        "targetExcerpt": "Decide later"
+      }
+    },
+    {
+      "text": "Complete hacking contracts for your faction. Your effectiveness, which determines how much reputation you gain for this faction, is based completely on your hacking skill. You will gain hacking exp.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 31,
+        "targetExcerpt": "\"Complete hacking contracts for your faction. \" +\n  \"Your effectiveness, which determines how much \" +\n  \"reputation you gain for this faction, is based completely on your hacking skill. \" +\n  \"You will gain hacking exp.\""
+      }
+    },
+    {
+      "text": "Carry out field missions for your faction. Your effectiveness, which determines how much reputation you gain for this faction, is based on all of your stats equally. You will gain exp for all stats.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 36,
+        "targetExcerpt": "\"Carry out field missions for your faction. \" +\n  \"Your effectiveness, which determines how much \" +\n  \"reputation you gain for this faction, is based on all of your stats equally. \" +\n  \"You will gain exp for all stats.\""
+      }
+    },
+    {
+      "text": "Serve in a security detail for your faction. Your effectiveness, which determines how much reputation you gain for this faction, is based on your combat stats and your hacking skill. You will gain exp for all combat stats and hacking.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 41,
+        "targetExcerpt": "\"Serve in a security detail for your faction. \" +\n  \"Your effectiveness, which determines how much \" +\n  \"reputation you gain for this faction, is based on your combat stats and your hacking skill. \" +\n  \"You will gain exp for all combat stats and hacking.\""
+      }
+    },
+    {
+      "text": "As your reputation with this faction rises, you will unlock augmentations, which you can purchase to enhance your abilities.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 46,
+        "targetExcerpt": "\"As your reputation with this faction rises, you will \" +\n  \"unlock augmentations, which you can purchase to enhance \" +\n  \"your abilities.\""
+      }
+    },
+    {
+      "text": "Back",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 108,
+        "targetExcerpt": "Back"
+      }
+    },
+    {
+      "text": "Perform work/carry out assignments for your faction to help further its cause! By doing so, you will earn reputation for your faction. You will also gain reputation passively over time, although at a very slow rate.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 117,
+        "targetExcerpt": "Perform work/carry out assignments for your faction to help further its cause! By doing so, you will earn\n              reputation for your faction. You will also gain reputation passively over time, although at a very slow\n              rate.&nbsp;\n              "
+      }
+    },
+    {
+      "text": "Note that the passive reputation gain is disabled in some BitNodes.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 120,
+        "targetExcerpt": "Note that the passive reputation gain is disabled in some BitNodes. "
+      }
+    },
+    {
+      "text": "Earning reputation will allow you to purchase augmentations through this faction, which are powerful upgrades that enhance your abilities.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 121,
+        "targetExcerpt": "Earning reputation will allow you to purchase augmentations through this faction, which are powerful\n              upgrades that enhance your abilities.\n            "
+      }
+    },
+    {
+      "text": "Hacking Contracts",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 127,
+        "targetExcerpt": "\"Hacking Contracts\""
+      }
+    },
+    {
+      "text": "Field Work",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 133,
+        "targetExcerpt": "\"Field Work\""
+      }
+    },
+    {
+      "text": "Security Work",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 137,
+        "targetExcerpt": "\"Security Work\""
+      }
+    },
+    {
+      "text": "Purchase Augmentations",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 147,
+        "targetExcerpt": "\"Purchase Augmentations\""
+      }
+    },
+    {
+      "text": "You have not joined",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 159,
+        "targetExcerpt": "You have not joined "
+      }
+    },
+    {
+      "text": "yet!",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 159,
+        "targetExcerpt": "yet!\n        "
+      }
+    },
+    {
+      "text": "Back to Factions",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 161,
+        "targetExcerpt": "Back to Factions"
+      }
+    },
+    {
+      "text": "This Faction offers field work",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 32,
+        "targetExcerpt": "\"This Faction offers field work\""
+      }
+    },
+    {
+      "text": "This Faction offers hacking work",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 37,
+        "targetExcerpt": "\"This Faction offers hacking work\""
+      }
+    },
+    {
+      "text": "This Faction offers security work",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 42,
+        "targetExcerpt": "\"This Faction offers security work\""
+      }
+    },
+    {
+      "text": "Details",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 117,
+        "targetExcerpt": "Details"
+      }
+    },
+    {
+      "text": "Augments",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 118,
+        "targetExcerpt": "Augments"
+      }
+    },
+    {
+      "text": "Join!",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 122,
+        "targetExcerpt": "Join!\n          "
+      }
+    },
+    {
+      "text": "Rumored Faction",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 148,
+        "targetExcerpt": "\"Rumored Faction\""
+      }
+    },
+    {
+      "text": "You have a gang with this Faction",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 157,
+        "targetExcerpt": "\"You have a gang with this Faction\""
+      }
+    },
+    {
+      "text": "This is a special Faction",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 163,
+        "targetExcerpt": "\"This is a special Faction\""
+      }
+    },
+    {
+      "text": "This Faction is enemies with:",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 172,
+        "targetExcerpt": "This Faction is enemies with:\n                      "
+      }
+    },
+    {
+      "text": "Joining this Faction will prevent you from joining its enemies",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 178,
+        "targetExcerpt": "Joining this Faction will prevent you from joining its enemies"
+      }
+    },
+    {
+      "text": "favor",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 207,
+        "targetExcerpt": "favor"
+      }
+    },
+    {
+      "text": "rep",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 209,
+        "targetExcerpt": "rep\n          "
+      }
+    },
+    {
+      "text": "Factions",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 237,
+        "targetExcerpt": "Factions\n        "
+      }
+    },
+    {
+      "text": "Throughout the game you may receive invitations from factions. There are many different factions, and each faction has different criteria for determining its potential members. Joining a faction and furthering its cause is crucial to progressing in the game and unlocking endgame content.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 241,
+        "targetExcerpt": "Throughout the game you may receive invitations from factions. There are many different factions, and each\n              faction has different criteria for determining its potential members. Joining a faction and furthering its\n              cause is crucial to progressing in the game and unlocking endgame content.\n            "
+      }
+    },
+    {
+      "text": "Faction Invitations",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 269,
+        "targetExcerpt": "Faction Invitations\n              "
+      }
+    },
+    {
+      "text": "Your Gang",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 284,
+        "targetExcerpt": "Your Gang\n              "
+      }
+    },
+    {
+      "text": "Your Factions",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 292,
+        "targetExcerpt": "Your Factions\n          "
+      }
+    },
+    {
+      "text": "You have not yet joined any Factions.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 301,
+        "targetExcerpt": "You have not yet joined any Factions."
+      }
+    },
+    {
+      "text": "Share RAM",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 308,
+        "targetExcerpt": "Share RAM\n        "
+      }
+    },
+    {
+      "text": "Rumors",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/FactionsRoot.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 316,
+        "targetExcerpt": "Rumors\n            "
+      }
+    },
+    {
+      "text": "Execute the formation plan",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/GangCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 22,
+        "targetExcerpt": "\"Execute the formation plan\""
+      }
+    },
+    {
+      "text": "The tension between our faction and its rivals has been rising. The leader plans to form a specialized group under your command to strengthen our position by improving our standing and expanding our resources.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/GangCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 24,
+        "targetExcerpt": "\"The tension between our faction and its rivals has been rising. The leader plans to form a specialized \" +\n          \"group under your command to strengthen our position by improving our standing and expanding our resources.\""
+      }
+    },
+    {
+      "text": "Each time you attempt to execute the plan, it is abruptly interrupted for reasons no one can explain. You receive the same distorted message every time:",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/GangCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 31,
+        "targetExcerpt": "Each time you attempt to execute the plan, it is abruptly interrupted for reasons no one can explain. You\n          receive the same distorted message every time:\n          "
+      }
+    },
+    {
+      "text": "You already created a gang with another faction",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/GangCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 69,
+        "targetExcerpt": "\"You already created a gang with another faction\""
+      }
+    },
+    {
+      "text": "Manage Gang",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/GangCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 72,
+        "targetExcerpt": "\"Manage Gang\""
+      }
+    },
+    {
+      "text": "Manage a gang for this Faction. Gangs will earn you money and faction reputation",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/GangCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 73,
+        "targetExcerpt": "\"Manage a gang for this Faction. Gangs will earn you money and faction reputation\""
+      }
+    },
+    {
+      "text": "Create a gang for this Faction. Gangs will earn you money and faction reputation",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/GangCampaign.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 80,
+        "targetExcerpt": "\"Create a gang for this Faction. Gangs will earn you money and faction reputation\""
+      }
+    },
+    {
+      "text": "This faction is enemies with:",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/Info.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 32,
+        "targetExcerpt": "This faction is enemies with: "
+      }
+    },
+    {
+      "text": "Special Campaign",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/Info.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 42,
+        "targetExcerpt": "Special Campaign\n        "
+      }
+    },
+    {
+      "text": "Some factions are developing special campaigns for researching breakthrough technology or executing initiatives. Some campaigns may be complete, while others remain unfinished. Explore them now, and return later if a campaign is not yet complete to see what unfolds.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/Info.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 46,
+        "targetExcerpt": "Some factions are developing special campaigns for researching breakthrough technology or executing\n              initiatives. Some campaigns may be complete, while others remain unfinished. Explore them now, and return\n              later if a campaign is not yet complete to see what unfolds.\n            "
+      }
+    },
+    {
+      "text": "None",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/Info.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 55,
+        "targetExcerpt": "None"
+      }
+    },
+    {
+      "text": "You can share free RAM of your home computer with your factions to get a bonus multiplier for reputation gain. Each time you share your free RAM, you get a boost for",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/ShareOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 61,
+        "targetExcerpt": "You can share free RAM of your home computer with your factions to get a bonus multiplier for reputation gain.\n        Each time you share your free RAM, you get a boost for "
+      }
+    },
+    {
+      "text": "seconds. After that, you lose the boost and get back your shared RAM. You can share free RAM of other servers that you have admin rights on by using the ns.share() API.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/ShareOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 62,
+        "targetExcerpt": "seconds. After that, you lose the\n        boost and get back your shared RAM. You can share free RAM of other servers that you have admin rights on by\n        using the ns.share() API.\n        "
+      }
+    },
+    {
+      "text": "Free RAM on home computer:",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/ShareOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 66,
+        "targetExcerpt": "Free RAM on home computer: "
+      }
+    },
+    {
+      "text": "Current bonus:",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/ShareOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 68,
+        "targetExcerpt": "Current bonus: "
+      }
+    },
+    {
+      "text": ". Bonus with",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/ShareOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 68,
+        "targetExcerpt": ". Bonus with "
+      }
+    },
+    {
+      "text": "RAM shared via this tool is rounded down to the nearest multiple of 4.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/ShareOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 90,
+        "targetExcerpt": "RAM shared via this tool is rounded down to the nearest multiple of 4.\n              "
+      }
+    },
+    {
+      "text": "For example, a value of 18 GB results in 16 GB.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/ShareOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 92,
+        "targetExcerpt": "For example, a value of 18 GB results in 16 GB.\n            "
+      }
+    },
+    {
+      "text": "Share",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/ui/ShareOption.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 97,
+        "targetExcerpt": "Share"
+      }
+    },
+    {
+      "text": "Humanity never changes. No matter how civilized society becomes, it will eventually fall back into chaos. And from this chaos, we are the invisible hand that guides them to order.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 121,
+        "targetExcerpt": "Humanity never changes. No matter how civilized society becomes, it will eventually fall back into chaos. And\n        from this chaos, we are the invisible hand that guides them to order."
+      }
+    },
+    {
+      "text": "“...the ancient secret society that controls the entire world from the shadows with their invisible hand. With their personal wealth and skills they have penetrated every major government, financial agency, and corporation...”",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 127,
+        "targetExcerpt": "“...the ancient secret society that controls the entire world from the shadows with their invisible hand. With\n        their personal wealth and skills they have penetrated every major government, financial agency, and\n        corporation...”\n      "
+      }
+    },
+    {
+      "text": "Yesterday we obeyed kings and bent our necks to emperors. Today we kneel only to truth.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 139,
+        "targetExcerpt": "Yesterday we obeyed kings and bent our necks to emperors. Today we kneel only to truth."
+      }
+    },
+    {
+      "text": "Follow the thread. Take fl1ght.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 140,
+        "targetExcerpt": "Follow the thread. Take fl1ght."
+      }
+    },
+    {
+      "text": "Surrender yourself. Give up your empty individuality to become part of something great, something eternal. Become a slave. Submit your mind, body, and soul. Only then can you set yourself free.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 154,
+        "targetExcerpt": "Surrender yourself. Give up your empty individuality to become part of something great, something eternal.\n        Become a slave. Submit your mind, body, and soul. Only then can you set yourself free.\n        "
+      }
+    },
+    {
+      "text": "Only then can you discover immortality.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 158,
+        "targetExcerpt": "Only then can you discover immortality.\n      "
+      }
+    },
+    {
+      "text": "offers an exclusive service to those who have reached the limits of individual fitness and wish to go further.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 163,
+        "targetExcerpt": "offers an exclusive service to those who have reached the limits of individual fitness\n        and wish to go further.\n      "
+      }
+    },
+    {
+      "text": "'s mission is simple: to connect the world of today with the technology of tomorrow. With our wide range of Internet-related software and commercial hardware,",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 185,
+        "targetExcerpt": "'s mission is simple: to connect the world of today with the technology of tomorrow. With our\n        wide range of Internet-related software and commercial hardware, "
+      }
+    },
+    {
+      "text": "makes the world's information universally accessible.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 186,
+        "targetExcerpt": "makes the world's\n        information universally accessible.\n      "
+      }
+    },
+    {
+      "text": "High-ranking employees of",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 190,
+        "targetExcerpt": "High-ranking employees of "
+      }
+    },
+    {
+      "text": "can gain access to proprietary hacking augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 190,
+        "targetExcerpt": "can gain access to proprietary hacking augmentations."
+      }
+    },
+    {
+      "text": "does what no other dares to do. We imagine. We create. We invent. We create what others have never even dreamed of. Our work fills the world's needs for food, water, power, and transportation on an unprecedented scale, in ways that no other company can.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 202,
+        "targetExcerpt": "does what no other dares to do. We imagine. We create. We invent. We create what others\n        have never even dreamed of. Our work fills the world's needs for food, water, power, and transportation on an\n        unprecedented scale, in ways that no other company can.\n        "
+      }
+    },
+    {
+      "text": "In our labs and factories and on the ground with customers,",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 207,
+        "targetExcerpt": "In our labs and factories and on the ground with customers, "
+      }
+    },
+    {
+      "text": "is ushering in a new era for the world.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 207,
+        "targetExcerpt": "is ushering in a new era for\n        the world.\n      "
+      }
+    },
+    {
+      "text": "can gain access to proprietary biotech augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 212,
+        "targetExcerpt": "can gain access to proprietary biotech augmentations."
+      }
+    },
+    {
+      "text": "Where Law and Business meet - that's where we are.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 228,
+        "targetExcerpt": "Where Law and Business meet - that's where we are.\n        "
+      }
+    },
+    {
+      "text": "Legal Insight - Business Instinct - Innovative Experience.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 231,
+        "targetExcerpt": "Legal Insight - Business Instinct - Innovative Experience.\n      "
+      }
+    },
+    {
+      "text": "can gain access to proprietary negotiation augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 236,
+        "targetExcerpt": "can gain access to proprietary negotiation\n        augmentations.\n      "
+      }
+    },
+    {
+      "text": "Augmentation is Salvation.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 252,
+        "targetExcerpt": "Augmentation is Salvation."
+      }
+    },
+    {
+      "text": "can gain access to proprietary bionic augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 254,
+        "targetExcerpt": "can gain access to proprietary bionic augmentations."
+      }
+    },
+    {
+      "text": "Humans don't truly desire freedom. They want to be observed, understood, and judged. They want to be given purpose and direction in life. That is why they created God. And that is why they created civilization - not because of willingness, but because of a need to be incorporated into higher orders of structure and meaning.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 270,
+        "targetExcerpt": "Humans don't truly desire freedom. They want to be observed, understood, and judged. They want to be given\n        purpose and direction in life. That is why they created God. And that is why they created civilization - not\n        because of willingness, but because of a need to be incorporated into higher orders of structure and meaning.\n      "
+      }
+    },
+    {
+      "text": "can gain access to proprietary nanotech augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 275,
+        "targetExcerpt": "can gain access to proprietary nanotech augmentations."
+      }
+    },
+    {
+      "text": "The Power of the Genome - Unlocked.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 285,
+        "targetExcerpt": "The Power of the Genome - Unlocked."
+      }
+    },
+    {
+      "text": "can gain access to proprietary neurotech augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 288,
+        "targetExcerpt": "can gain access to proprietary neurotech\n        augmentations.\n      "
+      }
+    },
+    {
+      "text": "Simply put, our mission is to design and build robots that make a difference.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 304,
+        "targetExcerpt": "Simply put, our mission is to design and build robots that make a difference."
+      }
+    },
+    {
+      "text": "can gain access to proprietary data-processing augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 307,
+        "targetExcerpt": "can gain access to proprietary data-processing\n        augmentations.\n      "
+      }
+    },
+    {
+      "text": "The scientific method is the best way to approach investing. Big strategies backed up with big data. Driven by deep learning and innovative ideas. And improved by iteration. That's",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 325,
+        "targetExcerpt": "The scientific method is the best way to approach investing. Big strategies backed up with big data. Driven by\n        deep learning and innovative ideas. And improved by iteration. That's "
+      }
+    },
+    {
+      "text": "can gain access to a range of versatile augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 330,
+        "targetExcerpt": "can gain access to a range of versatile augmentations."
+      }
+    },
+    {
+      "text": "Dream big. Work hard. Make history.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 344,
+        "targetExcerpt": "Dream big. Work hard. Make history."
+      }
+    },
+    {
+      "text": "can gain access to proprietary dermatech augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 347,
+        "targetExcerpt": "can gain access to proprietary dermatech\n        augmentations.\n      "
+      }
+    },
+    {
+      "text": "The human organism has an innate desire to worship. That is why they created gods. If there were no gods, it would be necessary to create them. And now we can.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 366,
+        "targetExcerpt": "The human organism has an innate desire to worship. That is why they created gods. If there were no gods, it\n        would be necessary to create them. And now we can.\n      "
+      }
+    },
+    {
+      "text": "may discover a company system with access to proprietary neural network augmentations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 372,
+        "targetExcerpt": "may discover a company system with access to\n        proprietary neural network augmentations.\n      "
+      }
+    },
+    {
+      "text": "Our entire lives are controlled by bits. All of our actions, our thoughts, our personal information. It's all transformed into bits, stored in bits, communicated through bits. It’s impossible for any person to move, to live, to operate at any level without the use of bits. And when a person moves, lives, and operates, they leave behind their bits, mere traces of seemingly meaningless fragments of information. But these bits can be reconstructed. Transformed. Used.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 391,
+        "targetExcerpt": "Our entire lives are controlled by bits. All of our actions, our thoughts, our personal information. It's all\n        transformed into bits, stored in bits, communicated through bits. It’s impossible for any person to move, to\n        live, to operate at any level without the use of bits. And when a person moves, lives, and operates, they leave\n        behind their bits, mere traces of seemingly meaningless fragments of information. But these bits can be\n        reconstructed. Transformed. Used.\n        "
+      }
+    },
+    {
+      "text": "Those who run the bits, run the world.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 398,
+        "targetExcerpt": "Those who run the bits, run the world.\n      "
+      }
+    },
+    {
+      "text": "Run for the hills.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 401,
+        "targetExcerpt": "Run for the hills."
+      }
+    },
+    {
+      "text": "The world, so afraid of strong government, now has no government. Only power - Digital power. Financial power. Technological power. And those at the top rule with an invisible hand. They built a society where the rich get richer, and everyone else suffers.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 410,
+        "targetExcerpt": "The world, so afraid of strong government, now has no government. Only power - Digital power. Financial power.\n        Technological power. And those at the top rule with an invisible hand. They built a society where the rich get\n        richer, and everyone else suffers.\n        "
+      }
+    },
+    {
+      "text": "So much pain. So many lives. Their darkness must end.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 415,
+        "targetExcerpt": "So much pain. So many lives. Their darkness must end.\n      "
+      }
+    },
+    {
+      "text": "I.I.I.I",
+      "scope": "factions",
+      "retained": "Encoded in-game clue",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 418,
+        "targetExcerpt": "I.I.I.I"
+      }
+    },
+    {
+      "text": "_.nITESECNIt.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 429,
+        "targetExcerpt": "\"                _.nITESECNIt.            \""
+      }
+    },
+    {
+      "text": ".-'NITESECNITESEc.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 430,
+        "targetExcerpt": "\"             .-'NITESECNITESEc.          \""
+      }
+    },
+    {
+      "text": ".' NITESECNITESECn",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 431,
+        "targetExcerpt": "\"           .'    NITESECNITESECn         \""
+      }
+    },
+    {
+      "text": "/ NITESECNITESEC;",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 432,
+        "targetExcerpt": "\"          /       NITESECNITESEC;        \""
+      }
+    },
+    {
+      "text": ": :NITESECNITESEC;",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 433,
+        "targetExcerpt": "\"         :        :NITESECNITESEC;       \""
+      }
+    },
+    {
+      "text": "; $ NITESECNITESECN",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 434,
+        "targetExcerpt": "\"         ;       $ NITESECNITESECN       \""
+      }
+    },
+    {
+      "text": ": _, ,N'ITESECNITESEC",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 435,
+        "targetExcerpt": "\"        :    _,   ,N'ITESECNITESEC       \""
+      }
+    },
+    {
+      "text": ": .+^^`, : `NITESECNIT",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 436,
+        "targetExcerpt": "\"        : .+^^`,  :    `NITESECNIT       \""
+      }
+    },
+    {
+      "text": ") /), `-,-=,NITESECNI",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 437,
+        "targetExcerpt": "\"         ) /),     `-,-=,NITESECNI       \""
+      }
+    },
+    {
+      "text": "/ ^ ,-;|NITESECN;",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 438,
+        "targetExcerpt": "\"        /  ^         ,-;|NITESECN;       \""
+      }
+    },
+    {
+      "text": "/ _.' '-';NITESECN",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 439,
+        "targetExcerpt": "\"       /     _.'     '-';NITESECN        \""
+      }
+    },
+    {
+      "text": "( , ,-''`^NITE'",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 440,
+        "targetExcerpt": "\"      (  ,           ,-''`^NITE'         \""
+      }
+    },
+    {
+      "text": "_.nIt",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 447,
+        "targetExcerpt": "\"                         _.nIt          \""
+      }
+    },
+    {
+      "text": "_.nITESECNi",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 448,
+        "targetExcerpt": "\"                    _.nITESECNi         \""
+      }
+    },
+    {
+      "text": "nITESECNIT^'",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 449,
+        "targetExcerpt": "\"                   nITESECNIT^'         \""
+      }
+    },
+    {
+      "text": "NITE^' ___",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 450,
+        "targetExcerpt": "\"                   NITE^' ___           \""
+      }
+    },
+    {
+      "text": "/ .gP''''Tp.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 451,
+        "targetExcerpt": "\"                  /    .gP''''Tp.       \""
+      }
+    },
+    {
+      "text": ": d' . `b",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 452,
+        "targetExcerpt": "\"                 :    d'     .  `b      \""
+      }
+    },
+    {
+      "text": "; d' o `b ;",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 453,
+        "targetExcerpt": "\"                 ;   d'       o  `b ;    \""
+      }
+    },
+    {
+      "text": "/ d; `b|",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 454,
+        "targetExcerpt": "\"                /   d;            `b|    \""
+      }
+    },
+    {
+      "text": ".' $/b o |",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 457,
+        "targetExcerpt": "\"            .'      $/b          o   |   \""
+      }
+    },
+    {
+      "text": ".' d$/$; :",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 458,
+        "targetExcerpt": "\"          .'       d$/$;             :   \""
+      }
+    },
+    {
+      "text": "/ .d/$/$; , ;",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 459,
+        "targetExcerpt": "\"         /       .d/$/$;          ,   ;  \""
+      }
+    },
+    {
+      "text": "d .dNITESEC $ |",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 460,
+        "targetExcerpt": "\"        d      .dNITESEC          $   |  \""
+      }
+    },
+    {
+      "text": ":bp.__.gNITESEC/$ :$ ;",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 461,
+        "targetExcerpt": "\"       :bp.__.gNITESEC/$         :$   ;  \""
+      }
+    },
+    {
+      "text": "NITESECNITESECNIT /$b :",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 462,
+        "targetExcerpt": "\"       NITESECNITESECNIT         /$b :   \""
+      }
+    },
+    {
+      "text": "A hacking group known as",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 463,
+        "targetExcerpt": "A hacking group known as "
+      }
+    },
+    {
+      "text": "may recruit you if you impress them with your hacking skills.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 463,
+        "targetExcerpt": "may recruit you if you impress them with your hacking skills."
+      }
+    },
+    {
+      "text": "The Internet is the first thing that was built that we don't fully understand, the largest experiment in anarchy that we have ever had. And as the world becomes increasingly dominated by it, society approaches the brink of total chaos. We serve only to protect society, to protect humanity, to protect the world from imminent collapse.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 478,
+        "targetExcerpt": "The Internet is the first thing that was built that we don't fully understand, the largest experiment in anarchy\n        that we have ever had. And as the world becomes increasingly dominated by it, society approaches the brink of\n        total chaos. We serve only to protect society, to protect humanity, to protect the world from imminent collapse.\n      "
+      }
+    },
+    {
+      "text": "will invite you to join them if you demonstrate your hacking skills on their server.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 485,
+        "targetExcerpt": "will invite you to join them if you demonstrate your hacking\n        skills on their server.\n      "
+      }
+    },
+    {
+      "text": "The Silicon City.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 496,
+        "targetExcerpt": "The Silicon City."
+      }
+    },
+    {
+      "text": "Wealthy residents of",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 497,
+        "targetExcerpt": "Wealthy residents of "
+      }
+    },
+    {
+      "text": "may be invited to work for the Silicon City.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 497,
+        "targetExcerpt": "may be invited to work for the Silicon City."
+      }
+    },
+    {
+      "text": "Serve the People.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 506,
+        "targetExcerpt": "Serve the People."
+      }
+    },
+    {
+      "text": "may be invited to serve the people.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 507,
+        "targetExcerpt": "may be invited to serve the people."
+      }
+    },
+    {
+      "text": "The East Asian Order of the Future.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 516,
+        "targetExcerpt": "The East Asian Order of the Future."
+      }
+    },
+    {
+      "text": "may be invited to work for the East Asian Order of the Future.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 518,
+        "targetExcerpt": "may be invited to work for the East Asian Order of the Future."
+      }
+    },
+    {
+      "text": "Asia's World City.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 528,
+        "targetExcerpt": "Asia's World City."
+      }
+    },
+    {
+      "text": "may be invited to work for Asia's World City.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 529,
+        "targetExcerpt": "may be invited to work for Asia's World City."
+      }
+    },
+    {
+      "text": "The City of the Future.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 538,
+        "targetExcerpt": "The City of the Future."
+      }
+    },
+    {
+      "text": "may be invited to work for the City of the Future.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 539,
+        "targetExcerpt": "may be invited to work for the City of the Future."
+      }
+    },
+    {
+      "text": "Benefit, Honor, and Glory.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 548,
+        "targetExcerpt": "Benefit, Honor, and Glory."
+      }
+    },
+    {
+      "text": "may be invited to work for the city's Benefit, Honor, and Glory.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 550,
+        "targetExcerpt": "may be invited to work for the city's Benefit, Honor, and Glory."
+      }
+    },
+    {
+      "text": "It is better to reign in Hell than to serve in Heaven.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 562,
+        "targetExcerpt": "It is better to reign in Hell than to serve in Heaven."
+      }
+    },
+    {
+      "text": "“We know.”",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 563,
+        "targetExcerpt": "“We know.”"
+      }
+    },
+    {
+      "text": "The World doesn't care about right or wrong. It only cares about power.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 579,
+        "targetExcerpt": "The World doesn't care about right or wrong. It only cares about power."
+      }
+    },
+    {
+      "text": "A ruthless criminal organization based in",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 580,
+        "targetExcerpt": "A ruthless criminal organization based in "
+      }
+    },
+    {
+      "text": "Honor holds you back.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 602,
+        "targetExcerpt": "Honor holds you back."
+      }
+    },
+    {
+      "text": "An elite criminal organization that operates in the western hemisphere",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 603,
+        "targetExcerpt": "An elite criminal organization that operates in the western hemisphere"
+      }
+    },
+    {
+      "text": "Corporations have filled the void of power left behind by the collapse of Western government. The issue is they've become so big that you don't know who they're working for. And if you're employed at one of these corporations, you don't even know who you're working for.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 626,
+        "targetExcerpt": "Corporations have filled the void of power left behind by the collapse of Western government. The issue is\n        they've become so big that you don't know who they're working for. And if you're employed at one of these\n        corporations, you don't even know who you're working for.\n        "
+      }
+    },
+    {
+      "text": "That's terror. Terror, fear, and corruption. All born into the system, all propagated by the system.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 631,
+        "targetExcerpt": "That's terror. Terror, fear, and corruption. All born into the system, all propagated by the system.\n      "
+      }
+    },
+    {
+      "text": "Corporate executives with the right moral flexiblity may be invited to find out who they are truly working for.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 636,
+        "targetExcerpt": "Corporate executives with the right moral flexiblity may be invited to find out who they are truly working for.\n      "
+      }
+    },
+    {
+      "text": "Following the mandate of Heaven and carrying out the way.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 646,
+        "targetExcerpt": "Following the mandate of Heaven and carrying out the way."
+      }
+    },
+    {
+      "text": "A notorious East Asian criminal organization",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 647,
+        "targetExcerpt": "A notorious East Asian criminal organization"
+      }
+    },
+    {
+      "text": "rule!",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 663,
+        "targetExcerpt": "rule!"
+      }
+    },
+    {
+      "text": "Graffiti seen in the slums: “",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 664,
+        "targetExcerpt": "Graffiti seen in the slums: “"
+      }
+    },
+    {
+      "text": "rule!”",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 664,
+        "targetExcerpt": "rule!”"
+      }
+    },
+    {
+      "text": "~~//*>H4CK|\\|3T 8URN3R5**>?>\\\\~~",
+      "scope": "factions",
+      "retained": "Encoded in-game clue",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 673,
+        "targetExcerpt": "\"~~//*>H4CK|\\\\|3T 8URN3R5**>?>\\\\\\\\~~\""
+      }
+    },
+    {
+      "text": "Obey Heaven and work righteously.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 681,
+        "targetExcerpt": "Obey Heaven and work righteously."
+      }
+    },
+    {
+      "text": "A Chinese honor society with the motto: “Obey Heaven and work righteously.”",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 682,
+        "targetExcerpt": "A Chinese honor society with the motto: “Obey Heaven and work righteously.”"
+      }
+    },
+    {
+      "text": "It's too bad they won't live. But then again, who does?",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 701,
+        "targetExcerpt": "It's too bad they won't live. But then again, who does?\n        "
+      }
+    },
+    {
+      "text": "Note that for this faction, reputation can only be gained through",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 704,
+        "targetExcerpt": "Note that for this faction, reputation can only be gained through "
+      }
+    },
+    {
+      "text": "actions. Completing",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 704,
+        "targetExcerpt": "actions. Completing"
+      }
+    },
+    {
+      "text": "contracts/operations will increase your reputation.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 705,
+        "targetExcerpt": "contracts/operations will increase your reputation.\n      "
+      }
+    },
+    {
+      "text": "The",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 708,
+        "targetExcerpt": "The "
+      }
+    },
+    {
+      "text": "would like to have a word with you once you're ready.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 708,
+        "targetExcerpt": "would like to have a word with you once you're ready."
+      }
+    },
+    {
+      "text": "Open Bladeburner headquarters",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 718,
+        "targetExcerpt": "\"Open Bladeburner headquarters\""
+      }
+    },
+    {
+      "text": "You can gain reputation with bladeburner by completing contracts and operations.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 719,
+        "targetExcerpt": "\"You can gain reputation with bladeburner by completing contracts and operations.\""
+      }
+    },
+    {
+      "text": "-odmmNmds:",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 730,
+        "targetExcerpt": "\"             -odmmNmds:      \""
+      }
+    },
+    {
+      "text": "`hNmo:..-omNh.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 731,
+        "targetExcerpt": "\"           `hNmo:..-omNh.    \""
+      }
+    },
+    {
+      "text": "yMd` `hNh",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 732,
+        "targetExcerpt": "\"           yMd`      `hNh    \""
+      }
+    },
+    {
+      "text": "mMd oNm",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 733,
+        "targetExcerpt": "\"           mMd        oNm    \""
+      }
+    },
+    {
+      "text": "oMNo .mM/",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 734,
+        "targetExcerpt": "\"           oMNo      .mM/    \""
+      }
+    },
+    {
+      "text": "`dMN+ -mM+",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 735,
+        "targetExcerpt": "\"           `dMN+    -mM+     \""
+      }
+    },
+    {
+      "text": "-mMNo -mN+",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 736,
+        "targetExcerpt": "\"            -mMNo  -mN+      \""
+      }
+    },
+    {
+      "text": ".+- :mMNo/mN/",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 737,
+        "targetExcerpt": "\"  .+-        :mMNo/mN/       \""
+      }
+    },
+    {
+      "text": ":yNMd. :NMNNN/",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 738,
+        "targetExcerpt": "\":yNMd.        :NMNNN/        \""
+      }
+    },
+    {
+      "text": "-mMMMh. /NMMh`",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 739,
+        "targetExcerpt": "\"-mMMMh.        /NMMh`        \""
+      }
+    },
+    {
+      "text": ".dMMMd. /NMMMy`",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 740,
+        "targetExcerpt": "\" .dMMMd.       /NMMMy`       \""
+      }
+    },
+    {
+      "text": "`yMMMd. /NNyNMMh`",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 741,
+        "targetExcerpt": "\"  `yMMMd.     /NNyNMMh`      \""
+      }
+    },
+    {
+      "text": "`sMMMd. +Nm: +NMMh.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 742,
+        "targetExcerpt": "\"   `sMMMd.   +Nm: +NMMh.     \""
+      }
+    },
+    {
+      "text": "oMMMm- oNm: /NMMd.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 743,
+        "targetExcerpt": "\"     oMMMm- oNm:   /NMMd.    \""
+      }
+    },
+    {
+      "text": "+NMMmsMm- :mMMd.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 744,
+        "targetExcerpt": "\"      +NMMmsMm-     :mMMd.   \""
+      }
+    },
+    {
+      "text": "/NMMMm- -mMMd.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 745,
+        "targetExcerpt": "\"       /NMMMm-       -mMMd.  \""
+      }
+    },
+    {
+      "text": "/MMMm- -mMMd.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 746,
+        "targetExcerpt": "\"        /MMMm-        -mMMd. \""
+      }
+    },
+    {
+      "text": "`sMNMMm- .mMmo",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 747,
+        "targetExcerpt": "\"       `sMNMMm-        .mMmo \""
+      }
+    },
+    {
+      "text": "`sMd:hMMm. ./.",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 748,
+        "targetExcerpt": "\"      `sMd:hMMm.        ./.  \""
+      }
+    },
+    {
+      "text": "`yMy` `yNMd`",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 749,
+        "targetExcerpt": "\"     `yMy` `yNMd`            \""
+      }
+    },
+    {
+      "text": "`hMs` oMMy",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 750,
+        "targetExcerpt": "\"    `hMs`    oMMy            \""
+      }
+    },
+    {
+      "text": "`hMh sMN-",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 751,
+        "targetExcerpt": "\"   `hMh       sMN-           \""
+      }
+    },
+    {
+      "text": "/MM- .NMo",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 752,
+        "targetExcerpt": "\"   /MM-       .NMo           \""
+      }
+    },
+    {
+      "text": "+MM: :MM+",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 753,
+        "targetExcerpt": "\"   +MM:       :MM+           \""
+      }
+    },
+    {
+      "text": "sNNo-.`.-omNy`",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 754,
+        "targetExcerpt": "\"    sNNo-.`.-omNy`           \""
+      }
+    },
+    {
+      "text": "-smNNNNmdo-",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 755,
+        "targetExcerpt": "\"     -smNNNNmdo-             \""
+      }
+    },
+    {
+      "text": "Many cultures predict an end to humanity in the near future, a final Armageddon that will end the world; but we disagree.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 757,
+        "targetExcerpt": "Many cultures predict an end to humanity in the near future, a final\n    Armageddon that will end the world; but we disagree."
+      }
+    },
+    {
+      "text": "Trouble is brewing in",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 759,
+        "targetExcerpt": "Trouble is brewing in "
+      }
+    },
+    {
+      "text": "Open Stanek's Gift",
+      "scope": "factions",
+      "retained": "Faction ASCII artwork",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 780,
+        "targetExcerpt": "\"Open Stanek's Gift\""
+      }
+    },
+    {
+      "text": "Stanek's Gift is a powerful augmentation that powers up the stat you chose to boost. Gaining reputation with the Church of the Machine God can only be done by charging the gift.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 782,
+        "targetExcerpt": "\"Stanek's Gift is a powerful augmentation that powers up the stat you chose to boost. \" +\n            \"Gaining reputation with the Church of the Machine God can only be done by charging the gift.\""
+      }
+    },
+    {
+      "text": "The government is ruled by the corporations that we have allowed to consume it. To release the world from its shackles, the gods grant us their strength.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 793,
+        "targetExcerpt": "The government is ruled by the corporations that we have allowed to consume it. To release the world from its\n        shackles, the gods grant us their strength.\n      "
+      }
+    },
+    {
+      "text": "Your infiltration activity has attracted attention.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 797,
+        "targetExcerpt": "Your infiltration activity has attracted attention."
+      }
+    },
+    {
+      "text": "can only gain reputation by infiltrating.",
+      "scope": "factions",
+      "source": {
+        "kind": "supplement",
+        "path": "src/Faction/FactionInfo.tsx",
+        "target": "3162fd2590e221eadd0c0fbd46151913f7c4c41c",
+        "targetLine": 813,
+        "targetExcerpt": "can only gain reputation by infiltrating."
+      }
+    }
+  ]
+}

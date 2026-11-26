@@ -1,4 +1,4 @@
-# Bitburner Simplified Chinese · v0.8.1
+# Bitburner Simplified Chinese · v0.8.2
 
 [中文](README.md) · [Changelog](CHANGELOG.md) · [Verification](docs/verification.md) · [Maintenance](docs/maintenance.md)
 
@@ -8,7 +8,7 @@ An unofficial Tampermonkey userscript for the [official Bitburner web game](http
 
 > The [GitHub repository](https://github.com/darkrio326/bitburner-zh-cn) is public, and the install/update endpoint has been verified. [Releases](https://github.com/darkrio326/bitburner-zh-cn/releases) · [GitHub Actions](https://github.com/darkrio326/bitburner-zh-cn/actions/workflows/check.yml). A user confirmed successful v0.7.0 installation; real v0.7.1 installation and automatic updates remain unverified.
 
-Version 0.8.1 includes Sleeves, Stanek’s Gift and IPvGO translations plus game-result dialog fixes. The install/update URL above follows the GitHub `main` branch.
+Version 0.8.2 fixes the faction/augmentation name collision for The Black Hand, restores faction prose and campaign translations, and completes donation-placeholder and faction-rumor text. It retains the v0.8 advanced-gameplay and result-dialog translations. The install/update URL above follows the GitHub `main` branch.
 
 ## Installation and updates
 
@@ -31,11 +31,13 @@ Only the enabled flag and display mode are saved in Tampermonkey storage. The sc
 
 ## Coverage
 
+v0.8.2 audits 12 pinned faction source files: 184 prose/label/template items match; 60 ASCII-art fragments, encoded clues and symbols are retained. See [faction coverage](docs/faction-coverage.json). This source inventory does not establish every runtime branch or real-save acceptance.
+
 v0.8.1 adds 26 result-dialog entries and fixes augmentation-install receipts after navigation to Terminal. Names, levels and list newlines stay verbatim. Work, grafting, Source-File and reset results are also covered; see [dialog coverage](docs/dialog-coverage.json).
 
 v0.8.0 adds 410 reviewed entries: Sleeves (169), Stanek’s Gift (62), and IPvGO (179), including 31 constrained templates and advanced page/dialog recognition. See [advanced coverage](docs/advanced-coverage.json).
 
-The dictionary contains **4,842 reviewed entries**, including **187 constrained templates**: 1,683 entries from the reference translation diff and 3,159 attributed supplements. An additional 56 map labels cover 76 locations across six city maps.
+The dictionary contains **4,844 reviewed entries**, including **187 constrained templates**: 1,683 entries from the reference translation diff and 3,161 attributed supplements. An additional 56 map labels cover 76 locations across six city maps.
 
 Existing coverage includes navigation, stats, factions, augmentations, Hacknet, settings, tutorials, cities, jobs, crimes, training, grafting, darknet UI, achievements, offline messages, Gang, Bladeburner and Corporation.
 
@@ -57,7 +59,7 @@ The toolbar, reader and map overlay use independent Shadow DOM. Original ASCII m
 
 Input contents, editors, terminals, logs, code blocks, styled inline code and formulas are excluded. Player-defined names are protected at their known DOM positions. Document prose and translated location headings avoid the overview panel. Matching is exact and scoped; dynamic templates preserve constrained variable values and never use unrestricted wildcards.
 
-Uncovered content includes all NS API reference prose, some advanced guides, changelogs, migration documents, arbitrary errors and minigame content. Real v0.8.1 Tampermonkey/GM APIs, automatic update downloads, Firefox, Safari, Steam and mobile are unverified. Real unlocked saves for Source-Files, management modules, Sleeves, Stanek, IPvGO and augmentation purchases/installs were not tested. Other game versions or DOM-modifying plugins may conflict; switch to hover mode or disable the script if needed.
+Uncovered content includes all NS API reference prose, some advanced guides, changelogs, migration documents, arbitrary errors and minigame content. Real v0.8.2 Tampermonkey/GM APIs, automatic update downloads, Firefox, Safari, Steam and mobile are unverified. Real unlocked saves for Source-Files, management modules, Sleeves, Stanek, IPvGO and augmentation purchases/installs were not tested. Other game versions or DOM-modifying plugins may conflict; switch to hover mode or disable the script if needed.
 
 ## Development
 

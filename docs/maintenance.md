@@ -52,6 +52,8 @@ npm run test:live
 - 官网测试使用新建隔离上下文，只执行测试中注明的操作，不读取用户配置或存档。不要把脚本注入结果描述成真实 Tampermonkey 安装验收。
 - `output/` 和 `test-results/` 是本地结果，不提交。对外验证记录写在 `docs/verification.md`，不得把本机绝对路径或原始浏览器配置放入公开证据。
 
+派系回归：`node scripts/audit-factions.mjs` 核对固定源码文本和来源；`tests/factions.spec.mjs` 复现 The Black Hand 名称冲突、同名强化弹窗、特殊行动、捐赠输入与恢复。
+
 ## 版本与更新
 
 采用 `MAJOR.MINOR.PATCH`：破坏性变更升主版本，兼容的新功能/覆盖扩展升次版本，修复升补丁版本。`package.json` 是版本真源；构建生成 `@version`，检查同时核对 lockfile、README 与 CHANGELOG。每次更新词库或代码，都应提高版本，否则 Tampermonkey 可能不会获取更新。
